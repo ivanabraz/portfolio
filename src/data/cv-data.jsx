@@ -1,0 +1,272 @@
+export const workExperience = [
+    {
+        id: "we-2",
+        title: "Graphic Designer & Front-end dev",
+        entity: "Teatro Colón",
+        years: "2017 - Present",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+    },
+    {
+        id: "we-1",
+        title: "Graphic Designer",
+        entity: "Shakespear Works",
+        years: "2016 - 2017",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+    }
+];
+
+export const education = [
+    {
+        id: "e-3",
+        title: "Graphic Designer",
+        type: "Undergraduate",
+        entity: "Universidad de Palermo",
+        years: "2014 - 2018",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+    },
+    {
+        id: "e-2",
+        title: "Designer in Photography",
+        type: "Undergraduate",
+        entity: "Universidad de Palermo",
+        years: "2010 - 2014",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+    },
+    {
+        id: "e-1",
+        title: "Bachelor of Natural Sciences",
+        entity: "Instituto Papa Eugenio Pacelli",
+        years: "2009",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+    }
+];
+
+export const languages = [
+    {
+        id: "l-4",
+        title: "Spanish",
+        type: "Native",
+        credential: false,
+        icon: false,
+    },
+    {
+        id: "l-3",
+        title: "English",
+        type: "C2 Proficient",
+        credential: true,
+        credentialTitle: "EF Standard English Test 2021",
+        credentialUrl: "https://www.efset.org/cert/ENnS8z",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+    },
+    {
+        id: "l-2",
+        title: "Polish",
+        type: "Basic",
+        credential: false,
+        icon: false,
+    },
+    {
+        id: "l-1",
+        title: "Portuguese",
+        type: "Basic",
+        credential: false,
+        icon: false,
+    },
+];
+
+export const skills = [
+    {
+        id: "s-1",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+    },
+    {
+        id: "s-2",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+    },
+    {
+        id: "s-3",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+    },
+    {
+        id: "s-4",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+    },
+    {
+        id: "s-5",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+    },
+];
+
+export const courses = [
+    {
+        id: "c-12",
+        title: "Introduction to UX and Accesible Design",
+        type: "Course",
+        entity: "UAL Creative Computing Institute",
+        years: "2022",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+        credential: false,
+        credentialUrl: "#",
+    },
+    {
+        id: "c-12",
+        title: "The Museum as a Site and Source for Learning",
+        type: "Course",
+        entity: "University of Glasgow",
+        years: "2022",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+        credential: true,
+        credentialUrl: "https://www.futurelearn.com/certificates/rxpqx8c",
+    },
+    {
+        id: "c-11",
+        title: "ReactJS",
+        type: "Course",
+        entity: "Coderhouse",
+        years: "2022",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+        credential: true,
+        credentialUrl: "https://www.coderhouse.com/certificados/6239314396d8220019227afa",
+    },
+    {
+        id: "c-10",
+        title: "The Cultural Strategy",
+        type: "Course",
+        entity: "British Council",
+        years: "2022",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+        credential: true,
+        credentialUrl: "https://www.culturepartnership.eu/upload/publishing/certificates/0133682ca2f565cf43d19fa705df7e9d93ce96da.png",
+    },
+    {
+        id: "c-9",
+        title: "Javascript ",
+        type: "Course",
+        entity: "Coderhouse",
+        years: "2021",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+        credential: true,
+        credentialUrl: "https://www.coderhouse.com/certificados/614a45ddd756ef10ee11fc7e",
+    },
+    {
+        id: "c-8",
+        title: "Web development",
+        type: "Course",
+        entity: "Coderhouse",
+        years: "2021",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+        credential: true,
+        credentialUrl: "https://www.coderhouse.com/certificados/60c4d2d0977a4900107f4324",
+    },
+    {
+        id: "c-7",
+        title: "Dutch painting of the Golden Age",
+        type: "Course",
+        entity: "The Open University",
+        years: "2021",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+        credential: true,
+        credentialUrl: "https://drive.google.com/file/d/1MfWHgI6da8dfpsubKZKba3KP-4qKIP7G/view",
+    },
+    {
+        id: "c-6",
+        title: "Art History: From Baroque to Postmodern Art",
+        type: "Course",
+        entity: "Universidad de Palermo",
+        years: "2021",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+        credential: true,
+        credentialUrl: "coursera.org/verify/4NE3DB8FJDB9",
+    },
+    {
+        id: "c-5",
+        title: "History of Art: From Prehistoric Art to the Renaissance",
+        type: "Course",
+        entity: "Universidad de Palermo",
+        years: "2021",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+        credential: true,
+        credentialUrl: "coursera.org/verify/YZMZ9KCKSR2V",
+    },
+    {
+        id: "c-4",
+        title: "Photography",
+        type: "Course",
+        entity: "Escuela Municipal de Fotografía de Berazategui",
+        years: "2011 - 2013",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+        credential: false,
+    },
+    {
+        id: "c-3",
+        title: "Web positioning, SEO",
+        type: "Course",
+        entity: "EducacionIT",
+        years: "2013",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+        credential: false,
+    },
+    {
+        id: "c-2",
+        title: "HTML: Fundamentals of a web page",
+        type: "Course",
+        entity: "EducacionIT",
+        years: "2013",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+        credential: false,
+    },
+    {
+        id: "c-1",
+        title: "CSS & DIVs",
+        type: "Course",
+        entity: "EducacionIT",
+        years: "2013",
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+        credential: false,
+    },
+];
+
+export const upTo = [
+    {
+        id: "up-1",
+        description: `Working as a graphic designer in the communication bureau at Teatro Colón`,
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+    },
+    {
+        id: "up-2",
+        description: `Enrolled in Interactivity with JavaScript Course at University of Michigan`,
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+    },
+    {
+        id: "up-3",
+        description: `Enrolled in UI / UX Design Course at California Institute of the Arts`,
+        icon: true,
+        icons:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon",
+    },
+];
