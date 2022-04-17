@@ -1,15 +1,16 @@
 import React, { Fragment, useContext } from "react";
 import { Dialog, Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-// import { ChevronDownIcon } from '@heroicons/react/solid'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Logo from "../Logo/Logo";
+import HappyFace from "../../images/logos/happy-face.svg";
 
 // CONTEXT
 import { NavBarContext } from '../../context/NavBarContext';
-import Logo from "../Logo/Logo";
+
 
 const navigation = {
     pages: [
@@ -32,7 +33,7 @@ const NavBar = () => {
             <>
                 <Link to="/curriculum-vitae">
                     <p className="bg-g h-10 flex items-center justify-center text-sm font-light text-zinc-400 px-4 sm:px-6 lg:px-8 mb-5 border-b border-zinc-900">
-                        My portfolio is in the works, it will be available soon  <span className="text-lg">☺</span>
+                        My portfolio is in the works, it will be available soon  <img className="w-auto h-3 self-center" src={HappyFace} alt="Happy face icon"/>
                     </p>
                 </Link>
                 {/* Mobile menu */}

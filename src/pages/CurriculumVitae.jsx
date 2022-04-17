@@ -9,7 +9,7 @@ const CurriculumVitae = () => {
     return (
         <Fragment>
             <div className="p-8 sm:p-6 lg:p-10 mt-20 font-light text-zinc-400
-            grid grid-cols-4 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
+            grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
                 <div className="">
                     <p className='leading-normal xs:leading-normal lg:leading-normal text-3xl xs:text-2xl sm:text-2xl lg:text-3xl'>
                         I'm <span className='text-white'>Ivana Braz</span> a multidisciplinary designer with a passion for crafting experiences through a wide scope of disciplines. 
@@ -24,7 +24,7 @@ const CurriculumVitae = () => {
             </div>
 
             <div className="p-8 sm:p-6 lg:p-10 font-light text-zinc-400 
-            grid grid-cols-4 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+            grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                 <div className="">
                     {/* Work experience */}
                     <p className='text-zinc-400 leading-normal xs:leading-normal lg:leading-normal text-3xl xs:text-2xl sm:text-2xl lg:text-3xl mt-20'>

@@ -84,97 +84,97 @@ export const skills = [
     {
         id: "s-1",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/html5.svg"
     },
     {
         id: "s-2",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/css3.svg"
     },
     {
         id: "s-3",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/javascript.svg"
     },
     {
         id: "s-4",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/react-js.svg"
     },
     {
         id: "s-5",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/bootstrap.svg"
     },
     {
         id: "s-6",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/tailwind.svg"
     },
     {
         id: "s-7",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/git.svg"
     },
     {
         id: "s-8",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/github.svg"
     },
     {
         id: "s-9",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/fontawesome.svg"
     },
     {
         id: "s-10",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/figma.svg"
     },
     {
         id: "s-11",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/adobe.svg"
     },
     {
         id: "s-12",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/illustrator.svg"
     },
     {
         id: "s-13",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/photoshop.svg"
     },
     {
         id: "s-14",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/indesign.svg"
     },
     {
         id: "s-15",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/premiere.svg"
     },
     {
         id: "s-16",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/bridge.svg"
     },
     {
         id: "s-17",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/after-effects.svg"
     },
     {
         id: "s-18",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/lightroom.svg"
     },
     {
         id: "s-19",
         skillIcon: true,
-        skillIconLink:"https://via.placeholder.com/50x50/0f0f0f/0f0f0f?Icon"
+        skillIconLink:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/dimension.svg"
     },
 ];
 
