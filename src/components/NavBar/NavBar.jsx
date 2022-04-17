@@ -11,7 +11,6 @@ import HappyFace from "../../images/logos/happy-face.svg";
 // CONTEXT
 import { NavBarContext } from '../../context/NavBarContext';
 
-
 const navigation = {
     pages: [
         { name: 'Curriculum vitæ', href: '/curriculum-vitae', icon:'', target:'_self' },
@@ -50,17 +49,17 @@ const NavBar = () => {
                                         <XIcon className="h-6 w-6" aria-hidden="true" />
                                     </button>
                                 </div>
-                                <div className="py-6 space-y-6 text-center">
+                                <div className="text-center">
                                         {navigation.pages.map((page) => (
                                             page.icon.length === 0 
-                                                ?   <div key={page.name} className="flow-root">
-                                                        <Link to={page.href} className="-m-2 p-2 block text-zinc-400" > 
+                                                ?   <div key={page.name} className="flow-root my-20">
+                                                        <Link to={page.href} className="block text-zinc-400 text-3xl xs:text-3xl sm:text-2xl lg:text-3xl" onClick={() => setOpen(false)}> 
                                                             {page.name}
                                                         </Link>
                                                     </div>
                                                     
-                                                :   <div key={page.name} className="flow-root">
-                                                        <a href={"https://" + page.href} className="-m-2 p-2 block text-zinc-400" target="_blank" rel="noopener noreferrer">
+                                                :   <div key={page.name} className="flow-root my-20">
+                                                        <a href={"https://" + page.href} className="block text-zinc-400 text-3xl xs:text-3xl sm:text-2xl lg:text-3xl" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>
                                                             {page.icon}
                                                         </a>
                                                     </div>

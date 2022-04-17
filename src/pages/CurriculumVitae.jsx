@@ -11,11 +11,13 @@ const CurriculumVitae = () => {
             <div className="p-8 sm:p-6 lg:p-10 mt-20 font-light text-zinc-400
             grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
                 <div className="">
-                    <p className='leading-normal xs:leading-normal lg:leading-normal text-3xl xs:text-2xl sm:text-2xl lg:text-3xl'>
+                    <p className='leading-normal xs:leading-normal md:leading-normal lg:leading-normal 
+                    text-3xl xs:text-2xl sm:text-2xl mad:text-3xl lg:text-3xl'>
                         I'm <span className='text-white'>Ivana Braz</span> a multidisciplinary designer with a passion for crafting experiences through a wide scope of disciplines. 
                         From <span className='font-italic text-white'>graphic design, motion graphics, 3D modeling</span> and <span className='font-italic text-white'>photo retouching</span> to <span className='font-italic text-white'>UX/UI</span> and <span className='font-italic text-white'>web development</span>. Aiming to add everlasting value and to challenge boundaries.
                     </p>
-                    <p className='leading-normal xs:leading-normal lg:leading-normal text-3xl xs:text-2xl sm:text-2xl lg:text-3xl'>
+                    <p className='leading-normal xs:leading-normal md:leading-normal lg:leading-normal 
+                    text-3xl xs:text-2xl sm:text-2xl mad:text-3xl lg:text-3xl'>
                         With special interest in culture, art and museology, design and programming.
                     </p>
                 </div>
@@ -27,7 +29,8 @@ const CurriculumVitae = () => {
             grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                 <div className="">
                     {/* Work experience */}
-                    <p className='text-zinc-400 leading-normal xs:leading-normal lg:leading-normal text-3xl xs:text-2xl sm:text-2xl lg:text-3xl mt-20'>
+                    <p className='text-zinc-400 leading-normal xs:leading-normal md:leading-normal lg:leading-normal 
+                    text-3xl xs:text-2xl sm:text-2xl mad:text-3xl lg:text-3xl mt-20'>
                         Work experience
                     </p>
                     {workExperience.map((resumeItem) => (
@@ -35,7 +38,8 @@ const CurriculumVitae = () => {
                     ))}
 
                     {/* Education */}
-                    <p className='text-zinc-400 leading-normal xs:leading-normal lg:leading-normal text-3xl xs:text-2xl sm:text-2xl lg:text-3xl mt-20'>
+                    <p className='text-zinc-400 leading-normal xs:leading-normal md:leading-normal lg:leading-normal 
+                    text-3xl xs:text-2xl sm:text-2xl mad:text-3xl lg:text-3xl mt-20'>
                         Education
                     </p>
                     {education.map((resumeItem) => (
@@ -43,7 +47,8 @@ const CurriculumVitae = () => {
                     ))}
 
                     {/* Languages */}
-                    <p className='text-zinc-400 leading-normal xs:leading-normal lg:leading-normal text-3xl xs:text-2xl sm:text-2xl lg:text-3xl mt-20'>
+                    <p className='text-zinc-400 leading-normal xs:leading-normal md:leading-normal lg:leading-normal 
+                    text-3xl xs:text-2xl sm:text-2xl mad:text-3xl lg:text-3xl mt-20'>
                         Languages
                     </p>
                     {languages.map((resumeItem) => (
@@ -51,7 +56,8 @@ const CurriculumVitae = () => {
                     ))}
 
                     {/* Skills */}
-                    <p className='text-zinc-400 leading-normal xs:leading-normal lg:leading-normal text-3xl xs:text-2xl sm:text-2xl lg:text-3xl mt-20'>
+                    <p className='text-zinc-400 leading-normal xs:leading-normal md:leading-normal lg:leading-normal 
+                    text-3xl xs:text-2xl sm:text-2xl mad:text-3xl lg:text-3xl mt-20'>
                         Skills
                     </p>
                     <div className="grid grid-cols-5 gap-2">
@@ -63,7 +69,8 @@ const CurriculumVitae = () => {
 
                 <div className="">
                     {/* Courses */}
-                    <p className='text-zinc-400 leading-normal xs:leading-normal lg:leading-normal text-3xl xs:text-2xl sm:text-2xl lg:text-3xl mt-20'>
+                    <p className='text-zinc-400 leading-normal xs:leading-normal md:leading-normal lg:leading-normal 
+                    text-3xl xs:text-2xl sm:text-2xl mad:text-3xl lg:text-3xl mt-20'>
                         Courses
                     </p>
                     {courses.map((resumeItem) => (
@@ -73,7 +80,8 @@ const CurriculumVitae = () => {
 
                 <div className="">
                     {/* What I'm up tp */}
-                    <p className='text-zinc-400 leading-normal xs:leading-normal lg:leading-normal text-3xl xs:text-2xl sm:text-2xl lg:text-3xl mt-20'>
+                    <p className='text-zinc-400 leading-normal xs:leading-normal md:leading-normal lg:leading-normal 
+                    text-3xl xs:text-2xl sm:text-2xl mad:text-3xl lg:text-3xl mt-20'>
                         What I'm up to
                     </p>
                     {upTo.map((resumeItem) => (

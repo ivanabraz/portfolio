@@ -60,7 +60,7 @@ export const languages = [
         type: "C2 Proficient",
         credential: true,
         credentialTitle: "EF Standard English Test 2021",
-        credentialUrl: "https://raw.githubusercontent.com/ivanabraz/portfolio/1f444cf83a64eb1e426bc42cda77be7bd92fe5a2/src/images/logos/others/ef-set.svg",
+        credentialUrl: "https://www.efset.org/cert/ENnS8z",
         icon: true,
         icons:"https://raw.githubusercontent.com/ivanabraz/portfolio/1f444cf83a64eb1e426bc42cda77be7bd92fe5a2/src/images/logos/others/ef-set.svg"
     },

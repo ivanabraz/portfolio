@@ -11,7 +11,7 @@ const ProjectList = ({project}) => {
     // const {id} = useParams();
 
     return (
-            <div className="w-full mt-40">
+            <div className="w-full mt-20 xs:mt-20 sm:mt-20 md:mt-20 lg:mt-40">
                 <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
                     {projectsData && projectsData.map((project) => (
                         <Link key={project.id} className="nav-link" to={`/details/${project.id}`}> 
