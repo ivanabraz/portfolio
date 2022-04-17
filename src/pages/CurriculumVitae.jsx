@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import ResumeItem from '../components/Resume/ResumeItem/ResumeItem';
+import SkillsItem from '../components/Resume/SkillsItem/SkillsItem';
 
 // CV data
 import { workExperience, education, languages, skills, courses, upTo } from '../data/cv-data';
@@ -30,7 +31,7 @@ const CurriculumVitae = () => {
                         Work experience
                     </p>
                     {workExperience.map((resumeItem) => (
-                        <ResumeItem resumeItem={resumeItem}/>
+                        <ResumeItem key={resumeItem.id} resumeItem={resumeItem}/>
                     ))}
 
                     {/* Education */}
@@ -38,7 +39,7 @@ const CurriculumVitae = () => {
                         Education
                     </p>
                     {education.map((resumeItem) => (
-                        <ResumeItem resumeItem={resumeItem}/>
+                        <ResumeItem key={resumeItem.id} resumeItem={resumeItem}/>
                     ))}
 
                     {/* Languages */}
@@ -46,16 +47,18 @@ const CurriculumVitae = () => {
                         Languages
                     </p>
                     {languages.map((resumeItem) => (
-                        <ResumeItem resumeItem={resumeItem}/>
+                        <ResumeItem key={resumeItem.id} resumeItem={resumeItem}/>
                     ))}
 
                     {/* Skills */}
                     <p className='text-zinc-400 leading-normal xs:leading-normal lg:leading-normal text-3xl xs:text-2xl sm:text-2xl lg:text-3xl mt-20'>
                         Skills
                     </p>
-                    {skills.map((resumeItem) => (
-                        <ResumeItem resumeItem={resumeItem}/>
-                    ))}
+                    <div className="grid grid-cols-5 gap-2">
+                        {skills.map((skillsItem) => (
+                            <SkillsItem key={skillsItem.id} skillsItem={skillsItem}/>
+                        ))}
+                    </div>
                 </div>
 
                 <div className="">
@@ -64,7 +67,7 @@ const CurriculumVitae = () => {
                         Courses
                     </p>
                     {courses.map((resumeItem) => (
-                        <ResumeItem resumeItem={resumeItem}/>
+                        <ResumeItem key={resumeItem.id} resumeItem={resumeItem}/>
                     ))}
                 </div>
 
@@ -74,8 +77,8 @@ const CurriculumVitae = () => {
                         What I'm up to
                     </p>
                     {upTo.map((resumeItem) => (
-                        <ResumeItem resumeItem={resumeItem}/>
-                    ))}
+                            <ResumeItem key={resumeItem.id} resumeItem={resumeItem}/>
+                        ))}
                 </div>
             </div>
         </Fragment>

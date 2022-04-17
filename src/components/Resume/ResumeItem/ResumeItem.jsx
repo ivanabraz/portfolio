@@ -10,7 +10,7 @@ const ResumeItem = ({resumeItem}) =>{
         <div className='mt-10 grid grid-cols-12 gap-2'>
             <div className="col-span-2">
                 { resumeItem.icon === true
-                    ?   <img src={resumeItem.icons} alt={resumeItem.title} className="w-auto h-15 object-cover"/>
+                    ?   <img src={resumeItem.icons} alt={resumeItem.title} className="w-auto h-12"/>
                     :   <></>
                 }
             </div>
