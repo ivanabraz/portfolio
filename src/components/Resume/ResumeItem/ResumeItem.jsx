@@ -37,7 +37,7 @@ const ResumeItem = ({resumeItem}) =>{
                 }
                 {resumeItem.credential === true
                     ?   <a className="text-sm flex border-b border-zinc-400 max-w-fit" href={resumeItem.credentialUrl} target="_blank" rel="noopener noreferrer">
-                            <p>Credential  </p><img src={ArrowToggle} alt={resumeItem.title} className="w-auto h-3 self-center"/>
+                            <img src={ArrowToggle} alt={resumeItem.title} className="w-auto h-3 self-center"/><p>  Credential</p>
                         </a>
                     :   <></>
                 }

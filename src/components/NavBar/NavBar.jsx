@@ -90,7 +90,7 @@ const NavBar = () => {
                                         {navigation.pages.map((page) => (
                                             page.icon.length === 0 
                                                 ?   <div key={page.name} className="flow-root">
-                                                        <Link to={page.href} className="flex items-center text-zinc-400 hover:text-white border-b border-transparent transition duration-500 hover:border-dotted hover:border-b-2 hover:border-zinc-400" > 
+                                                        <Link to={page.href} className="flex items-center text-zinc-400 hover:text-white border-b border-transparent transition duration-500 hover:border-solid hover:border-b hover:border-zinc-400" > 
                                                             {page.name}
                                                         </Link>
                                                     </div>

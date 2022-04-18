@@ -1,7 +1,7 @@
-.logo-menu {
-    fill: #a1a1aa;
-    transition: fill 1s ease-out;
+.logo--hover {
+    visibility: hidden;
+    /* transition: fill 1s ease-out; */
 }
-.logo-menu:hover {
-    fill: #ffffff;
+.logo--hover:hover {
+    visibility: visible;
 }

@@ -26,7 +26,7 @@ const CurriculumVitae = () => {
             </div>
 
             <div className="p-8 sm:p-6 lg:p-10 font-light text-zinc-400 
-            grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+            grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-3 gap-4">
                 <div className="">
                     {/* Work experience */}
                     <p className='text-zinc-400 leading-normal xs:leading-normal md:leading-normal lg:leading-normal 

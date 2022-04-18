@@ -8,9 +8,11 @@ import { NavBarProvider } from './context/NavBarContext';
 // PAGES
 import Home from './pages/Home';
 import CurriculumVitae from './pages/CurriculumVitae';
+import NotFound from './pages/NotFound';
 
 // COMPONENTS
 import NavBar from './components/NavBar/NavBar';
+import ProjectDetailContainer from './components/Portfolio/ProjectDetailContainer/ProjectDetailContainer';
 
 const App = () => {
     return (
@@ -20,6 +22,9 @@ const App = () => {
                 <Routes>
                     <Route index element={ <Home /> }/>
                     <Route path="curriculum-vitae" element={ <CurriculumVitae /> }/>
+                    <Route path="project/:id" element={ <ProjectDetailContainer/> }/>
+                    <Route path="*" element={ <NotFound /> }/>
+                    <Route path="notfound" element={ <NotFound /> }/>
                 </Routes>
             </BrowserRouter>
         </NavBarProvider>
