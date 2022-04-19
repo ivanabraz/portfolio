@@ -5,15 +5,16 @@ import ArrowToggle from '../../../images/arrows/arrow-toggle.svg';
 const ProjectDetail = (projectsData) => {
 
     return (
-        <div className='w-full content-center flex justify-center my-20 '>
-            <div className="w-12/12 xs:w-12/12 sm:w-10/12 md:w-10/12 lg:w-9/12 xl:w-9/12 2xl:w-6/12 font-light text-zinc-400
-            content-center">
-                <p className='text-white leading-normal xs:leading-normal md:leading-normal lg:leading-normal text-2xl xs:text-2xl sm:text-2xl md:text-3xl lg:text-4xl'>
+        <div className='w-full content-center flex justify-center my-20 p-6'>
+            <div className="w-12/12 xs:w-12/12 sm:w-10/12 md:w-10/12 lg:w-9/12 xl:w-9/12 2xl:w-6/12 font-light text-zinc-400 content-center">
+                <p className='text-white leading-normal text-2xl xs:text-2xl sm:text-2xl md:text-3xl lg:text-4xl'>
                     {projectsData.title}
                 </p>
                 <img src={projectsData.imageHeader} alt={projectsData.title} className="w-full h-auto my-3"/>
 
-                <div className='w-full my-20 grid gap-10 grid-cols-3'>
+                <div className='w-full my-20
+                grid gap-10 grid-cols-1 sx:grid-cols-1 sm:grid-cols-3 md:sx:grid-cols-3 lg:sx:grid-cols-3 xl:sx:grid-cols-3 2xl:sx:grid-cols-3'>
+                    {/* Texto */}
                     <div className="col-span-2">
                         <p className='leading-normal text-md'>
                             {projectsData.textIntro}
@@ -25,6 +26,7 @@ const ProjectDetail = (projectsData) => {
                         ))}
                     </div>
 
+                    {/* Data sheet */}
                     <div className="">
                         <div className="w-full border-t border-solid border-zinc-600 pt-5">
                             {projectsData.tags?.map((tag, i) => (
@@ -37,7 +39,7 @@ const ProjectDetail = (projectsData) => {
                             {projectsData.links?.map((link) => (
                                 <>
                                     {link.length !== 0
-                                        ?   <a href={link.linkUrl} className='leading-normal text-sm block mb-5'>
+                                        ?   <a href={link.linkUrl} className='leading-normal text-sm block mb-5' target="_blank" rel="noopener noreferrer">
                                                 <img src={ArrowToggle} alt="Arrow toggle" className="w-auto h-3 self-center inline-flex"/>  {link.linkName}
                                             </a>
                                         :   <></>
@@ -57,9 +59,13 @@ const ProjectDetail = (projectsData) => {
                         </div>
                     </div>
                 </div>
-                {projectsData.images?.map((img, i) => (
-                    <img key={i} src={projectsData.images} alt={projectsData.title} className="w-full h-auto mb-10"/>
-                ))}
+                {/* Images */}
+                <div className="mt-5 xs:mt-5 sm:mt-5 md:mt-10 lg:mt-20 xl:mt-32 2xl:mt-32">
+                    {projectsData.images?.map((img, i) => (
+                        <img key={i} src={img} alt={projectsData.title} className="w-full h-auto 
+                        mb-5 xs:mb-5 sm:mb-5 md:mb-5 lg:mb-10 xl:mb-10 2xl:mb-10"/>
+                    ))}
+                </div>
             </div>
         </div>
     );
