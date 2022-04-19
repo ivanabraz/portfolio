@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 // Projects data
 import {projectsData} from '../../../data/projects-data';
 
-const ProjectList = ({project}) => {
+const ProjectList = ({ project }) => {
 
     return (
             <div className="w-full mt-20 xs:mt-20 sm:mt-20 md:mt-20 lg:mt-40">

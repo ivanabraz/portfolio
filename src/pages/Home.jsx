@@ -26,11 +26,11 @@ const Home = () => {
                 </p>
                 <p className='leading-normal xs:leading-normal md:leading-normal lg:leading-normal text-2xl xs:text-2xl sm:text-2xl md:text-3xl lg:text-4xl'>
                     <img src={ArrowRight} className="h-5 xs:h-5 sm:h-5 md:h-6 lg:h-7 w-auto inline" alt="arrow"/> Currently working in the design bureau at <a href="https://teatrocolon.org.ar/" className='text-white border-b border-transparent
-                    transition duration-500 hover:border-solid hover:border-b hover:border-zinc-400' target="_blank" rel="noopener noreferrer" >Teatro Colón</a>.
+                    transition duration-[1000ms] hover:border-solid hover:border-b hover:border-zinc-600' target="_blank" rel="noopener noreferrer" >Teatro Colón</a>.
                     </p>
                 <p className='leading-normal xs:leading-normal md:leading-normal lg:leading-normal text-2xl xs:text-2xl sm:text-2xl md:text-3xl lg:text-4xl'>
                     <img src={ArrowDiagonalLeft} className="h-5 xs:h-5 sm:h-5 md:h-6 lg:h-7 w-auto inline" alt="arrow"/> Previously worked at <a href="https://www.shakespearworks.com/" className='text-white border-b border-transparent
-                    transition duration-500 hover:border-solid hover:border-b hover:border-zinc-400' target="_blank" rel="noopener noreferrer" >ShakespearWorks
+                    transition duration-[1000ms] hover:border-solid hover:border-b hover:border-zinc-600' target="_blank" rel="noopener noreferrer" >ShakespearWorks
                     </a>.
                 </p>
                 <p className='hidden leading-normal text-zinc-400 xs:leading-normal md:leading-normal lg:leading-normal text-md'>

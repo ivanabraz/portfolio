@@ -90,13 +90,13 @@ const NavBar = () => {
                                         {navigation.pages.map((page) => (
                                             page.icon.length === 0 
                                                 ?   <div key={page.name} className="flow-root">
-                                                        <Link to={page.href} className="flex items-center text-zinc-400 hover:text-white border-b border-transparent transition duration-500 hover:border-solid hover:border-b hover:border-zinc-400" > 
+                                                        <Link to={page.href} className="flex items-center text-zinc-400 hover:text-white border-b border-transparent transition duration-[1000ms] hover:border-solid hover:border-b hover:border-zinc-600" > 
                                                             {page.name}
                                                         </Link>
                                                     </div>
                                                     
                                                 :   <div key={page.name} className="flow-root">
-                                                        <a href={"https://" + page.href} className="flex items-center text-zinc-400 transition duration-500 hover:text-white" target="_blank" rel="noopener noreferrer">
+                                                        <a href={"https://" + page.href} className="flex items-center text-zinc-400 transition duration-[1000ms] hover:text-white" target="_blank" rel="noopener noreferrer">
                                                             {page.icon}
                                                         </a>
                                                     </div>
