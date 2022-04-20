@@ -9,8 +9,7 @@ import ArrowToggle from '../images/arrows/arrow-toggle.svg';
 const Home = () => {
     return (
         <Fragment>
-            <div className="h-screen w-screen 
-            p-5 sm:p-6 lg:p-10 mt-10 
+            <div className="p-5 sm:p-6 lg:p-10 mt-10 
             font-light text-zinc-400">
                 <p className='leading-normal xs:leading-normal md:leading-normal lg:leading-normal text-2xl xs:text-2xl sm:text-2xl md:text-3xl lg:text-4xl'>
                     Hello! My name is <span className='text-white'>Ivana Braz</span> (b. 1992)

@@ -13,8 +13,16 @@ import NotFound from './pages/NotFound';
 // COMPONENTS
 import NavBar from './components/NavBar/NavBar';
 import ProjectDetailContainer from './components/Portfolio/ProjectDetailContainer/ProjectDetailContainer';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
+
+    //UserWay Widget
+    // (function(d){var s = d.createElement("script");
+    // s.setAttribute("data-account", "rwp6zl1YVf");
+    // s.setAttribute("src", "https://cdn.userway.org/widget.js");
+    // (d.body || d.head).appendChild(s);})(document)
+
     return (
         <NavBarProvider>
             <BrowserRouter>
@@ -26,6 +34,7 @@ const App = () => {
                     <Route path="*" element={ <NotFound /> }/>
                     <Route path="notfound" element={ <NotFound /> }/>
                 </Routes>
+                <Footer/>
             </BrowserRouter>
         </NavBarProvider>
     );

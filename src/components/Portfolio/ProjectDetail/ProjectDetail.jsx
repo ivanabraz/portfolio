@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTags } from '@fortawesome/free-solid-svg-icons';
 
 import ArrowToggle from '../../../images/arrows/arrow-toggle.svg';
 
@@ -28,13 +30,15 @@ const ProjectDetail = (projectsData) => {
 
                     {/* Data sheet */}
                     <div className="">
+                        {/* Categories */}
                         <div className="w-full border-t border-solid border-zinc-600 pt-5">
-                            {projectsData.tags?.map((tag, i) => (
+                            {projectsData.categories?.map((category, i) => (
                                 <p className='leading-normal text-sm bg-zinc-900 mr-2 px-2 py-1 rounded inline-flex' key={i}>
-                                    {tag}
+                                    {category}
                                 </p>
                             ))}
                         </div>
+                        {/* Links */}
                         <div className="w-full border-t border-solid border-zinc-600 pt-5 mt-5">
                             {projectsData.links?.map((link) => (
                                 <>
@@ -47,6 +51,7 @@ const ProjectDetail = (projectsData) => {
                                 </>
                             ))}
                         </div>
+                        {/* Icons */}
                         <div className="w-full border-t border-solid border-zinc-600 pt-5 mt-5">
                             {projectsData.icons?.map((icon) => (
                                 <>
@@ -55,6 +60,17 @@ const ProjectDetail = (projectsData) => {
                                         :   <></>
                                     }
                                 </>
+                            ))}
+                        </div>
+                        {/* Tags */}
+                        <div className="w-full border-t border-solid border-zinc-600 pt-5 mt-5">
+                            <p className='leading-normal text-sm mr-2 inline-flex'>
+                                Tags  <FontAwesomeIcon className="h-3 self-center" icon={faTags} />
+                            </p>
+                            {projectsData.tags?.map((tag, i) => (
+                                <p className='leading-normal text-sm mr-2 inline-flex' key={i}>
+                                    {tag}
+                                </p>
                             ))}
                         </div>
                     </div>
