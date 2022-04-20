@@ -10,6 +10,7 @@ import HappyFace from "../../images/logos/happy-face.svg";
 
 // CONTEXT
 import { NavBarContext } from '../../context/NavBarContext';
+import NavBarMarquee from "../NavBarMarquee/NavBarMarquee";
 
 const navigation = {
     pages: [
@@ -30,11 +31,7 @@ const NavBar = () => {
 
     return (
             <>
-                <Link to="/curriculum-vitae">
-                    <p className="bg-g h-10 flex items-center justify-center text-sm font-light text-zinc-400 px-4 sm:px-6 lg:px-8 mb-5 border-b border-zinc-900">
-                        My portfolio is in the works, it will be available soon  <img className="w-auto h-3 self-center" src={HappyFace} alt="Happy face icon"/>
-                    </p>
-                </Link>
+                <NavBarMarquee/>
                 {/* Mobile menu */}
                 <Transition.Root show={open} as={Fragment}>
                     <Dialog as="div" className="fixed inset-0 flex z-40 lg:hidden" onClose={setOpen}>
