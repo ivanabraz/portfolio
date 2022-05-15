@@ -82,7 +82,7 @@ const ProjectDetail = (projectsData) => {
                 {/* Images */}
                 <div className="mt-5 xs:mt-5 sm:mt-5 md:mt-10 lg:mt-20 xl:mt-32 2xl:mt-32">
                     {projectsData.images?.map((image) => (
-                        <img key={image.imgAlt} src={image.imgUrl} alt={image.imgAlt} className="w-full h-auto mb-5 xs:mb-5 sm:mb-5 md:mb-5 lg:mb-10 xl:mb-10 2xl:mb-10"/>
+                        <img key={image.imgAlt} src={image.imgUrl} alt={projectsData.title + " - " + image.imgAlt} className="w-full h-auto mb-5 xs:mb-5 sm:mb-5 md:mb-5 lg:mb-10 xl:mb-10 2xl:mb-10"/>
                     ))}
                 </div>
             </div>

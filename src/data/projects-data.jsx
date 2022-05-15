@@ -44,14 +44,41 @@ export const projectsData =
         ],
         tags: ["Graphic Identity", "Web design", "Web development"],
         description: "Description",
-        imageThumb:"https://github.com/ivanabraz/pokoj/raw/main/readme/pokoj_01.gif",
-        imageHeader:"https://github.com/ivanabraz/pokoj/raw/main/readme/pokoj_01.gif",
+        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_00.gif?raw=true",
+        imageHeader:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_01.gif?raw=true",
         images: [
-            "https://raw.githubusercontent.com/ivanabraz/pokoj/main/readme/pokoj_02.gif", 
-            "https://raw.githubusercontent.com/ivanabraz/pokoj/main/readme/pokoj_03.gif",
-            "https://raw.githubusercontent.com/ivanabraz/pokoj/main/readme/pokoj_04.gif",
-            "https://raw.githubusercontent.com/ivanabraz/pokoj/main/readme/pokoj_05.gif",
-            "https://raw.githubusercontent.com/ivanabraz/pokoj/main/readme/pokoj_06.gif",
+            { 
+                imgAlt:"Image 1",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_02.gif?raw=true",
+            },
+            { 
+                imgAlt:"Image 2",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_03.gif?raw=true",
+            },
+            { 
+                imgAlt:"Image 3",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_04.gif?raw=true",
+            },
+            { 
+                imgAlt:"Image 4",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_05.gif?raw=true",
+            },
+            { 
+                imgAlt:"Image 5",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_06.gif?raw=true",
+            },
+            { 
+                imgAlt:"Image 6",
+                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_07.jpg",
+            },
+            { 
+                imgAlt:"Image 7",
+                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_09.jpg",
+            },
+            { 
+                imgAlt:"Image 8",
+                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_08.jpg",
+            },
         ],
     },
     {
@@ -106,24 +133,16 @@ export const projectsData =
                 imgAlt:"Image 1",
                 imgUrl:"https://github.com/ivanabraz/taiyaki/raw/main/readme/taiyaki.gif",
             },
-            { 
-                imgAlt:"Image 2",
-                imgUrl:"https://github.com/ivanabraz/taiyaki/raw/main/readme/taiyaki.gif",
-            },
-            { 
-                imgAlt:"Image 3",
-                imgUrl:"https://github.com/ivanabraz/taiyaki/raw/main/readme/taiyaki.gif",
-            },
         ],
     },
     {
         id: "el-alma-de-un-gigante",
         categories: ["Commissioned"],
         title: "El Alma de un gigante",
-        textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
+        textIntro: "The book 'El Alma de un gigante' brings together historical photographs of the Teatro Colón, also adding images from the artist Marcelo Brodsky's own lens, who captured the magic of theatrical crafts in the workshops.",
         text:[
-            "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
-            "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
+            "This visual journey through theater and history is accompanied by the testimonies of those who do and transmit their work, making possible the artistic excellence that unfolds on stage.", 
+            "Marcelo Brodsky is a visual artist and photographer born in the city of Buenos Aires, his works are part of important national and international collections around the world. For this project I participated in the design and editing of the book material, together with the editor and the artist.",
         ],
         links: [
             { 
@@ -167,19 +186,53 @@ export const projectsData =
         ],
         tags: ["Books", "Editorial"],
         description: "Description",
-        imageThumb:"public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_01.jpg",
-        imageHeader:"public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_01.jpg",
+        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_header.jpg?raw=true",
+        imageHeader:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_header.jpg?raw=true",
         images: [
-            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_02.jpg",
-            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_03.jpg", 
-            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_04.jpg", 
-            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_05.jpg", 
-            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_06.jpg", 
-            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_07.jpg", 
-            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_08.jpg", 
-            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_09.jpg", 
-            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_10.jpg", 
-            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_11.jpg", 
+            { 
+                imgAlt:"Image 1",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_01.jpg?raw=true",
+            },
+            { 
+                imgAlt:"Image 2",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_02.jpg?raw=true",
+            },
+            { 
+                imgAlt:"Image 3",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_03.jpg?raw=true",
+            },
+            { 
+                imgAlt:"Image 4",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_04.jpg?raw=true",
+            },
+            { 
+                imgAlt:"Image 5",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_05.jpg?raw=true",
+            },
+            { 
+                imgAlt:"Image 6",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_06.jpg?raw=true",
+            },
+            { 
+                imgAlt:"Image 7",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_07.jpg?raw=true",
+            },
+            { 
+                imgAlt:"Image 8",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_08.jpg?raw=true",
+            },
+            { 
+                imgAlt:"Image 9",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_09.jpg?raw=true",
+            },
+            { 
+                imgAlt:"Image 10",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_010.jpg?raw=true",
+            },
+            { 
+                imgAlt:"Image 11",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_011.jpg?raw=true",
+            },
         ],
     },
 ]
