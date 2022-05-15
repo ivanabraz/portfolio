@@ -5,7 +5,6 @@ import { faTags } from '@fortawesome/free-solid-svg-icons';
 import ArrowToggle from '../../../images/arrows/arrow-toggle.svg';
 
 const ProjectDetail = (projectsData) => {
-
     return (
         <div className='w-full content-center flex justify-center my-20 p-6'>
             <div className="w-12/12 xs:w-12/12 sm:w-10/12 md:w-10/12 lg:w-9/12 xl:w-9/12 2xl:w-6/12 font-light text-zinc-400 content-center">
@@ -21,8 +20,8 @@ const ProjectDetail = (projectsData) => {
                         <p className='leading-normal text-md'>
                             {projectsData.textIntro}
                         </p>
-                        {projectsData.text?.map((txt, i) => (
-                            <p className='leading-normal text-md mt-5'>
+                        {projectsData.text?.map((txt) => (
+                            <p key={txt} className='leading-normal text-md mt-5'>
                                 {txt}
                             </p>
                         ))}
@@ -32,8 +31,8 @@ const ProjectDetail = (projectsData) => {
                     <div className="">
                         {/* Categories */}
                         <div className="w-full border-t border-solid border-zinc-600 pt-5">
-                            {projectsData.categories?.map((category, i) => (
-                                <p className='leading-normal text-sm bg-zinc-900 mr-2 px-2 py-1 rounded inline-flex' key={i}>
+                            {projectsData.categories?.map((category) => (
+                                <p key={category} className='leading-normal text-sm bg-zinc-900 mr-2 px-2 py-1 rounded inline-flex'>
                                     {category}
                                 </p>
                             ))}
@@ -41,34 +40,39 @@ const ProjectDetail = (projectsData) => {
                         {/* Links */}
                         <div className="w-full border-t border-solid border-zinc-600 pt-5 mt-5">
                             {projectsData.links?.map((link) => (
-                                <>
-                                    {link.length !== 0
-                                        ?   <a href={link.linkUrl} className='leading-normal text-sm block mb-5' target="_blank" rel="noopener noreferrer">
-                                                <img src={ArrowToggle} alt="Arrow toggle" className="w-auto h-3 self-center inline-flex"/>  {link.linkName}
-                                            </a>
-                                        :   <></>
-                                    }
-                                </>
+                                link.length !== 0
+                                    ?   <a key={link.linkName} href={link.linkUrl} className='leading-normal text-sm block mb-5' target="_blank" rel="noopener noreferrer">
+                                            <img src={ArrowToggle} alt="Arrow toggle" className="w-auto h-3 self-center inline-flex"/>  {link.linkName}
+                                        </a>
+                                    :   <></>
                             ))}
                         </div>
                         {/* Icons */}
                         <div className="w-full border-t border-solid border-zinc-600 pt-5 mt-5">
                             {projectsData.icons?.map((icon) => (
-                                <>
-                                    {icon.length !== 0
-                                        ?   <img src={icon.iconImg} alt={icon.iconName} className="w-7 h-auto inline-flex mr-2"/>
-                                        :   <></>
-                                    }
-                                </>
+                                icon.length !== 0
+                                    ?   <img key={icon.iconName} src={icon.iconImg} alt={icon.iconName} className="w-7 h-auto inline-flex mr-2"/>
+                                    :   <></>
                             ))}
                         </div>
+                        {/* Further information */}
+                        {projectsData.furtherInformation?.length > 1
+                            ?   <div className="w-full border-t border-solid border-zinc-600 pt-5 mt-5">
+                                    {projectsData.furtherInformation?.map((furtherInformation) => (
+                                        <p className='text-sm mr-2 ' key={furtherInformation}>
+                                            {furtherInformation}
+                                        </p>
+                                    ))}
+                                </div>
+                            : <></>
+                        }
                         {/* Tags */}
                         <div className="w-full border-t border-solid border-zinc-600 pt-5 mt-5">
                             <p className='leading-normal text-sm mr-2 inline-flex'>
                                 Tags  <FontAwesomeIcon className="h-3 self-center" icon={faTags} />
                             </p>
-                            {projectsData.tags?.map((tag, i) => (
-                                <p className='leading-normal text-sm mr-2 inline-flex' key={i}>
+                            {projectsData.tags?.map((tag) => (
+                                <p className='leading-normal text-sm mr-2 inline-flex' key={tag}>
                                     {tag}
                                 </p>
                             ))}
@@ -77,9 +81,8 @@ const ProjectDetail = (projectsData) => {
                 </div>
                 {/* Images */}
                 <div className="mt-5 xs:mt-5 sm:mt-5 md:mt-10 lg:mt-20 xl:mt-32 2xl:mt-32">
-                    {projectsData.images?.map((img, i) => (
-                        <img key={i} src={img} alt={projectsData.title} className="w-full h-auto 
-                        mb-5 xs:mb-5 sm:mb-5 md:mb-5 lg:mb-10 xl:mb-10 2xl:mb-10"/>
+                    {projectsData.images?.map((image) => (
+                        <img key={image.imgAlt} src={image.imgUrl} alt={image.imgAlt} className="w-full h-auto mb-5 xs:mb-5 sm:mb-5 md:mb-5 lg:mb-10 xl:mb-10 2xl:mb-10"/>
                     ))}
                 </div>
             </div>

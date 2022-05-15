@@ -180,17 +180,6 @@ export const skills = [
 
 export const courses = [
     {
-        id: "c-13",
-        title: "Introduction to UX and Accesible Design",
-        type: "Course",
-        entity: "UAL Creative Computing Institute",
-        years: "2022",
-        icon: true,
-        icons:"https://raw.githubusercontent.com/ivanabraz/portfolio/1f444cf83a64eb1e426bc42cda77be7bd92fe5a2/src/images/logos/others/ual.svg",
-        credential: false,
-        credentialUrl: "#",
-    },
-    {
         id: "c-12",
         title: "The Museum as a Site and Source for Learning",
         type: "Course",

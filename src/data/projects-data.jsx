@@ -1,6 +1,60 @@
 export const projectsData = 
 [
     {
+        id: "pokoj",
+        categories: ["Autonomous"],
+        title: "Pokój",
+        textIntro: "This project is a prototype made for the Saint George camp (Złaz Świętego Jerzego 2022).",
+        text:[
+            "The topic developed during the camp was related to 'peace' and those personalities that historically contributed to it, due to the current context. The goal of the prototype was to create a brief information source so that adolescents could access it through a QR code and interact with it.", 
+        ],
+        links: [ 
+            { 
+                linkName:"Repository - GitHub",
+                linkUrl:"https://github.com/ivanabraz/pokoj", 
+            },
+            { 
+                linkName:"See demo - Netlify",
+                linkUrl:"https://pokoj-pokoj.netlify.app/", 
+            }
+        ],
+        icons: [ 
+            { 
+                iconName:"ReactJs",
+                iconImg:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/react-js.svg", 
+            },
+            { 
+                iconName:"Tailwind",
+                iconImg:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/tailwind.svg", 
+            },
+            { 
+                iconName:"FontAwesome",
+                iconImg:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/fontawesome.svg", 
+            },
+            { 
+                iconName:"Illustrator",
+                iconImg:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/illustrator.svg", 
+            },
+            { 
+                iconName:"Photoshop",
+                iconImg:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/photoshop.svg", 
+            },
+        ],
+        furtherInformation: [
+        ],
+        tags: ["Graphic Identity", "Web design", "Web development"],
+        description: "Description",
+        imageThumb:"https://github.com/ivanabraz/pokoj/raw/main/readme/pokoj_01.gif",
+        imageHeader:"https://github.com/ivanabraz/pokoj/raw/main/readme/pokoj_01.gif",
+        images: [
+            "https://raw.githubusercontent.com/ivanabraz/pokoj/main/readme/pokoj_02.gif", 
+            "https://raw.githubusercontent.com/ivanabraz/pokoj/main/readme/pokoj_03.gif",
+            "https://raw.githubusercontent.com/ivanabraz/pokoj/main/readme/pokoj_04.gif",
+            "https://raw.githubusercontent.com/ivanabraz/pokoj/main/readme/pokoj_05.gif",
+            "https://raw.githubusercontent.com/ivanabraz/pokoj/main/readme/pokoj_06.gif",
+        ],
+    },
+    {
         id: "taiyaki",
         categories: ["Academic", "Autonomous"],
         title: "Taiyaki",
@@ -41,364 +95,91 @@ export const projectsData =
                 iconImg:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/photoshop.svg", 
             },
         ],
+        furtherInformation: [
+        ],
         tags: ["Logo", "Graphic Identity", "Branding", "Web design", "Web development"],
         description: "Description",
         imageThumb:"https://raw.githubusercontent.com/ivanabraz/taiyaki/main/readme/home.png",
         imageHeader:"https://raw.githubusercontent.com/ivanabraz/taiyaki/main/readme/home.png",
         images: [
-            "https://github.com/ivanabraz/taiyaki/raw/main/readme/taiyaki.gif",
-            "https://github.com/ivanabraz/taiyaki/blob/main/readme/about.gif?raw=true",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        ],
-    },
-    {
-        id: "2",
-        categories: ["Academic", "Autonomous"],
-        title: "Title 2",
-        textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
-        text:[
-            "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
-            "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
-        ],
-        links: [ 
-        ],
-        tags: ["Branding", "Web design", "Web development"],
-        description: "Description",
-        imageThumb:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        imageHeader:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        images: [
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project", 
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        ],
-    },
-    {
-        id: "3",
-        categories: ["Academic", "Autonomous"],
-        title: "Title 3",
-        textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
-        text:[
-            "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
-            "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
-        ],
-        links: [ 
             { 
-                linkName:"x",
-                linkUrl:"#", 
-            }
-        ],
-        tags: ["Branding", "Web design", "Web development"],
-        description: "Description",
-        imageThumb:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        imageHeader:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        images: [
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project", 
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
+                imgAlt:"Image 1",
+                imgUrl:"https://github.com/ivanabraz/taiyaki/raw/main/readme/taiyaki.gif",
+            },
+            { 
+                imgAlt:"Image 2",
+                imgUrl:"https://github.com/ivanabraz/taiyaki/raw/main/readme/taiyaki.gif",
+            },
+            { 
+                imgAlt:"Image 3",
+                imgUrl:"https://github.com/ivanabraz/taiyaki/raw/main/readme/taiyaki.gif",
+            },
         ],
     },
     {
-        id: "4",
-        categories: ["Academic", "Autonomous"],
-        title: "Title",
+        id: "el-alma-de-un-gigante",
+        categories: ["Commissioned"],
+        title: "El Alma de un gigante",
         textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
         text:[
             "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
             "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
         ],
-        links: [ 
+        links: [
             { 
-                linkName:"x",
-                linkUrl:"#", 
-            }
-        ],
-        tags: ["Branding", "Web design", "Web development"],
-        description: "Description",
-        imageThumb:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        imageHeader:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        images: [
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project", 
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        ],
-    },
-    {
-        id: "5",
-        categories: ["Academic", "Autonomous"],
-        title: "Title 1",
-        textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
-        text:[
-            "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
-            "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
-        ],
-        categories: ["Category 2"],
-        links: [ 
+                linkName:"Buy book - Cúspide",
+                linkUrl:"https://www.cuspide.com/9789874705518/El+Alma+De+Un+Gigante", 
+            },
             { 
-                linkName:"x",
-                linkUrl:"#", 
-            }
+                linkName:"Marcelo Brodsky",
+                linkUrl:"https://marcelobrodsky.com/", 
+            },
         ],
-        tags: ["Branding", "Web design", "Web development"],
-        description: "Description",
-        imageThumb:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        imageHeader:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        images: [
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project", 
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        ],
-    },
-    {
-        id: "6",
-        categories: ["Academic", "Autonomous"],
-        title: "Title 2",
-        textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
-        text:[
-            "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
-            "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
-        ],
-        links: [ 
+        icons: [ 
             { 
-                linkName:"x",
-                linkUrl:"#", 
-            }
-        ],
-        tags: ["Branding", "Web design", "Web development"],
-        description: "Description",
-        imageThumb:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        imageHeader:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        images: [
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project", 
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        ],
-    },
-    {
-        id: "7",
-        categories: ["Academic", "Autonomous"],
-        title: "Title 3",
-        textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
-        text:[
-            "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
-            "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
-        ],
-        links: [ 
+                iconName:"ReactJs",
+                iconImg:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/react-js.svg", 
+            },
             { 
-                linkName:"x",
-                linkUrl:"#", 
-            }
-        ],
-        tags: ["Branding", "Web design", "Web development"],
-        description: "Description",
-        imageThumb:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        imageHeader:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        images: [
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project", 
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        ],
-    },
-    {
-        id: "8",
-        categories: ["Academic", "Autonomous"],
-        title: "Title 4",
-        textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
-        text:[
-            "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
-            "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
-        ],
-        links: [ 
+                iconName:"Tailwind",
+                iconImg:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/tailwind.svg", 
+            },
             { 
-                linkName:"x",
-                linkUrl:"#", 
-            }
-        ],
-        tags: ["Branding", "Web design", "Web development"],
-        description: "Description",
-        imageThumb:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        imageHeader:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        images: [
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project", 
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        ],
-    },
-    {
-        id: "9",
-        categories: ["Academic", "Autonomous"],
-        title: "Title 4",
-        textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
-        text:[
-            "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
-            "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
-        ],
-        links: [ 
+                iconName:"FontAwesome",
+                iconImg:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/fontawesome.svg", 
+            },
             { 
-                linkName:"x",
-                linkUrl:"#", 
-            }
-        ],
-        tags: ["Branding", "Web design", "Web development"],
-        description: "Description",
-        imageThumb:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        imageHeader:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        images: [
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project", 
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        ],
-    },
-    {
-        id: "10",
-        categories: ["Academic", "Autonomous"],
-        title: "Title 4",
-        textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
-        text:[
-            "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
-            "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
-        ],
-        links: [ 
+                iconName:"Illustrator",
+                iconImg:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/illustrator.svg", 
+            },
             { 
-                linkName:"x",
-                linkUrl:"#", 
-            }
+                iconName:"Photoshop",
+                iconImg:"https://raw.githubusercontent.com/ivanabraz/portfolio/b690d3cf0d5622ad981cab357c1320bd16ec5b33/src/images/logos/skills/photoshop.svg", 
+            },
         ],
-        tags: ["Branding", "Web design", "Web development"],
+        furtherInformation: [
+            "Pages: 224",
+            "Weight: 400 grams",
+            "Format: Cartón",
+            "Edition: 2019",
+            "Language: Bilingual. Spanish-English",
+            "ISBN: 9789874705518",
+        ],
+        tags: ["Books", "Editorial"],
         description: "Description",
-        imageThumb:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        imageHeader:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
+        imageThumb:"public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_01.jpg",
+        imageHeader:"public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_01.jpg",
         images: [
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project", 
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        ],
-    },
-    {
-        id: "11",
-        categories: ["Academic", "Autonomous"],
-        title: "Title 4",
-        textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
-        text:[
-            "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
-            "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
-        ],
-        links: [ 
-            { 
-                linkName:"x",
-                linkUrl:"#", 
-            }
-        ],
-        tags: ["Branding", "Web design", "Web development"],
-        description: "Description",
-        imageThumb:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        imageHeader:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        images: [
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project", 
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        ],
-    },
-    {
-        id: "12",
-        categories: ["Academic", "Autonomous"],
-        title: "Title 4",
-        textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
-        text:[
-            "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
-            "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
-        ],
-        categories: ["Category 2"],
-        links: [ 
-            { 
-                linkName:"x",
-                linkUrl:"#", 
-            }
-        ],
-        tags: ["Branding", "Web design", "Web development"],
-        description: "Description",
-        imageThumb:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        imageHeader:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        images: [
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project", 
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        ],
-    },
-    {
-        id: "13",
-        categories: ["Academic", "Autonomous"],
-        title: "Title 4",
-        textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
-        text:[
-            "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
-            "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
-        ],
-        links: [ 
-            { 
-                linkName:"x",
-                linkUrl:"#", 
-            }
-        ],
-        tags: ["Branding", "Web design", "Web development"],
-        description: "Description",
-        imageThumb:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        imageHeader:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        images: [
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project", 
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        ],
-    },
-    {
-        id: "14",
-        categories: ["Academic", "Autonomous"],
-        title: "Title 4",
-        textIntro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur neque quis leo interdum, a convallis velit laoreet. Curabitur vulputate turpis a nisl consectetur, id tristique magna sodales. Integer mattis iaculis luctus. Ut quam purus, rhoncus sit amet orci a, auctor fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet sapien sed magna consequat pellentesque. Nam porttitor venenatis elit eu vestibulum.",
-        text:[
-            "Morbi eget pellentesque tortor, in laoreet diam. Pellentesque eu urna sem. Nullam finibus in mauris sit amet efficitur. Vestibulum euismod porttitor porta. Proin nec mollis urna. Aenean tincidunt ante leo, eu lacinia urna dapibus et. Suspendisse et sagittis nisl. Nullam porta tellus leo, vitae faucibus mauris condimentum pulvinar. Morbi feugiat elementum hendrerit.", 
-            "Aenean lacinia, sapien vel luctus aliquet, orci tortor faucibus orci, a imperdiet justo quam dapibus dui. Vestibulum id ipsum tincidunt, consequat elit vel, tincidunt nunc. Nulla efficitur non nunc a laoreet. Fusce aliquet elementum condimentum. Quisque a nisl non justo tincidunt interdum. Maecenas at mattis arcu, quis gravida leo. Etiam arcu nisl, molestie iaculis venenatis nec, rhoncus non arcu. Sed ornare iaculis elit, et ornare elit sollicitudin id.",
-        ],
-        links: [ 
-            { 
-                linkName:"x",
-                linkUrl:"#", 
-            }
-        ],
-        tags: ["Branding", "Web design", "Web development"],
-        description: "Description",
-        imageThumb:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        imageHeader:"https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-        images: [
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project", 
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
-            "https://via.placeholder.com/1920x1080/0f0f0f/0f0f0f?Project",
+            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_02.jpg",
+            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_03.jpg", 
+            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_04.jpg", 
+            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_05.jpg", 
+            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_06.jpg", 
+            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_07.jpg", 
+            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_08.jpg", 
+            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_09.jpg", 
+            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_10.jpg", 
+            "public/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_11.jpg", 
         ],
     },
 ]

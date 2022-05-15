@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Logo from "../Logo/Logo";
-import HappyFace from "../../images/logos/happy-face.svg";
 
 // CONTEXT
 import { NavBarContext } from '../../context/NavBarContext';
