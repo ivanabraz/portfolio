@@ -1,15 +1,15 @@
 import React from "react";
 
 //IMAGES
-import ArrowTop from '../../images/arrows/arrow-top.svg';
+// import ArrowTop from '../../images/arrows/arrow-top.svg';
 
 const Footer = () => {
-    const scrollTop = () => {
-        window.scrollTo({ 
-            top: 0, 
-            behavior: 'smooth'
-        })
-    };
+    // const scrollTop = () => {
+    //     window.scrollTo({ 
+    //         top: 0, 
+    //         behavior: 'smooth'
+    //     })
+    // };
 
     return (
         <footer className="w-full h-20 text-md font-light text-zinc-400 flex justify-between

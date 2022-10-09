@@ -1,10 +1,5 @@
 import React from 'react';
-import ResumeItem from '../components/Resume/ResumeItem/ResumeItem';
-import SkillsItem from '../components/Resume/SkillsItem/SkillsItem';
 import { Link } from 'react-router-dom'
-
-// CV data
-import { workExperience, education, languages, skills, courses, upTo } from '../data/cv-data';
 
 const contact = {
     contactPages: [
