@@ -4,7 +4,7 @@ import ProjectList from '../components/Portfolio/ProjectList/ProjectList';
 //IMAGES
 import ArrowRight from '../images/arrows/arrow-right.svg';
 import ArrowDiagonalLeft from '../images/arrows/arrow-diagonal-left.svg';
-import ArrowToggle from '../images/arrows/arrow-toggle.svg';
+// import ArrowToggle from '../images/arrows/arrow-toggle.svg';
 
 const Home = () => {
     return (
