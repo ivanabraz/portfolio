@@ -44,7 +44,7 @@ export const projectsData =
         ],
         tags: ["Graphic Identity", "Web design", "Web development"],
         description: "Description",
-        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_header.png",
+        imageThumb:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/pokoj/pokoj_header.png?raw=true",
         imageHeader:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_01.gif?raw=true",
         images: [
             { 
@@ -126,7 +126,7 @@ export const projectsData =
         ],
         tags: ["Logo", "Graphic Identity", "Branding", "Web design", "Web development"],
         description: "Description",
-        imageThumb:"https://raw.githubusercontent.com/ivanabraz/taiyaki/main/readme/home.png",
+        imageThumb:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/taiyaki/taiyaki_header.png?raw=true",
         imageHeader:"https://raw.githubusercontent.com/ivanabraz/taiyaki/main/readme/home.png",
         images: [
             { 

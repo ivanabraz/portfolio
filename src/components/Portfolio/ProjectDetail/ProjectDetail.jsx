@@ -8,7 +8,7 @@ const ProjectDetail = (projectsData) => {
     return (
         <div className='w-full content-center flex justify-center py-40'>
             <div className="w-12/12 xs:w-12/12 sm:w-10/12 md:w-10/12 lg:w-9/12 xl:w-9/12 2xl:w-6/12 font-light text-black dark:text-white content-center">
-                <p className='text-white leading-normal text-2xl xs:text-2xl sm:text-2xl md:text-3xl lg:text-4xl'>
+                <p className='text-black dark:text-white leading-normal text-2xl xs:text-2xl sm:text-2xl md:text-3xl lg:text-4xl'>
                     {projectsData.title}
                 </p>
                 <img src={projectsData.imageHeader} alt={projectsData.title} className="w-full h-auto my-3"/>
