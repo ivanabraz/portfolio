@@ -29,40 +29,40 @@ export const projectsData =
         ],
         tags: ["Graphic Identity", "UX / UI"],
         description: "Description",
-        imageThumb:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/pokoj/pokoj_header.png?raw=true",
-        imageHeader:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_01.gif?raw=true",
+        imageThumb:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/matesuli/matesuli_header.png?raw=true",
+        imageHeader:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/matesuli/matesuli_header.png?raw=true",
         images: [
             { 
                 imgAlt:"Image 1",
-                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_02.gif?raw=true",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/matesuli/matesuli_01.png?raw=true",
             },
             { 
                 imgAlt:"Image 2",
-                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_03.gif?raw=true",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/matesuli/matesuli_02.png?raw=true",
             },
             { 
                 imgAlt:"Image 3",
-                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_04.gif?raw=true",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/matesuli/matesuli_03.png?raw=true",
             },
             { 
                 imgAlt:"Image 4",
-                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_05.gif?raw=true",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/matesuli/matesuli_04.png?raw=true",
             },
             { 
                 imgAlt:"Image 5",
-                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_06.gif?raw=true",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/matesuli/matesuli_05.png?raw=true",
             },
             { 
                 imgAlt:"Image 6",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_07.jpg",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/matesuli/matesuli_06.png?raw=true",
             },
             { 
                 imgAlt:"Image 7",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_09.jpg",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/matesuli/matesuli_07.png?raw=true",
             },
             { 
                 imgAlt:"Image 8",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_08.jpg",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/matesuli/matesuli_08.png?raw=true",
             },
         ],
     },
