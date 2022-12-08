@@ -1,5 +1,5 @@
 import React, { Fragment, useContext } from "react";
-import { Dialog, Popover, Transition } from '@headlessui/react';
+import { Dialog, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Link } from 'react-router-dom';
 import ThemeToggle from '../ThemeToggle/ThemeToggle';
