@@ -44,7 +44,7 @@ export const projectsData =
         ],
         tags: ["Graphic Identity", "Web design", "Web development"],
         description: "Description",
-        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_00.gif?raw=true",
+        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_header.png",
         imageHeader:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_01.gif?raw=true",
         images: [
             { 

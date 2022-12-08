@@ -6,8 +6,8 @@ import ArrowToggle from '../../../images/arrows/arrow-toggle.svg';
 
 const ProjectDetail = (projectsData) => {
     return (
-        <div className='w-full content-center flex justify-center my-20 p-6'>
-            <div className="w-12/12 xs:w-12/12 sm:w-10/12 md:w-10/12 lg:w-9/12 xl:w-9/12 2xl:w-6/12 font-light text-zinc-400 content-center">
+        <div className='w-full content-center flex justify-center py-40'>
+            <div className="w-12/12 xs:w-12/12 sm:w-10/12 md:w-10/12 lg:w-9/12 xl:w-9/12 2xl:w-6/12 font-light text-black dark:text-white content-center">
                 <p className='text-white leading-normal text-2xl xs:text-2xl sm:text-2xl md:text-3xl lg:text-4xl'>
                     {projectsData.title}
                 </p>
@@ -30,15 +30,15 @@ const ProjectDetail = (projectsData) => {
                     {/* Data sheet */}
                     <div className="">
                         {/* Categories */}
-                        <div className="w-full border-t border-solid border-zinc-600 pt-5">
+                        <div className="w-full border-t border-solid border-black dark:border-white pt-5">
                             {projectsData.categories?.map((category) => (
-                                <p key={category} className='leading-normal text-sm bg-zinc-900 mr-2 px-2 py-1 rounded inline-flex'>
+                                <p key={category} className='leading-normal text-sm bg-black dark:bg-white text-white dark:text-black mr-2 px-2 py-1 rounded inline-flex'>
                                     {category}
                                 </p>
                             ))}
                         </div>
                         {/* Links */}
-                        <div className="w-full border-t border-solid border-zinc-600 pt-5 mt-5">
+                        <div className="w-full border-t border-solid border-black dark:border-white pt-5 mt-5">
                             {projectsData.links?.map((link) => (
                                 link.length !== 0
                                     ?   <a key={link.linkName} href={link.linkUrl} className='leading-normal text-sm block mb-5' target="_blank" rel="noopener noreferrer">
@@ -48,7 +48,7 @@ const ProjectDetail = (projectsData) => {
                             ))}
                         </div>
                         {/* Icons */}
-                        <div className="w-full border-t border-solid border-zinc-600 pt-5 mt-5">
+                        <div className="w-full border-t border-solid border-black dark:border-white pt-5 mt-5">
                             {projectsData.icons?.map((icon) => (
                                 icon.length !== 0
                                     ?   <img key={icon.iconName} src={icon.iconImg} alt={icon.iconName} className="w-7 h-auto inline-flex mr-2"/>
@@ -57,7 +57,7 @@ const ProjectDetail = (projectsData) => {
                         </div>
                         {/* Further information */}
                         {projectsData.furtherInformation?.length > 1
-                            ?   <div className="w-full border-t border-solid border-zinc-600 pt-5 mt-5">
+                            ?   <div className="w-full border-t border-solid border-black dark:border-white pt-5 mt-5">
                                     {projectsData.furtherInformation?.map((furtherInformation) => (
                                         <p className='text-sm mr-2 ' key={furtherInformation}>
                                             {furtherInformation}
@@ -67,7 +67,7 @@ const ProjectDetail = (projectsData) => {
                             : <></>
                         }
                         {/* Tags */}
-                        <div className="w-full border-t border-solid border-zinc-600 pt-5 mt-5">
+                        <div className="w-full border-t border-solid border-black dark:border-white pt-5 mt-5">
                             <p className='leading-normal text-sm mr-2 inline-flex'>
                                 Tags  <FontAwesomeIcon className="h-3 self-center" icon={faTags} />
                             </p>

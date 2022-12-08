@@ -4,94 +4,101 @@
 @tailwind utilities;
 
 
-/* Helvetica Neue */
+/* TimesNow */
 @font-face {
-  font-family: 'HelveticaNeue';
+  font-family: 'TimesNow';
   font-weight: 200;
   font-style: normal;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProTh.otf) format('opentype');
+  src: url(./fonts/timesnow/timesnow-extralight.otf) format('opentype');
 }
 @font-face {
-  font-family: 'HelveticaNeue';
+  font-family: 'TimesNow';
   font-weight: 300;
   font-style: normal;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProLt.otf) format('opentype');
+  src: url(./fonts/timesnow/timesnow-light.otf) format('opentype');
 }
 @font-face {
-  font-family: 'HelveticaNeue';
+  font-family: 'TimesNow';
   font-weight: 400;
   font-style: normal;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProRoman.otf) format('opentype');
+  src: url(./fonts/timesnow/timesnow-semilight.otf) format('opentype');
 }
 @font-face {
-  font-family: 'HelveticaNeue';
+  font-family: 'TimesNow';
   font-weight: 500;
   font-style: normal;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProMd.otf) format('opentype');
+  src: url(./fonts/timesnow/timesnow-semibold.otf) format('opentype');
 }
 @font-face {
-  font-family: 'HelveticaNeue';
+  font-family: 'TimesNow';
   font-weight: 600;
   font-style: normal;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProBd.otf) format('opentype');
+  src: url(./fonts/timesnow/timesnow-bold.otf) format('opentype');
 }
 @font-face {
-  font-family: 'HelveticaNeue';
+  font-family: 'TimesNow';
   font-weight: 700;
   font-style: normal;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProHv.otf) format('opentype');
-}
-@font-face {
-  font-family: 'HelveticaNeue';
-  font-weight: 800;
-  font-style: normal;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProBlk.otf) format('opentype');
+  src: url(./fonts/timesnow/timesnow-extrabold.otf) format('opentype');
 }
 
-/* Helvetica Neue Italic */
+/* TimesNow Italic */
 @font-face {
-  font-family: 'HelveticaNeue';
+  font-family: 'TimesNow';
   font-weight: 200;
   font-style: italic;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProThIt.otf) format('opentype');
+  src: url(./fonts/timesnow/timesnow-extralight-italic.otf) format('opentype');
 }
 @font-face {
-  font-family: 'HelveticaNeue';
+  font-family: 'TimesNow';
   font-weight: 300;
   font-style: italic;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProLtIt.otf) format('opentype');
+  src: url(./fonts/timesnow/timesnow-light-italic.otf) format('opentype');
 }
 @font-face {
-  font-family: 'HelveticaNeue';
+  font-family: 'TimesNow';
   font-weight: 400;
   font-style: italic;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProIt.otf) format('opentype');
+  src: url(./fonts/timesnow/timesnow-semilight-italic.otf) format('opentype');
 }
 @font-face {
-  font-family: 'HelveticaNeue';
+  font-family: 'TimesNow';
   font-weight: 500;
   font-style: italic;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProMdIt.otf) format('opentype');
+  src: url(./fonts/timesnow/timesnow-semibold-italic.otf) format('opentype');
 }
 @font-face {
-  font-family: 'HelveticaNeue';
+  font-family: 'TimesNow';
   font-weight: 600;
   font-style: italic;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProBdIt.otf) format('opentype');
+  src: url(./fonts/timesnow/timesnow-bold-italic.otf) format('opentype');
 }
 @font-face {
-  font-family: 'HelveticaNeue';
+  font-family: 'TimesNow';
   font-weight: 700;
   font-style: italic;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProHvIt.otf) format('opentype');
-}
-@font-face {
-  font-family: 'HelveticaNeue';
-  font-weight: 800;
-  font-style: italic;
-  src: url(./fonts/helvetica-neue/HelveticaNeueLTProBlkIt.otf) format('opentype');
+  src: url(./fonts/timesnow/timesnow-extrabold-italic.otf) format('opentype');
 }
 
+/* Wagon */
+@font-face {
+  font-family: 'Wagon';
+  font-weight: 200;
+  font-style: normal;
+  src: url(./fonts/wagon/Wagon-ExtraLight.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Wagon';
+  font-weight: 300;
+  font-style: normal;
+  src: url(./fonts/wagon/Wagon-Bold.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Wagon';
+  font-weight: 200;
+  font-style: italic;
+  src: url(./fonts/wagon/Wagon-ExtraLightItalic.otf) format('opentype');
+}
 
 /* Font weights */
 .font-thin {
@@ -116,14 +123,18 @@
   font-weight: 800;
 }
 
+/* Font aAmily */
+.wagon {
+  font-family: 'Wagon';
+}
+
 /* Font style */
 .font-italic {
   font-style: italic;
 }
 
 body{ 
-  background-color: #000;
-  font-family: 'HelveticaNeue';
+  font-family: 'TimesN' !important;
   font-weight: 300;
 }
 .maxwidth-none {
