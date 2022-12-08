@@ -15,9 +15,9 @@ const HeroShuffle = (HeroShuffleProps) => {
     }
 
     return (
-        <div onClick={changeElement} className='flex-wrap overflow-hidden w-screen h-screen flex items-center justify-center'>
-            <p className='wagon font-thin leading-[0.9em] break-all text-[15em] xs:text-[10rem] md:text-[15rem] lg:text-[15rem] text-black dark:text-white text-center self-center'>
-                <p>{shuffle[index].name}</p>
+        <div onClick={changeElement} className={`flex items-center justify-center ${HeroShuffleProps.customClass}`}>
+            <p className='wagon font-thin leading-[0.6em] break-all text-[10em] xs:text-[10rem] md:text-[15rem] lg:text-[15rem] text-black dark:text-white text-center'>
+                {shuffle[index].name}
             </p>
             {HeroShuffleProps.children}
         </div>

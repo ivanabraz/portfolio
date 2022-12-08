@@ -24,20 +24,19 @@ const whatUpTo = {
 
 const Info = () => {
     return (
-        <div className="w-screen h-screen flex items-center
-        text-black dark:text-white">
-            <div className='grid grid-flow-row-dense grid-cols-8 xs:grid-cols-2 sm:grid-cols-1 md:grid-cols-8 lg:grid-cols-8'>
+        <div className="h-auto xs:h-auto md:h-screen flex self-center items-center justify-center text-black dark:text-white">
+            <div className='grid grid-cols-8 xs:grid-cols-8 sm:grid-cols-8 md:grid-cols-8 lg:grid-cols-8'>
                 <div className='p-5 sm:p-6 lg:p-10 
                 leading-normal text-3xl xs:text-2xl md:text-3xl
-                col-span-3 xs:col-span-8 sm:col-span-8 md:col-span-8 lg:col-span-3'>
+                col-span-8 xs:col-span-8 sm:col-span-8 md:col-span-8 lg:col-span-3'>
                     <p>
                         I'm Ivana Braz a multidisciplinary designer with a passion for crafting experiences through a wide scope of disciplines. 
                         From graphic design, motion graphics, experimental 3D modeling to UX/UI and web development. Aiming to add everlasting value and to challenge boundaries.
                     </p>
                 </div>
-                <div className='p-5 sm:p-6 lg:p-10
+                <div className='p-5 sm:p-6 lg:p-10 mb-10
                 leading-normal text-3xl
-                col-span-2 xs:col-span-8 sm:col-span-8 md:col-span-8 lg:col-span-2'>
+                col-span-8 xs:col-span-8 sm:col-span-8 md:col-span-8 lg:col-span-2'>
                     {/* Disciplines */}
                     <p className='text-lg font-bold'>
                         Disciplines / Skills

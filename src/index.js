@@ -10,10 +10,8 @@ import { ThemeProvider } from './context/ThemeContext';
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>
-      <body className='bg-white dark:bg-black transition-all h-[100%]'>
-          <main>
-            <App />
-          </main>
+      <body className='flex flex-col justify-between w-screen h-screen p-5 xs:p-5 md:p-10 bg-white dark:bg-black'>
+          <App />
       </body>
     </ThemeProvider>
   </React.StrictMode>,

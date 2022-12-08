@@ -56,7 +56,7 @@ const NavBar = () => {
                                                     </a>
                                                 </div>
                                     ))}
-                                    <ThemeToggle toggleWidth={10}/>
+                                    <ThemeToggle toggleWidth={20}/>
                                 </div>
                             </div>
                         </Transition.Child>
@@ -64,7 +64,7 @@ const NavBar = () => {
                 </Transition.Root>
     
                 {/* Desktop menu */}
-                <header className="absolute left-0 right-0 z-40 p-5 sm:p-6 lg:p-10">
+                <header className="left-0 right-0 z-40">
                     <nav aria-label="Top" className="mx-auto">
                         <div className="h-16 flex justify-between align-middle">
                             <div className="hidden lg:flex lg:block lg:self-stretch flex justify-between space-x-8">

@@ -6,9 +6,9 @@ import ArrowToggle from '../../../images/arrows/arrow-toggle.svg';
 
 const ProjectDetail = (projectsData) => {
     return (
-        <div className='w-full content-center flex justify-center py-40 p-5'>
+        <div className='w-full flex justify-center'>
             <div className="w-12/12 xs:w-12/12 sm:w-10/12 md:w-9/12 lg:w-9/12 xl:w-9/12 2xl:w-7/12 font-light text-black dark:text-white content-center">
-                <p className='text-black dark:text-white leading-normal text-2xl xs:text-5xl sm:text-2xl md:text-3xl lg:text-4xl'>
+                <p className='text-black dark:text-white leading-normal text-5xl'>
                     {projectsData.title}
                 </p>
                 <img src={projectsData.imageHeader} alt={projectsData.title} className="w-full h-auto my-3"/>
