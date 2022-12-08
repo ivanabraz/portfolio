@@ -252,7 +252,7 @@ export const projectsData =
         ],
         tags: ["Books", "Editorial"],
         description: "Description",
-        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_header.jpg?raw=true",
+        imageThumb:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_header.png?raw=true",
         imageHeader:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_header.png?raw=true",
         images: [
             { 
