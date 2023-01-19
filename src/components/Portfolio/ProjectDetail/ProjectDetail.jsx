@@ -2,8 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTags } from '@fortawesome/free-solid-svg-icons';
 
-import ArrowToggle from '../../../images/arrows/arrow-toggle.svg';
-
 const ProjectDetail = (projectsData) => {
     return (
         <div className='w-full flex justify-center pt-3'>
