@@ -6,9 +6,9 @@ import ArrowToggle from '../../../images/arrows/arrow-toggle.svg';
 
 const ProjectDetail = (projectsData) => {
     return (
-        <div className='w-full flex justify-center'>
+        <div className='w-full flex justify-center pt-3'>
             <div className="w-12/12 xs:w-12/12 sm:w-10/12 md:w-9/12 lg:w-9/12 xl:w-9/12 2xl:w-7/12 font-light text-black dark:text-white content-center">
-                <p className='text-black dark:text-white leading-normal text-5xl'>
+                <p className='text-black dark:text-white leading-normal text-4xl'>
                     {projectsData.title}
                 </p>
                 <img src={projectsData.imageHeader} alt={projectsData.title} className="w-full h-auto my-3"/>
@@ -17,11 +17,11 @@ const ProjectDetail = (projectsData) => {
                 grid gap-10 grid-cols-1 sx:grid-cols-1 sm:grid-cols-3 md:sx:grid-cols-3 lg:sx:grid-cols-3 xl:sx:grid-cols-3 2xl:sx:grid-cols-3'>
                     {/* Texto */}
                     <div className="col-span-2">
-                        <p className='leading-normal text-xl'>
+                        <p className='leading-normal text-base'>
                             {projectsData.textIntro}
                         </p>
                         {projectsData.text?.map((txt) => (
-                            <p key={txt} className='leading-normal text-xl mt-5'>
+                            <p key={txt} className='leading-normal text-base mt-5'>
                                 {txt}
                             </p>
                         ))}
@@ -32,7 +32,7 @@ const ProjectDetail = (projectsData) => {
                         {/* Categories */}
                         <div className="w-full border-t border-solid border-black dark:border-white pt-5">
                             {projectsData.categories?.map((category) => (
-                                <p key={category} className='leading-normal text-base bg-black dark:bg-white text-white dark:text-black mr-2 px-2 py-1 rounded inline-flex'>
+                                <p key={category} className='leading-normal text-sm bg-black dark:bg-white text-white dark:text-black mr-2 px-2 py-1 rounded inline-flex'>
                                     {category}
                                 </p>
                             ))}
@@ -41,8 +41,8 @@ const ProjectDetail = (projectsData) => {
                         <div className="w-full border-t border-solid border-black dark:border-white pt-5 mt-5">
                             {projectsData.links?.map((link) => (
                                 link.length !== 0
-                                    ?   <a key={link.linkName} href={link.linkUrl} className='leading-normal text-base block mb-5' target="_blank" rel="noopener noreferrer">
-                                            <img src={ArrowToggle} alt="Arrow toggle" className="w-auto h-3 self-center inline-flex"/>  {link.linkName}
+                                    ?   <a key={link.linkName} href={link.linkUrl} className='leading-normal text-sm block mb-5' target="_blank" rel="noopener noreferrer">
+                                            ↳ {link.linkName}
                                         </a>
                                     :   <></>
                             ))}
@@ -51,7 +51,7 @@ const ProjectDetail = (projectsData) => {
                         <div className="w-full border-t border-solid border-black dark:border-white pt-5 mt-5">
                             {projectsData.icons?.map((icon) => (
                                 icon.length !== 0
-                                    ?   <img key={icon.iconName} src={icon.iconImg} alt={icon.iconName} className="w-7 h-auto inline-flex mr-2"/>
+                                    ?   <img key={icon.iconName} src={icon.iconImg} alt={icon.iconName} className="w-7 h-auto inline-flex mr-2 invert0 dark:invert100"/>
                                     :   <></>
                             ))}
                         </div>
@@ -59,7 +59,7 @@ const ProjectDetail = (projectsData) => {
                         {projectsData.furtherInformation?.length > 1
                             ?   <div className="w-full border-t border-solid border-black dark:border-white pt-5 mt-5">
                                     {projectsData.furtherInformation?.map((furtherInformation) => (
-                                        <p className='text-base mr-2 ' key={furtherInformation}>
+                                        <p className='text-sm mr-2 ' key={furtherInformation}>
                                             {furtherInformation}
                                         </p>
                                     ))}
@@ -68,11 +68,11 @@ const ProjectDetail = (projectsData) => {
                         }
                         {/* Tags */}
                         <div className="w-full border-t border-solid border-black dark:border-white pt-5 mt-5">
-                            <p className='leading-normal text-base mr-2 inline-flex'>
+                            <p className='leading-normal text-bsm mr-2 inline-flex'>
                                 Tags  <FontAwesomeIcon className="h-3 self-center" icon={faTags} />
                             </p>
                             {projectsData.tags?.map((tag) => (
-                                <p className='leading-normal text-base mr-2 inline-flex' key={tag}>
+                                <p className='leading-normal text-sm mr-2 inline-flex' key={tag}>
                                     {tag}
                                 </p>
                             ))}

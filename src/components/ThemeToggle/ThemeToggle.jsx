@@ -16,10 +16,10 @@ const ThemeToggle = (ThemeToggleProps) => {
             <div className={`flex justify-center h-fit w-${ThemeToggleProps.toggleWidth} self-center ${ThemeToggleProps.toggleCustomClass}`}>
             {theme === 'dark' 
                 ? (
-                    <img onClick={() => setTheme( theme ==='dark' ? 'light' : 'dark')} className="h-10 xs:h-10 md:h-7" src={darkThemeIcon} alt="lightThemeIcon"/>
+                    <img onClick={() => setTheme( theme ==='dark' ? 'light' : 'dark')} className="h-10 xs:h-10 md:h-5" src={darkThemeIcon} alt="lightThemeIcon"/>
                     )
                 : (
-                    <img onClick={() => setTheme( theme ==='dark' ? 'light' : 'dark')} className="h-10 xs:h-10 md:h-7" src={lightThemeIcon} alt="darkThemeIcon"/>
+                    <img onClick={() => setTheme( theme ==='dark' ? 'light' : 'dark')} className="h-10 xs:h-10 md:h-5" src={lightThemeIcon} alt="darkThemeIcon"/>
                 )
             }
         </div>  

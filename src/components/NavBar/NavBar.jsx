@@ -9,11 +9,8 @@ import { NavBarContext } from '../../context/NavBarContext';
 
 const navigation = {
     pages: [
-        { name: 'Home', href: '/', icon:'', target:'_self' },
         { name: 'Work', href: '/work', icon:'', target:'_self' },
         { name: 'Info', href: '/info', icon:'', target:'_self' },
-        { name: 'Linkedin', external: 1, href: 'linkedin.com/in/ivanabraz/'},
-        { name: 'Github', external: 1, href: 'github.com/ivanabraz'},
     ],
 }
 
@@ -41,7 +38,7 @@ const NavBar = () => {
                                         <XIcon className="h-6 w-6" aria-hidden="true" />
                                     </button>
                                 </div>
-                                <div className="text-center flex flex-col space-y-10 align-middle inline-block">
+                                <div className="text-center flex flex-col content-center space-y-10 align-middle inline-block m-auto">
                                     {navigation.pages.map((page) => (
                                         page.external !== 1
                                             ?   <div key={page.name} >
@@ -62,28 +59,35 @@ const NavBar = () => {
                         </Transition.Child>
                     </Dialog>
                 </Transition.Root>
-    
+
                 {/* Desktop menu */}
-                <header className="left-0 right-0 z-40">
-                    <nav aria-label="Top" className="mx-auto">
-                        <div className="h-16 flex justify-between align-middle">
+                <header className="h-[3.5vh] left-0 right-0 z-40 text-sm 
+                pb-0 xs:pb-14 sm:pb-14 md:pb-0 lg:pb-0 xl:pb-0 2xl:pb-0
+                border-b border-black dark:border-white">
+                    <nav aria-label="Top" className="mx-auto py-2 px-5">
+                        <div className="h-auto flex justify-between">
                             <div className="hidden lg:flex lg:block lg:self-stretch flex justify-between space-x-8">
+                                <Link to='/' className="uppercase text-black dark:text-white border-b border-transparent hover:border-solid hover:border-b hover:border-white" onClick={() => setOpen(false)}> 
+                                    Ivana Braz
+                                </Link>
+                            </div>
+                            <div className="hidden lg:flex lg:block lg:self-stretch flex justify-between space-x-24">
                                 {navigation.pages.map((page) => (
                                     page.external !== 1
                                         ?   <div key={page.name} >
-                                                <Link to={page.href} className="flex items-center text-black dark:text-white border-b border-transparent hover:border-solid hover:border-b hover:border-white" onClick={() => setOpen(false)}> 
+                                                <Link to={page.href} className="text-black dark:text-white border-b border-transparent hover:border-solid hover:border-b hover:border-black dark:hover:border-white " onClick={() => setOpen(false)}> 
                                                     {page.name}
                                                 </Link>
                                             </div>
                                             
                                         :   <div key={page.name}>
-                                                <a href={"https://" + page.href} className="flex items-center text-black dark:text-white border-b border-transparent hover:border-solid hover:border-b hover:border-white" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>
+                                                <a href={"https://" + page.href} className="text-black dark:text-white border-b border-transparent hover:border-solid hover:border-b hover:border-white" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>
                                                     {page.name}
                                                 </a>
                                             </div>
                                 ))}
+                                <ThemeToggle toggleCustomClass={'hidden lg:flex lg:self-stretch '} toggleWidth={4}/>
                             </div>
-                            <ThemeToggle toggleCustomClass={'hidden lg:flex lg:self-stretch '} toggleWidth={5}/>
                             <button type="button" className="flex bg-transparent p-2 rounded-md text-black dark:text-white lg:hidden" onClick={() => setOpen(true)}>
                                 <span className="sr-only">Open menu</span>
                                 <MenuIcon className="h-6 w-6" aria-hidden="true" />

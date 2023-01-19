@@ -2,7 +2,7 @@ import React from 'react'
 
 const BottomContainer = () => {
     return (
-        <div className="flex flex-col items-end text-black dark:text-white 
+        <div className="py-2 px-5 flex justify-end text-black dark:text-white 
         grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2">
             <div className='text-lg row-span-1'>
                 Hi there! My name is Ivana Braz (b. 1992) a Multidisciplinary Designer & Front-End Dev Apprentice, based in Buenos Aires. 

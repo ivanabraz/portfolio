@@ -3,7 +3,7 @@ export const projectsData =
     {
         id: "matesuli",
         categories: ["Academic", "Autonomous"],
-        title: "Matesuli",
+        title: "Matesuli — Brand concept, UX UI",
         textIntro: "This work was developed in the first 'Visual Elements of User Interface Design' course of the UX/UI Design Specialization at California Institute of the Arts (CalArts).",
         text:[
             "Due to the hard crisis in Latin America, many people —especially youngsters— have been forced to leave their homelands in search of a better future. The uprooting caused by immigration unleashes the need to hold on to certain cultural traditions, which are sometimes difficult to preserve due to the lack of goods. This application is primarily aimed at helping these people to get these supplies, preserve their customs, their identity and build a sense of community acting as a meeting point.", 
@@ -69,7 +69,7 @@ export const projectsData =
     {
         id: "pokoj",
         categories: ["Autonomous"],
-        title: "Pokój",
+        title: "Pokój — Web design + development",
         textIntro: "This project is a prototype made for the Saint George camp (Złaz Świętego Jerzego 2022).",
         text:[
             "The topic developed during the camp was related to 'peace' and those personalities that historically contributed to it, due to the current context. The goal of the prototype was to create a brief information source so that adolescents could access it through a QR code and interact with it.", 
@@ -150,7 +150,7 @@ export const projectsData =
     {
         id: "taiyaki",
         categories: ["Academic", "Autonomous"],
-        title: "Taiyaki",
+        title: "Taiyaki — Web design + development",
         textIntro: "For the final project of the ReactJs course in CODERHOUSE, I decided to materialize a personal project called Taiyaki. This concept store offers an unique gastronomic proposal, based on the iconic Japanese fish-shaped cake, adapting and carefully curating new flavours for people to enjoy.",
         text:[
             "The brand’s target is a younger public, and diving deeper on the consumption behaviour of these audiciences, I've found that people often prefer to pay with online methods rather than cash. And since youger people have a hectic lifestyle, can become in handy to order online and pick up the food/drinks on the go. So main idea for this ecommerce is to offer that possibility.", 
@@ -204,7 +204,7 @@ export const projectsData =
     {
         id: "el-alma-de-un-gigante",
         categories: ["Commissioned"],
-        title: "El Alma de un gigante",
+        title: "El Alma de un gigante — Book, editorial",
         textIntro: "The book 'El Alma de un gigante' brings together historical photographs of the Teatro Colón, also adding images from the artist Marcelo Brodsky's own lens, who captured the magic of theatrical crafts in the workshops.",
         text:[
             "This visual journey through theater and history is accompanied by the testimonies of those who do and transmit their work, making possible the artistic excellence that unfolds on stage.", 

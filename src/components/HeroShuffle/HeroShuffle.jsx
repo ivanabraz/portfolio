@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import BottomContainer from '../BottomContainer/BottomContainer';
 
 const HeroShuffle = (HeroShuffleProps) => {
     const shuffle = [
@@ -15,11 +16,17 @@ const HeroShuffle = (HeroShuffleProps) => {
     }
 
     return (
-        <div onClick={changeElement} className={`flex items-center justify-center ${HeroShuffleProps.customClass}`}>
-            <p className='wagon font-thin leading-[0.6em] break-all text-[10em] xs:text-[10rem] md:text-[15rem] lg:text-[15rem] text-black dark:text-white text-center'>
+        <div onClick={changeElement} 
+        className={`flex flex-col justify-between w-full h-[96.5vh]
+        items-center ${HeroShuffleProps.customClass}`}>
+            <div></div>
+            <p className='wagon font-thin leading-[0.6em] break-all 
+            text-[10em] xs:text-[10rem] md:text-[15rem] lg:text-[15rem] 
+            text-black dark:text-white text-center'>
                 {shuffle[index].name}
             </p>
             {HeroShuffleProps.children}
+            <BottomContainer/>
         </div>
     )
 }
