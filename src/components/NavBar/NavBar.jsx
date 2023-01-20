@@ -61,9 +61,9 @@ const NavBar = () => {
                 </Transition.Root>
 
                 {/* Desktop menu */}
-                <header className="h-[3.5vh] left-0 right-0 z-40 text-sm 
-                pb-0 xs:pb-14 sm:pb-14 md:pb-0 lg:pb-0 xl:pb-0 2xl:pb-0
-                border-b border-black dark:border-white">
+                <header className="h-[3.5vh] left-0 right-0 z-40 text-sm pb-0
+                border-b border-black dark:border-white
+                xs:border-b-0 sm:border-b-0 md:border-b-0 lg:border-b xl:border-b 2xl:border-b ">
                     <nav aria-label="Top" className="mx-auto py-2 px-5">
                         <div className="h-auto flex justify-between">
                             <div className="hidden lg:flex lg:block lg:self-stretch flex justify-between space-x-8">
