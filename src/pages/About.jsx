@@ -1,6 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD:src/pages/Info.jsx
-// import Ivana from '../images/misc/ivana.jpg';
 
 const about = {
     title:'About me',
@@ -13,9 +11,7 @@ const whatUpTo = {
         { name: 'Enrolled in UI / UX Design Specialization at California Institute of the Arts. '},
     ],
 }
-=======
 
->>>>>>> newdesign:src/pages/About.jsx
 const disciplines = {
     title:'Disciplines / Skills',
     list: [
@@ -56,12 +52,8 @@ const contact = {
         },
     ],
 }
-<<<<<<< HEAD:src/pages/Info.jsx
-const Info = () => {
-=======
 
 const About = () => {
->>>>>>> newdesign:src/pages/About.jsx
     return (
         <>
             <div className="pt-10 flex text-sm text-black dark:text-white">

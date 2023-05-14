@@ -14,8 +14,8 @@ const SwiperSlider = (projectsData) => {
         <>
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper my-10">
             {projectsData.images?.map((image) => (
-                <SwiperSlide>
-                    <img key={image.imgAlt} src={image.imgUrl} alt={projectsData.title + " - " + image.imgAlt}/>
+                <SwiperSlide key={image.imgAlt}>
+                    <img src={image.imgUrl} alt={projectsData.title + " - " + image.imgAlt}/>
                 </SwiperSlide>
             ))}
         </Swiper>

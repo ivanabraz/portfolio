@@ -6,11 +6,6 @@ import {projectsData} from '../data/projects-data';
 
 const Home = () => {
     return (
-<<<<<<< HEAD
-        <Fragment>
-            <HeroShuffle/>
-        </Fragment>
-=======
         <>
             <div className="px-5 mt-24 leading-normal text-white text-sm xs:text-sm sm:text-md md:text-xl lg:text-2xl
             flex flex-row grid gap-x-0 xs:gap-x-0 sm:gap-x-10 md:gap-x-10 lg:gap-x-40 gap-y-5 grid-cols-1 xs:grid-cols-1 md:grid-cols-2">
@@ -25,11 +20,10 @@ const Home = () => {
                 </div>
             </div>
 
-            {projectsData && projectsData.slice(0, 1 && 2, 3).map((project) => (
+            {projectsData && projectsData.slice(0, 3).map((project) => (
                 <ProjectDetail {...project} key={project.id}/>
             ))}
         </>
->>>>>>> newdesign
     );
 }
 
