@@ -7,8 +7,8 @@ import { NavBarProvider } from './context/NavBarContext';
 
 // PAGES
 import Home from './pages/Home';
-import Work from './pages/Work';
-import Info from './pages/Info';
+import Projects from './pages/Projects';
+import About from './pages/About';
 import NotFound from './pages/NotFound';
 
 // COMPONENTS
@@ -23,8 +23,8 @@ const App = () => {
                 <NavBar/>
                 <Routes>
                     <Route index element={ <Home /> }/>
-                    <Route path="work" element={ <Work /> }/>
-                    <Route path="info" element={ <Info /> }/>
+                    <Route path="projects" element={ <Projects /> }/>
+                    <Route path="about" element={ <About /> }/>
                     <Route path="project/:id" element={ <ProjectDetailContainer/> }/>
                     <Route path="*" element={ <NotFound /> }/>
                     <Route path="notfound" element={ <NotFound /> }/>

@@ -1,24 +1,30 @@
+<<<<<<< HEAD
 import React, { Fragment, useContext } from "react";
 import { Dialog, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+=======
+import React from "react";
+>>>>>>> newdesign
 import { Link } from 'react-router-dom';
-import ThemeToggle from '../ThemeToggle/ThemeToggle';
-
-// CONTEXT
-import { NavBarContext } from '../../context/NavBarContext';
 
 const navigation = {
     pages: [
+<<<<<<< HEAD
         { name: 'Work', href: '/work', icon:'', target:'_self' },
         { name: 'Info', href: '/info', icon:'', target:'_self' },
+=======
+        { name: 'Ivana Braz', href: '/', icon:'', target:'_self' },
+        { name: 'Projects', href: '/projects', icon:'', target:'_self' },
+        { name: 'About', href: '/about', icon:'', target:'_self' },
+        // { name: 'Linkedin', external: 1, href: 'linkedin.com/in/ivanabraz/'},
+        // { name: 'Github', external: 1, href: 'github.com/ivanabraz'},
+>>>>>>> newdesign
     ],
 }
 
 const NavBar = () => {
-
-    const { open, setOpen} = useContext(NavBarContext);
-
     return (
+<<<<<<< HEAD
             <>
                 {/* Mobile menu */}
                 <Transition.Root show={open} as={Fragment}>
@@ -95,6 +101,27 @@ const NavBar = () => {
                         </div>
                     </nav>
                 </header>
+=======
+        <>
+        <nav className="absolute w-full top-0 left-0 right-0 z-40 border-b border-white">
+            <div className="flex flex row flex justify-between px-5 py-2">
+                {navigation.pages.map((page) => (
+                    page.external !== 1
+                        ?   <div key={page.name} >
+                                <Link to={page.href} className="flex items-center text-white transition-all	duration-700 ease-in-out border-b border-transparent hover:border-solid hover:border-b hover:border-white"> 
+                                    {page.name}
+                                </Link>
+                            </div>
+                            
+                        :   <div key={page.name}>
+                                <a href={"https://" + page.href} className="flex items-center text-white transition-all	duration-700 ease-in-out border-b border-transparent hover:border-solid hover:border-b hover:border-white" target="_blank" rel="noopener noreferrer">
+                                    {page.name}
+                                </a>
+                            </div>
+                ))}
+            </div>
+        </nav>
+>>>>>>> newdesign
         </>
     )
 }
