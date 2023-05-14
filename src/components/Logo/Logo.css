@@ -1,7 +1,0 @@
-.logo--hover {
-    visibility: hidden;
-    /* transition: fill 1s ease-out; */
-}
-.logo--hover:hover {
-    visibility: visible;
-}

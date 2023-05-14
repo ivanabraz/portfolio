@@ -5,9 +5,14 @@ module.exports = {
     darkMode:'class',
     theme: {
         screens: {
-        'xs': '475px',
-        ...defaultTheme.screens,
-        }
+            'xs': '475px',
+            ...defaultTheme.screens,
+            },
+            fontFamily: {
+                'sans': ['TeXGyreHeros'],
+                'body': ['TeXGyreHeros'],
+                'condensed': ['TeXGyreHerosCondensed'],
+            },
     },
     plugins: [
     ],

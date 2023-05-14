@@ -1,11 +1,11 @@
 import React, { Fragment, useState, useEffect } from 'react';
-import { useParams } from 'react-router';import ProjectDetail from '../ProjectDetail/ProjectDetail';
+import { useParams } from 'react-router';
+import ProjectDetail from '../ProjectDetail/ProjectDetail';
 
 // Projects data
 import {projectsData} from '../../../data/projects-data';
 
 const ProjectDetailContainer = () => {
-
     const [project, setProject] = useState([]);
     const { id } = useParams();
 
