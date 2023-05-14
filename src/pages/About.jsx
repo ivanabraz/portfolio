@@ -56,7 +56,7 @@ const contact = {
 const About = () => {
     return (
         <>
-            <div className="pt-10 flex text-sm text-black dark:text-white">
+            <div className="mt-20 pt-10 flex text-sm text-black dark:text-white">
                 <div className='grid grid-cols-3 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>
                     <div className='px-5 leading-normal'>
                         {/* About */}
