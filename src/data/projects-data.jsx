@@ -34,7 +34,7 @@ export const projectsData =
         textSecondary: "185 x 240 mm. 310 pages. Hardcover book and case with embossed logo. Chambril and printed tracing paper.",
         links: [
         ],
-        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_01.jpg?raw=true",
+        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_04.jpg?raw=true",
         images: [
             { 
                 imgAlt:"Image 0",
@@ -143,11 +143,11 @@ export const projectsData =
                 linkUrl:"https://marcelobrodsky.com/", 
             },
         ],
-        imageThumb:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_00.png",
+        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_00.png?raw=true",
         images: [
             { 
                 imgAlt:"Image",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_00.png",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_00.png?raw=true",
             },
             { 
                 imgAlt:"Image 0",
