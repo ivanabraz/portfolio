@@ -7,7 +7,7 @@ const Project = ({project}) =>{
             <img src={project.imageThumb} alt={project.title} 
             className="h-100 bg-black"
             />
-            <p className='text-sm pt-1 text-black dark:text-white'>
+            <p className='text-sm pt-1 text-white'>
                 {project.title}
             </p>
         </div>

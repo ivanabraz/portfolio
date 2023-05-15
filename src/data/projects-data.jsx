@@ -5,7 +5,7 @@ export const projectsData =
         categories: "Brand/ Commissioned",
         title: "NUDO by Cris",
         year: 2023,
-        text: "NUDO is a small family bussiness driven by passion and love for crafting.",
+        text: "NUDO by Cris is a small family bussiness based in Buenos Aires, Argentina. The brand is driven by passion for crafting, all their knittings are made with love and special attention to detail. For this project I was commissioned to design the brand concept, naming, and brand identity.",
         textSecondary: "",
         links: [ 
             { 
@@ -30,8 +30,8 @@ export const projectsData =
         categories: "Book/ Academic",
         title: "Auguste Rodin",
         year: 2017,
-        text: 'This experimental book is a academic project and is a redesign of the book "Rodin. El hombre y su arte". In english: "The Man and His Art: With Leaves from His Notebook" by Judith Cladel (1917)',
-        textSecondary: "185 x 240 mm. 310 pages. Hardcover book and case with embossed logo. Chambril and printed tracing paper.",
+        text: `This experimental book is a academic project and is a redesign of the book "Rodin. El hombre y su arte". In english: "The Man and His Art: With Leaves from His Notebook" by Judith Cladel (1917) For the materialisation of this book I took inspiration directly from Rodin's work, when you look at his sculptures — especially La Porte de l'Enfer — you can see that they seem to carry a soft veil of mist. This veil that I took as inspiration is conceptually related to his late diagnosed myopia. Hence the decision to use tracing paper as the medium for some of the pages of the book. The distortions on some of the pages were made analogically, by scanning prints and making movements on the spot.`,
+        textSecondary: "185 x 240 mm. 310 pages. Hardcover book and case with embossed logo. Binded with a Chelsea black cloth with silk matt coating. Chambril and printed tracing paper.",
         links: [
         ],
         imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_04.jpg?raw=true",

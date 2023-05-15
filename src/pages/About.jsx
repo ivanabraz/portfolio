@@ -56,7 +56,7 @@ const contact = {
 const About = () => {
     return (
         <>
-            <div className="mt-20 pt-10 flex text-sm text-black dark:text-white">
+            <div className="mt-20 pt-10 flex text-sm text-white">
                 <div className='grid grid-cols-3 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>
                     <div className='px-5 leading-normal'>
                         {/* About */}
@@ -95,9 +95,9 @@ const About = () => {
                         </p>
                         {contact.list.map((item) => (
                             <a key={item.name} href={"https://" + item.href} 
-                            className="text-black dark:text-white w-fit
+                            className="text-white w-fit
                             border-b border-transparent 
-                            hover:border-solid hover:border-b hover:border-black dark:hover:border-white 
+                            hover:border-solid hover:border-b hover:border-white 
                             flex flex-col" 
                             target="_blank" rel="noopener noreferrer">
                                 {item.name}
@@ -106,10 +106,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="grid grid-cols-3 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2
-            pt-10 h-auto xs:h-auto md:h-screen flex text-black dark:text-white text-sm">
-                <img alt="Ivana" src={Ivana} className="w-full h-auto px-5" />
-            </div> */}
         </>
     );
 }

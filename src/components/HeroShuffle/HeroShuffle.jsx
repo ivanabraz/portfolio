@@ -22,7 +22,7 @@ const HeroShuffle = (HeroShuffleProps) => {
             <div></div>
             <p className='wagon font-thin leading-[0.6em] break-all 
             text-[10em] xs:text-[10rem] md:text-[15rem] lg:text-[15rem] 
-            text-black dark:text-white text-center'>
+            text-white text-center'>
                 {shuffle[index].name}
             </p>
             {HeroShuffleProps.children}

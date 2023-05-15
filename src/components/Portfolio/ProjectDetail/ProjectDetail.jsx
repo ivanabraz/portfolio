@@ -1,5 +1,6 @@
 import React from "react";
 import SwiperSlider from "../../SwiperSlider/SwiperSlider";
+import { ArrowUpRightIcon } from '@heroicons/react/20/solid'
 
 const ProjectDetail = (projectsData) => {
     return (
@@ -31,8 +32,8 @@ const ProjectDetail = (projectsData) => {
                     <div className='flex flex-row'>
                         {projectsData.links?.map((link) => (
                                 link.length !== 0
-                                    ?   <a key={link.linkName} href={link.linkUrl} className='text-neutral-500 border-b border-neutral-500 w-fit mb-1 mr-3' target="_blank" rel="noopener noreferrer">
-                                            {link.linkName} 🡥
+                                    ?   <a key={link.linkName} href={link.linkUrl} className='flex flex-row text-neutral-500 border-b border-neutral-500 w-fit mb-1 mr-3' target="_blank" rel="noopener noreferrer">
+                                            {link.linkName} <ArrowUpRightIcon className="h-4 xs:h-4 sm:h-4 md:h-5 lg:h-6 w-4 xs:w-4 sm:w-4 md:w-5 lg:w-6 self-end" />
                                         </a>
                                     :   <></>
                             ))}
@@ -45,3 +46,5 @@ const ProjectDetail = (projectsData) => {
 }
 
 export default ProjectDetail;
+
+
