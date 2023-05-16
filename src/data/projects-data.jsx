@@ -143,51 +143,51 @@ export const projectsData =
                 linkUrl:"https://marcelobrodsky.com/", 
             },
         ],
-        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_00.png?raw=true",
+        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_00.jpg?raw=true",
         images: [
             { 
-                imgAlt:"Image",
-                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_00.png?raw=true",
-            },
-            { 
                 imgAlt:"Image 0",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_01.png",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_00.jpg?raw=true",
             },
             { 
                 imgAlt:"Image 1",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_02.png",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_01.jpg?raw=true",
             },
             { 
                 imgAlt:"Image 2",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_03.png",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_02.jpg?raw=true",
             },
             { 
                 imgAlt:"Image 3",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_04.png",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_03.jpg?raw=true",
             },
             { 
                 imgAlt:"Image 4",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_05.png",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_04.jpg?raw=true",
             },
             { 
                 imgAlt:"Image 5",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_06.png",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_05.jpg?raw=true",
             },
             { 
                 imgAlt:"Image 6",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_07.png",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_06.jpg?raw=true",
             },
             { 
                 imgAlt:"Image 7",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_08.png",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_07.jpg?raw=true",
             },
             { 
                 imgAlt:"Image 8",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_09.png",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_08.jpg?raw=true",
             },
             { 
                 imgAlt:"Image 9",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_010.png",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_09.jpg?raw=true",
+            },
+            { 
+                imgAlt:"Image 10",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_010.jpg?raw=true",
             },
         ],
     },
