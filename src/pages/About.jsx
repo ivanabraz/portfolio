@@ -1,11 +1,16 @@
 import React from 'react';
+import { ArrowDownTrayIcon } from '@heroicons/react/20/solid'
 
 const about = {
-    title:'About me',
-    text: "Hello there! I'm Ivana Braz a senior multidisciplinary designer based in Buenos Aires, Argentina. With a passion for crafting experiences through a wide scope of disciplines. From graphic design, motion graphics, experimental 3D modeling to UX/UI and web development. Aiming to add everlasting value and to challenge boundaries.",
+    title:'About',
+    text: [
+        { name: "Ivana Agustina Braz (Buenos Aires, Argentina, 1992)"},
+        { name: "Buenos Aires based multidisciplinary senior designer & front-end dev apprentice. With a passion for crafting experiences through a wide scope of disciplines. From graphic design, motion graphics to UX/UI and web development. Aiming to add everlasting value and to challenge boundaries."},
+        { name: "She first studied photography at Universidad de Palermo and then went on to study graphic design. Currently specialising in UX / UI and also web programming."},
+    ],
 }
 const whatUpTo = {
-    title:"What I'm up to",
+    title:"What she is up to",
     list: [
         { name: 'Working as a graphic designer in the communication bureau at Teatro Colón. '},
         { name: 'Enrolled in UI / UX Design Specialization at California Institute of the Arts. '},
@@ -63,14 +68,19 @@ const About = () => {
                         <p className='pb-5 font-bold'>
                             {about.title}
                         </p>
-                        {about.text}
+                        {about.text.map((item) => (
+                            <p key={item.name} className='pb-2'>
+                                {item.name}
+                            </p>
+                        ))}
+                        
                         
                         {/* What I'm up to */}
                         <p className='py-5 pt-10 font-bold'>
                             {whatUpTo.title}
                         </p>
                         {whatUpTo.list.map((item) => (
-                            <p key={item.name} className="inline">
+                            <p key={item.name}>
                                 {item.name}
                             </p>
                         ))}
@@ -103,6 +113,15 @@ const About = () => {
                                 {item.name}
                             </a>
                         ))}
+
+                        {/* Resume */}
+                        <a href={"https://"} 
+                            className="flex pt-10 w-fit text-white font-bold 
+                            border-b border-transparent 
+                            hover:border-solid hover:border-b hover:border-white" 
+                            target="_blank" rel="noopener noreferrer">
+                            Download resume <ArrowDownTrayIcon className="h-4 self-center" />
+                        </a>
                     </div>
                 </div>
             </div>

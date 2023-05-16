@@ -5,11 +5,11 @@ import { ArrowUpRightIcon } from '@heroicons/react/20/solid'
 const ProjectDetail = (projectsData) => {
     return (
         <div className='w-full flex flex-col px-5 py-10 border-t border-white mt-10 mb-20'>
-            <div className="w-full grid grid-cols-5 uppercase condensed text-white leading-normal text-xl xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl">
-                <div className='col-span-3'>
+            <div className="w-full grid grid-cols-7 uppercase condensed text-white leading-normal text-xl xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+                <div className='col-span-4'>
                     {projectsData.title}
                 </div>
-                <div>
+                <div className='col-span-2'>
                     {projectsData.categories}
                 </div>
                 <div className='text-right'>
