@@ -115,7 +115,7 @@ const About = () => {
                         ))}
 
                         {/* Resume */}
-                        <a href={"https://"} 
+                        <a href={"https://drive.google.com/file/d/1A4_celGIW7vZVAkmJn7mX-mDEC0z-KHs/"} 
                             className="flex pt-10 w-fit text-white font-bold 
                             border-b border-transparent 
                             hover:border-solid hover:border-b hover:border-white" 
