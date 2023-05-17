@@ -61,7 +61,7 @@ const contact = {
 const About = () => {
     return (
         <>
-            <div className="mt-20 pt-10 flex text-sm text-white">
+            <div className="mt-20 pt-10 flex text-md text-neutral-100">
                 <div className='grid grid-cols-3 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>
                     <div className='px-5 leading-normal'>
                         {/* About */}
@@ -105,7 +105,7 @@ const About = () => {
                         </p>
                         {contact.list.map((item) => (
                             <a key={item.name} href={"https://" + item.href} 
-                            className="text-white w-fit
+                            className="w-fit
                             border-b border-transparent 
                             hover:border-solid hover:border-b hover:border-white 
                             flex flex-col" 
@@ -116,7 +116,7 @@ const About = () => {
 
                         {/* Resume */}
                         <a href={"https://drive.google.com/file/d/1A4_celGIW7vZVAkmJn7mX-mDEC0z-KHs/"} 
-                            className="flex pt-10 w-fit text-white font-bold 
+                            className="flex pt-10 w-fit font-bold 
                             border-b border-transparent 
                             hover:border-solid hover:border-b hover:border-white" 
                             target="_blank" rel="noopener noreferrer">

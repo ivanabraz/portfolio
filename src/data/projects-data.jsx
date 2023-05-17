@@ -2,7 +2,7 @@ export const projectsData =
 [
     {
         id: "nudo",
-        categories: "Identity/ Commissioned",
+        categories: "IDENTITY/ COMMISSIONED",
         title: "NUDO by Cris",
         year: 2023,
         text: "NUDO is a small family bussiness based in Buenos Aires, Argentina. The brand is driven by passion for crafting, all their knittings are made with love and special attention to detail. For this project I was commissioned to design the brand concept, naming, and brand identity.",
@@ -31,11 +31,11 @@ export const projectsData =
     },
     {
         id: "auguste-rodin",
-        categories: "Book/ Academic",
-        title: "Auguste Rodin",
+        categories: "BOOK/ ACADEMIC",
+        title: "AUGUSTE RODIN",
         year: 2017,
         text: `This experimental book is a academic project and is a redesign of the book "Rodin. El hombre y su arte". In english: "The Man and His Art: With Leaves from His Notebook" by Judith Cladel (1917) For the materialisation of this book inspiration was directly taken from Rodin's work. When you observe Rodin's work — especially La Porte de l'Enfer — it seems to carry a soft veil of mist. This veil used as an inspiration is conceptually related to his late diagnosed myopia; hence the decision to use tracing paper as the medium for some of the pages.`,
-        textSecondary: "185 x 240 mm. 310 pages. Hardcover book and case with embossed logo. Binded with a black cloth with silk matt coating. Chambril and printed tracing paper.",
+        textSecondary: "185 x 240 mm. 310 pages. Hardcover book and case with embossed logo. Binded with a black cloth. Chambril and printed tracing paper.",
         links: [
         ],
         imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_04.jpg?raw=true",
@@ -132,11 +132,11 @@ export const projectsData =
     },
     {
         id: "el-alma-de-un-gigante",
-        categories: "Book/ Commissioned",
-        title: "El Alma de un gigante",
+        categories: "BOOK/ COMMISSIONED",
+        title: "EL ALMA DE UN GIGANTE",
         year: 2019,
         text: "The book 'El Alma de un gigante' brings together historical photographs of the Teatro Colón, also adding images from the artist Marcelo Brodsky's own lens, who captured the magic of theatrical crafts in the workshops. This visual journey through theater and history is accompanied by the testimonies of those who make possible the artistic excellence that unfolds on stage. Marcelo Brodsky is a visual artist and photographer born in Buenos Aires, his work is part of important national and international collections around the world. For this project I participated in the design and editing of the book material, together with the editor and the artist.",
-        textSecondary: "Teatro Colón. 224 pages. 400 grams. Edition 2019. Spanish-English. ISBN: 9789874705518",
+        textSecondary: "224 pages. 400 grams. Edition 2019. Spanish-English. ISBN: 9789874705518",
         links: [
             { 
                 linkName:"Get the book",

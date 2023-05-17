@@ -14,6 +14,7 @@ import NotFound from './pages/NotFound';
 // COMPONENTS
 import NavBar from './components/NavBar/NavBar';
 import ProjectDetailContainer from './components/Portfolio/ProjectDetailContainer/ProjectDetailContainer';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
 
@@ -29,6 +30,7 @@ const App = () => {
                     <Route path="*" element={ <NotFound /> }/>
                     <Route path="notfound" element={ <NotFound /> }/>
                 </Routes>
+                <Footer/>
             </BrowserRouter>
         </NavBarProvider>
     );

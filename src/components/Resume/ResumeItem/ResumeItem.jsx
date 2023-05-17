@@ -16,7 +16,7 @@ const ResumeItem = ({resumeItem}) =>{
             </div>
             <div className="col-span-10">
                 {resumeItem.title !== 'undefined'
-                    ?   <p className='text-white text-xl'>{resumeItem.title}</p>
+                    ?   <p className='text-neutral-100 text-xl'>{resumeItem.title}</p>
                     :   <></> 
                 }
                 {resumeItem.type !== 'undefined'

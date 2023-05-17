@@ -14,18 +14,18 @@ const navigation = {
 const NavBar = () => {
     return (
         <>
-        <nav className="absolute w-full top-0 left-0 right-0 z-40 border-b border-white">
+        <nav className="absolute w-full top-0 left-0 right-0 z-40 border-b border-white text-neutral-100">
             <div className="flex flex row flex justify-between px-5 py-2">
                 {navigation.pages.map((page) => (
                     page.external !== 1
                         ?   <div key={page.name} >
-                                <Link to={page.href} className="flex items-center text-white transition-all	duration-700 ease-in-out border-b border-transparent hover:border-solid hover:border-b hover:border-white"> 
+                                <Link to={page.href} className="flex items-center transition-all duration-700 ease-in-out border-b border-transparent hover:border-solid hover:border-b hover:border-white"> 
                                     {page.name}
                                 </Link>
                             </div>
                             
                         :   <div key={page.name}>
-                                <a href={"https://" + page.href} className="flex items-center text-white transition-all	duration-700 ease-in-out border-b border-transparent hover:border-solid hover:border-b hover:border-white" target="_blank" rel="noopener noreferrer">
+                                <a href={"https://" + page.href} className="flex items-center transition-all duration-700 ease-in-out border-b border-transparent hover:border-solid hover:border-b hover:border-white" target="_blank" rel="noopener noreferrer">
                                     {page.name}
                                 </a>
                             </div>
