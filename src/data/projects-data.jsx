@@ -20,7 +20,11 @@ export const projectsData =
         imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/nudo/nudo_01.jpg?raw=true",
         images: [
             { 
-                imgAlt:"Image 0",
+                imgAlt:"Image 1",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/nudo/nudo_01.jpg?raw=true",
+            },
+            { 
+                imgAlt:"Image 2",
                 imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/nudo/nudo_01.jpg?raw=true",
             },
         ],
