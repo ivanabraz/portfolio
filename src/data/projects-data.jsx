@@ -25,7 +25,7 @@ export const projectsData =
             },
             { 
                 imgAlt:"Image 2",
-                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/nudo/nudo_01.jpg?raw=true",
+                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/nudo/nudo_02.gif",
             },
         ],
     },
