@@ -61,7 +61,7 @@ const contact = {
 const About = () => {
     return (
         <>
-            <div className="mt-20 pt-10 flex text-md text-neutral-100">
+            <div className="pt-20 pt-10 flex text-md text-black dark:text-neutral-100">
                 <div className='grid grid-cols-3 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>
                     <div className='px-5 leading-normal'>
                         {/* About */}
@@ -107,7 +107,7 @@ const About = () => {
                             <a key={item.name} href={"https://" + item.href} 
                             className="w-fit
                             border-b border-transparent 
-                            hover:border-solid hover:border-b hover:border-white 
+                            hover:border-solid hover:border-b hover:border-neutral-100 
                             flex flex-col" 
                             target="_blank" rel="noopener noreferrer">
                                 {item.name}
@@ -118,7 +118,7 @@ const About = () => {
                         <a href={"https://drive.google.com/file/d/1A4_celGIW7vZVAkmJn7mX-mDEC0z-KHs/"} 
                             className="flex pt-10 w-fit font-bold 
                             border-b border-transparent 
-                            hover:border-solid hover:border-b hover:border-white" 
+                            hover:border-solid hover:border-b hover:border-neutral-100" 
                             target="_blank" rel="noopener noreferrer">
                             Download resume <ArrowDownTrayIcon className="h-4 self-center" />
                         </a>
