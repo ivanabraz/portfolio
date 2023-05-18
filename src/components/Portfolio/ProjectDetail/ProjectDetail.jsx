@@ -4,7 +4,7 @@ import { ArrowUpRightIcon } from '@heroicons/react/20/solid'
 
 const ProjectDetail = (projectsData) => {
     return (
-        <div className='w-full flex flex-col px-5 py-10 border-t border-neutral-500 pt-10 pb-10  bg-white dark:bg-black'>
+        <div className='w-full flex flex-col pt-10 pb-10 px-5 border-t border-neutral-500 bg-white dark:bg-black'>
             <div className="w-full grid grid-cols-7 uppercase condensed leading-normal text-xl xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl">
                 <div className='col-span-4 text-black dark:text-neutral-100'>
                     {projectsData.title}

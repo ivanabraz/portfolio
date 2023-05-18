@@ -61,8 +61,8 @@ const contact = {
 const About = () => {
     return (
         <>
-            <div className="pt-20 pt-10 flex text-md text-black dark:text-neutral-100">
-                <div className='grid grid-cols-3 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>
+            <div className="pt-10 flex text-md text-black dark:text-neutral-100 bg-white dark:bg-black">
+                <div className='grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3'>
                     <div className='px-5 leading-normal'>
                         {/* About */}
                         <p className='pb-5 font-bold'>
@@ -76,7 +76,7 @@ const About = () => {
                         
                         
                         {/* What I'm up to */}
-                        <p className='py-5 pt-10 font-bold'>
+                        <p className='font-bold leading-normal pb-5 mt-10 xs:mt-10 sm:mt-10 md:pt-0 '>
                             {whatUpTo.title}
                         </p>
                         {whatUpTo.list.map((item) => (
@@ -87,7 +87,7 @@ const About = () => {
                     </div>
 
                     {/* Disciplines */}
-                    <div className='px-5 leading-normal'>
+                    <div className='px-5 leading-normal mt-10 xs:mt-10 sm:mt-10 md:pt-0 '>
                         <p className='pb-5 font-bold'>
                             {disciplines.title}
                         </p>
@@ -99,7 +99,7 @@ const About = () => {
                     </div>
 
                     {/* Contact */}
-                    <div className='px-5 leading-normal pt-0 xs:pt-10 sm:pt-10 md:pt-0 lg:pt-0 xl:pt-0 2xl:pt-0'>
+                    <div className='px-5 leading-normal mt-10 xs:mt-10 sm:mt-10 md:pt-0 '>
                         <p className='pb-5 font-bold'>
                             {contact.title}
                         </p>

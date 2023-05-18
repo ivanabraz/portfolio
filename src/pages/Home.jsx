@@ -9,7 +9,7 @@ import {projectsData} from '../data/projects-data';
 const Home = () => {
     return (
         <>
-            <div className="text-black dark:text-neutral-100 px-5 py-24 leading-normal text-sm xs:text-sm sm:text-md md:text-xl lg:text-2xl
+            <div className="text-black dark:text-neutral-100 px-5 py-10 leading-normal text-sm xs:text-sm sm:text-md md:text-xl lg:text-2xl
             flex flex-row grid 
             grid-cols-1 xs:grid-cols-1 md:grid-cols-7">
                 <div className='col-span-4 pr-0 xs:pr-0 md:pr-14'>
