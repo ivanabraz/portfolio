@@ -35,6 +35,10 @@ export const projectsData =
                 imgAlt:"Image 4",
                 imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/nudo/nudo_04.jpg?raw=true",
             },
+            { 
+                imgAlt:"Image 5",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/nudo/nudo_05.jpg?raw=true",
+            },
         ],
     },
     {
@@ -155,7 +159,7 @@ export const projectsData =
                 linkUrl:"https://marcelobrodsky.com/", 
             },
         ],
-        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_00.jpg?raw=true",
+        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_0.jpg?raw=true",
         images: [
             { 
                 imgAlt:"Image 0",
@@ -248,15 +252,15 @@ export const projectsData =
             },
             { 
                 imgAlt:"Image 6",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_07.jpg",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_07.jpg?raw=true",
             },
             { 
                 imgAlt:"Image 7",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_09.jpg",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_09.jpg?raw=true",
             },
             { 
                 imgAlt:"Image 8",
-                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_08.jpg",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_08.jpg?raw=true",
             },
         ],
     },
@@ -277,7 +281,7 @@ export const projectsData =
                 linkUrl:"https://taiyaki-taiyaki.netlify.app/", 
             },
         ],
-        imageThumb:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/taiyaki/taiyaki_header.png?raw=true",
+        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/taiyaki/taiyaki_01.png?raw=true",
         images: [
             {
                 imgAlt:"Image 0",
@@ -285,7 +289,7 @@ export const projectsData =
             },
             {
                 imgAlt:"Image 1",
-                imgUrl:"https://github.com/ivanabraz/taiyaki/raw/main/readme/taiyaki.gif",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/taiyaki/taiyaki_01.png?raw=true",
             },
         ],
     },
