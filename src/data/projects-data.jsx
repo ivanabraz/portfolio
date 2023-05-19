@@ -163,7 +163,7 @@ export const projectsData =
         images: [
             { 
                 imgAlt:"Image 0",
-                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_00.jpg?raw=true",
+                imgUrl:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_0.jpg?raw=true",
             },
             { 
                 imgAlt:"Image 1",
