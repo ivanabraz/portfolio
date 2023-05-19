@@ -224,7 +224,7 @@ export const projectsData =
                 linkUrl:"https://pokoj-pokoj.netlify.app/", 
             }
         ],
-        imageThumb:"https://github.com/ivanabraz/portfolio/blob/newdesign/src/images/projects/pokoj/pokoj_header.png?raw=true",
+        imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_header.png?raw=true",
         images: [
             { 
                 imgAlt:"Image0 ",
