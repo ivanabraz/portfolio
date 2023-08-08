@@ -47,7 +47,7 @@ export const projectsData =
         title: "Auguste Rodin",
         year: 2017,
         text: `This experimental book is a academic project and is a redesign of the book "Rodin. El hombre y su arte". In english: "The Man and His Art: With Leaves from His Notebook" by Judith Cladel (1917) For the materialisation of this book inspiration was directly taken from Rodin's work. When you observe Rodin's work — especially La Porte de l'Enfer — it seems to carry a soft veil of mist. This veil used as an inspiration is conceptually related to his late diagnosed myopia; hence the decision to use tracing paper as the medium for some of the pages.`,
-        textSecondary: "185 x 240 mm. 310 pages. Hardcover book and case with embossed logo. Binded with a black cloth. Chambril and printed tracing paper.",
+        textSecondary: "185 x 240 mm. 310 pages. Hardcover book and case with embossed logo. Binded with black cloth. Chambril and printed tracing paper.",
         links: [
         ],
         imageThumb:"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_04.jpg?raw=true",
