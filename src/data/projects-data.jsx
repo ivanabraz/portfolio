@@ -1,6 +1,42 @@
 export const projectsData = 
 [
     {
+        id: "sufragio-femenino",
+        categories: "Book/ Personal",
+        title: "Sufragio Femenino",
+        year: 2023,
+        text: "Sufragio Femenino is a tribute to Alicia Moreau, Sara Justo, Julieta Lanteri, Elvira Rawson and Cecilia Grierson; extraordinary women whose names and vital contributions to this fight were forever overshadowed by the events of 1947. This is also a homage to the unwavering determination of all argentinean women who for decades, fiercely battled against all odds to seize a fundamental right: the right to vote. They etched their names in history by reclaiming their autonomy in a society long dominated by machismo. This book portrays a part of this collective fight until the historic day when argentinean women with hearts afire, swarmed the polling stations.",
+        textSecondary: "210 x 297 mm. Hardcover book and case with embossed logo. Binded with purple cloth. Opalina paper.",
+        links: [],
+        imageThumb:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_01.jpg",
+        images: [
+            { 
+                imgAlt:"Image 1",
+                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_01.jpg",
+            },
+            { 
+                imgAlt:"Image 2",
+                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_02.jpg",
+            },
+            { 
+                imgAlt:"Image 3",
+                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_03.jpg",
+            },
+            { 
+                imgAlt:"Image 4",
+                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_04.jpg",
+            },
+            { 
+                imgAlt:"Image 5",
+                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_05.jpg",
+            },
+            { 
+                imgAlt:"Image 6",
+                imgUrl:"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_06.jpg",
+            },
+        ],
+    },
+    {
         id: "nudo",
         categories: "Identity/ Commissioned",
         title: "NUDO by Cris",

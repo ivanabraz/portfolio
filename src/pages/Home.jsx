@@ -28,7 +28,7 @@ const Home = () => {
                 </div>
             </div>
 
-            {projectsData && projectsData.slice(0, 3).map((project) => (
+            {projectsData && projectsData.slice(0, 4).map((project) => (
                 <ProjectDetail {...project} key={project.id}/>
             ))}
         </>
