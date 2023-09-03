@@ -54,11 +54,11 @@
                 "linkUrl":"https://nudobycris.netlify.app/"
             }
         ],
-        "imageThumb":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/nudo/nudo_01.jpg?raw=true",
+        "imageThumb":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/nudo/nudo_01.jpg",
         "images": [
             { 
                 "imgAlt":"Image 1",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/nudo/nudo_01.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/nudo/nudo_01.jpg"
             },
             { 
                 "imgAlt":"Image 2",
@@ -66,15 +66,15 @@
             },
             { 
                 "imgAlt":"Image 3",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/nudo/nudo_03.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/nudo/nudo_03.jpg"
             },
             { 
                 "imgAlt":"Image 4",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/nudo/nudo_04.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/nudo/nudo_04.jpg"
             },
             { 
                 "imgAlt":"Image 5",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/nudo/nudo_05.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/nudo/nudo_05.jpg"
             }
         ]
     },
@@ -87,95 +87,95 @@
         "text": "This experimental book is an academic project and is a redesign of the book 'Rodin. El hombre y su arte'. In English: 'The Man and His Art: With Leaves from His Notebook' by Judith Cladel (1917). For the materialization of this book, inspiration was directly taken from Rodin's work. When you observe Rodin's work — especially La Porte de l'Enfer — it seems to carry a soft veil of mist. This veil, used as an inspiration, is conceptually related to his late-diagnosed myopia; hence the decision to use tracing paper as the medium for some of the pages.",
         "textSecondary": "185 x 240 mm. 310 pages. Hardcover book and case with embossed logo. Binded with black cloth. Chambril and printed tracing paper.",
         "links": [],
-        "imageThumb":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_04.jpg?raw=true",
+        "imageThumb":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_04.jpg",
         "images": [
             { 
                 "imgAlt":"Image 0",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_04.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_04.jpg"
             },
             { 
                 "imgAlt":"Image 1",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_02.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_02.jpg"
             },
             { 
                 "imgAlt":"Image 2",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_03.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_03.jpg"
             },
             { 
                 "imgAlt":"Image 3",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_01.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_01.jpg"
             },
             { 
                 "imgAlt":"Image 4",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_05.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_05.jpg"
             },
             { 
                 "imgAlt":"Image 5",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_06.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_06.jpg"
             },
             { 
                 "imgAlt":"Image 6",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_07.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_07.jpg"
             },
             { 
                 "imgAlt":"Image 7",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_08.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_08.jpg"
             },
             { 
                 "imgAlt":"Image 8",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_09.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_09.jpg"
             },
             { 
                 "imgAlt":"Image 9",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_10.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_10.jpg"
             },
             { 
                 "imgAlt":"Image 10",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_11.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_11.jpg"
             },
             { 
                 "imgAlt":"Image 11",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_11.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_11.jpg"
             },
             { 
                 "imgAlt":"Image 12",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_12.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_12.jpg"
             },
             { 
                 "imgAlt":"Image 13",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_13.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_13.jpg"
             },
             { 
                 "imgAlt":"Image 14",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_14.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_14.jpg"
             },
             { 
                 "imgAlt":"Image 15",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_15.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_15.jpg"
             },
             { 
                 "imgAlt":"Image 16",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_16.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_16.jpg"
             },
             { 
                 "imgAlt":"Image 17",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_17.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_17.jpg"
             },
             { 
                 "imgAlt":"Image 18",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_18.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_18.jpg"
             },
             { 
                 "imgAlt":"Image 19",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_19.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_19.jpg"
             },
             { 
                 "imgAlt":"Image 20",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_20.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_20.jpg"
             },
             { 
                 "imgAlt":"Image 21",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/rodin/rodin-book_21.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_21.jpg"
             }
         ]
     },
@@ -197,51 +197,51 @@
                 "linkUrl":"https://marcelobrodsky.com/"
             }
         ],
-        "imageThumb":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_0.jpg?raw=true",
+        "imageThumb":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_0.jpg",
         "images": [
             { 
                 "imgAlt":"Image 0",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_0.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_0.jpg"
             },
             { 
                 "imgAlt":"Image 1",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_01.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_01.jpg"
             },
             { 
                 "imgAlt":"Image 2",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_02.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_02.jpg"
             },
             { 
                 "imgAlt":"Image 3",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_03.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_03.jpg"
             },
             { 
                 "imgAlt":"Image 4",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_04.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_04.jpg"
             },
             { 
                 "imgAlt":"Image 5",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_05.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_05.jpg"
             },
             { 
                 "imgAlt":"Image 6",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_06.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_06.jpg"
             },
             { 
                 "imgAlt":"Image 7",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_07.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_07.jpg"
             },
             { 
                 "imgAlt":"Image 8",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_08.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_08.jpg"
             },
             { 
                 "imgAlt":"Image 9",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_09.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_09.jpg"
             },
             { 
                 "imgAlt":"Image 10",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_010.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_010.jpg"
             }
         ]
     },
@@ -263,43 +263,43 @@
                 "linkUrl":"https://pokoj-pokoj.netlify.app/"
             }
         ],
-        "imageThumb":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_header.png?raw=true",
+        "imageThumb":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_header.png",
         "images": [
             { 
                 "imgAlt":"Image0 ",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_01.gif?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_01.gif"
             },
             { 
                 "imgAlt":"Image 1",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_02.gif?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_02.gif"
             },
             { 
                 "imgAlt":"Image 2",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_03.gif?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_03.gif"
             },
             { 
                 "imgAlt":"Image 3",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_04.gif?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_04.gif"
             },
             { 
                 "imgAlt":"Image 4",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_05.gif?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_05.gif"
             },
             { 
                 "imgAlt":"Image 5",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_06.gif?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_06.gif"
             },
             { 
                 "imgAlt":"Image 6",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_07.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_07.jpg"
             },
             { 
                 "imgAlt":"Image 7",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_09.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_09.jpg"
             },
             { 
                 "imgAlt":"Image 8",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/pokoj/pokoj_08.jpg?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_08.jpg"
             }
         ]
     },
@@ -321,7 +321,7 @@
                 "linkUrl":"https://taiyaki-taiyaki.netlify.app/"
             }
         ],
-        "imageThumb":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/taiyaki/taiyaki_01.png?raw=true",
+        "imageThumb":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/taiyaki/taiyaki_01.png",
         "images": [
             {
                 "imgAlt":"Image 0",
@@ -329,7 +329,7 @@
             },
             {
                 "imgAlt":"Image 1",
-                "imgUrl":"https://github.com/ivanabraz/portfolio/blob/main/src/images/projects/taiyaki/taiyaki_01.png?raw=true"
+                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/taiyaki/taiyaki_01.png"
             }
         ]
     }
