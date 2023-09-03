@@ -10,9 +10,9 @@ import { ThemeProvider } from './context/ThemeContext';
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>
-      <body className='w-screen h-screen bg-white dark:bg-black'>
+      <div className='w-screen h-screen bg-white dark:bg-black'>
           <App />
-      </body>
+      </div>
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')

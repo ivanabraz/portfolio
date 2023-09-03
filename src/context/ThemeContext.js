@@ -1,21 +1,11 @@
 import React from 'react';
 export const ThemeContext = React.createContext();
 
-
 const getInitialTheme = () => {
-    if (typeof window !== 'undefined' && window.localStorage) {
-        const storedPrefs = window.localStorage.getItem('current-theme');
-        if (typeof storedPrefs === 'string') {
-        return storedPrefs;
-        }
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        return 'dark';
-        }
-    }
-    return 'light';
-};
+    return 'dark';
+    };
 
-export const ThemeProvider = ({ initialTheme, children }) => {
+    export const ThemeProvider = ({ initialTheme, children }) => {
     const [theme, setTheme] = React.useState(getInitialTheme);
 
     const checkTheme = (existing) => {
@@ -41,4 +31,4 @@ export const ThemeProvider = ({ initialTheme, children }) => {
             {children}
         </ThemeContext.Provider>
     );
-}
+};

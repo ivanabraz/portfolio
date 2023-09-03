@@ -8,9 +8,9 @@ const Project = ({project}) =>{
             className="h-100 bg-white dark:bg-black"
             />
             <p className='text-lg pt-1 flex justify-between'>
-                <p>{project.title}</p>
-                {/* <p className='text-neutral-500'>{project.categories}</p>
-                <p className='text-neutral-500'>{project.year}</p> */}
+                {project.title}
+                {/* <span className='text-neutral-500'>{project.categories}</span>
+                <span className='text-neutral-500'>{project.year}</span> */}
             </p>
         </div>
         </>
