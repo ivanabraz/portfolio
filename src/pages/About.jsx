@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid'
+import { v4 as uuidv4 } from 'uuid';
 
 const about = {
     title:'About',
@@ -69,18 +70,17 @@ const About = () => {
                             {about.title}
                         </p>
                         {about.text.map((item) => (
-                            <p key={item.name} className='pb-2'>
+                            <p key={uuidv4()} className='pb-2'>
                                 {item.name}
                             </p>
                         ))}
-                        
                         
                         {/* What I'm up to */}
                         <p className='font-bold leading-normal pb-5 mt-10 xs:mt-10 sm:mt-10 md:pt-0 '>
                             {whatUpTo.title}
                         </p>
                         {whatUpTo.list.map((item) => (
-                            <p key={item.name}>
+                            <p key={uuidv4()}>
                                 {item.name}
                             </p>
                         ))}
@@ -92,7 +92,7 @@ const About = () => {
                             {disciplines.title}
                         </p>
                         {disciplines.list.map((discipline) => (
-                            <p key={discipline.name}>
+                            <p key={uuidv4()}>
                                 {discipline.name}
                             </p>
                         ))}
@@ -104,7 +104,7 @@ const About = () => {
                             {contact.title}
                         </p>
                         {contact.list.map((item) => (
-                            <a key={item.name} href={"https://" + item.href} 
+                            <a key={uuidv4()} href={"https://" + item.href} 
                             className="w-fit
                             border-b border-transparent 
                             hover:border-solid hover:border-b hover:border-neutral-100 

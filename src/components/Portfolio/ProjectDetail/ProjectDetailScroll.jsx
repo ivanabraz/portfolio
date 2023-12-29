@@ -1,5 +1,6 @@
 import React from "react";
-import { ArrowUpRightIcon } from '@heroicons/react/20/solid'
+import { ArrowUpRightIcon } from '@heroicons/react/20/solid';
+import { v4 as uuidv4 } from 'uuid';
 
 const ProjectDetail = (projectsData) => {
     const imagePath = `${process.env.PUBLIC_URL}/images/projects/${projectsData.id}/`;
@@ -22,7 +23,7 @@ const ProjectDetail = (projectsData) => {
                 {Array.isArray(projectsData.images) && projectsData.images.length > 0 && (
                     <>
                     {projectsData.images[0].type === 'video' ? (
-                        <video width="100%" autoPlay loop muted playInline>
+                        <video width="100%" autoPlay loop muted playsInline>
                         <source src={imagePath + projectsData.images[0].imgUrl} type="video/mp4" />
                         Tu navegador no soporta el tag de video.
                         </video>
@@ -33,9 +34,7 @@ const ProjectDetail = (projectsData) => {
                 )}
             </div>
 
-            <div className="w-full flex justify-between grid grid-cols-10
-            gap-x-0 md:gap-x-10 lg:gap-x-30 gap-y-5
-            text-black dark:text-neutral-100 leading-normal text-sm xs:text-sm sm:text-sm md:text-md lg:text-xl">
+            <div className="w-full flex justify-between grid grid-cols-10 gap-x-0 md:gap-x-10 lg:gap-x-30 gap-y-5 text-black dark:text-neutral-100 leading-normal text-sm xs:text-sm sm:text-sm md:text-md lg:text-xl">
                 <div className='col-span-10 xs:col-span-10 sm:col-span-10 md:col-span-6 lg:col-span-6'>
                     {projectsData.text}
                 </div>
@@ -47,12 +46,12 @@ const ProjectDetail = (projectsData) => {
                             </p>
                         </div>
                         <div className='flex flex-row xs:flex-row sm:flex-row md:flex-col'>
-                        {projectsData.links?.map((link) => (
+                            {projectsData.links?.map((link) => (
                                 link.length !== 0
-                                    ?   <a key={link.linkName} href={link.linkUrl} className='flex flex-row border-b border-neutral-500 w-fit mb-1 mr-3' target="_blank" rel="noopener noreferrer">
+                                    ?   <a key={uuidv4()} href={link.linkUrl} className='flex flex-row border-b border-neutral-500 w-fit mb-1 mr-3' target="_blank" rel="noopener noreferrer">
                                             {link.linkName} <ArrowUpRightIcon className="h-4 xs:h-4 sm:h-4 md:h-5 lg:h-6 w-4 xs:w-4 sm:w-4 md:w-5 lg:w-6 self-end" />
                                         </a>
-                                    :   <></>
+                                    :   <React.Fragment key={uuidv4()}></React.Fragment>
                             ))}
                         </div>
                     </div>
@@ -61,13 +60,13 @@ const ProjectDetail = (projectsData) => {
 
             <div className="my-[2.5rem]">
                 {Array.isArray(projectsData.images) && projectsData.images.slice(1).map((media, index) => (
-                    <React.Fragment key={index}>
+                    <React.Fragment key={uuidv4()}>
                         {media.type === 'nested' ? (
                             <div className="w-full grid grid-cols-2 xs:grid-cols-1 md:grid-cols-2 gap-3 mb-5">
                                 {media.nestedImages.map((nestedMedia, nestedIndex) => (
-                                    <div key={nestedIndex} className="relative aspect-video md:aspect-square overflow-hidden">
+                                    <div key={uuidv4()} className="relative aspect-video md:aspect-square overflow-hidden">
                                         {nestedMedia.type === 'video' ? (
-                                            <video className="md:object-cover md:w-full md:h-full" autoPlay loop muted playInline>
+                                            <video className="md:object-cover md:w-full md:h-full" autoPlay loop muted playsInline>
                                             <source src={imagePath + nestedMedia.imgUrl} type="video/mp4" />
                                                 Tu navegador no soporta el tag de video.
                                             </video>
@@ -80,7 +79,7 @@ const ProjectDetail = (projectsData) => {
                         ) : (
                             <div className="mb-5">
                                 {media.type === 'video' ? (
-                                    <video width="100%" autoPlay loop muted playInline>
+                                    <video width="100%" autoPlay loop muted playsInline>
                                     <source src={imagePath + media.imgUrl} type="video/mp4" />
                                         Tu navegador no soporta el tag de video.
                                     </video>
@@ -92,11 +91,8 @@ const ProjectDetail = (projectsData) => {
                     </React.Fragment>
                 ))}
             </div>
-
         </div>
     );
 }
 
 export default ProjectDetail;
-
-

@@ -1,7 +1,8 @@
 import React from "react";
 import SwiperSlider from "../../SwiperSlider/SwiperSlider";
-import { ArrowUpRightIcon } from '@heroicons/react/20/solid'
+import { ArrowUpRightIcon } from '@heroicons/react/20/solid';
 import { Link } from "react-router-dom";
+import { v4 as uuidv4 } from 'uuid';
 
 const ProjectDetail = (projectsData) => {
     return (
@@ -22,9 +23,7 @@ const ProjectDetail = (projectsData) => {
 
             <SwiperSlider {...projectsData} />
 
-            <div className="w-full flex justify-between grid grid-cols-10
-            gap-x-0 md:gap-x-10 lg:gap-x-30 gap-y-5
-            text-black dark:text-neutral-100 leading-normal text-sm xs:text-sm sm:text-sm md:text-md lg:text-xl">
+            <div className="w-full flex justify-between grid grid-cols-10 gap-x-0 md:gap-x-10 lg:gap-x-30 gap-y-5 text-black dark:text-neutral-100 leading-normal text-sm xs:text-sm sm:text-sm md:text-md lg:text-xl">
                 <div className='col-span-10 xs:col-span-10 sm:col-span-10 md:col-span-6 lg:col-span-6'>
                     {projectsData.text}
                 </div>
@@ -36,16 +35,15 @@ const ProjectDetail = (projectsData) => {
                             </p>
                         </div>
                         <div className='flex flex-row xs:flex-row sm:flex-row md:flex-col'>
-                        {projectsData.links?.map((link) => (
+                            {projectsData.links?.map((link) => (
                                 link.length !== 0
-                                    ?   <a key={link.linkName} href={link.linkUrl} className='flex flex-row border-b border-neutral-500 w-fit mb-1 mr-3' target="_blank" rel="noopener noreferrer">
+                                    ?   <a key={uuidv4()} href={link.linkUrl} className='flex flex-row border-b border-neutral-500 w-fit mb-1 mr-3' target="_blank" rel="noopener noreferrer">
                                             {link.linkName} <ArrowUpRightIcon className="h-4 xs:h-4 sm:h-4 md:h-5 lg:h-6 w-4 xs:w-4 sm:w-4 md:w-5 lg:w-6 self-end" />
                                         </a>
-                                    :   <></>
+                                    :   <React.Fragment key={uuidv4()}></React.Fragment>
                             ))}
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -53,5 +51,3 @@ const ProjectDetail = (projectsData) => {
 }
 
 export default ProjectDetail;
-
-

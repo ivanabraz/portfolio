@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectDetail from '../components/Portfolio/ProjectDetail/ProjectDetail';
 import { ArrowDownRightIcon } from '@heroicons/react/20/solid'
 import { ArrowDownLeftIcon } from '@heroicons/react/20/solid'
+import { v4 as uuidv4 } from 'uuid';
 
 // Projects data
 import projectsData from '../data/projects-data.json';
@@ -31,7 +32,7 @@ const Home = () => {
             </div>
 
             {featuredProjects.map((project) => (
-                <ProjectDetail {...project} key={project.id}/>
+                <ProjectDetail {...project} key={uuidv4()} />
             ))}
         </>
     );
