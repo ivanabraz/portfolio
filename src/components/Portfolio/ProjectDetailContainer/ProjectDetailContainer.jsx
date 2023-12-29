@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import { useParams } from 'react-router';
-import ProjectDetail from '../ProjectDetail/ProjectDetail';
+import ProjectDetailScroll from '../ProjectDetail/ProjectDetailScroll';
 import projectsData from '../../../data/projects-data.json';
 
 const ProjectDetailContainer = () => {
@@ -16,7 +16,7 @@ const ProjectDetailContainer = () => {
 
     return (
         <Fragment>
-            {project && <ProjectDetail {...project} />}
+            {project && <ProjectDetailScroll {...project} />}
         </Fragment>
     );
 };

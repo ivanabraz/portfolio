@@ -1,22 +1,45 @@
 import React from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-
-// import required modules
 import { Navigation } from "swiper";
 
 const SwiperSlider = (projectsData) => {
+    const imagePath = `${process.env.PUBLIC_URL}/images/projects/${projectsData.id}/`;
+
     return (
         <>
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper my-10">
-            {projectsData.images?.map((image) => (
-                <SwiperSlide key={image.imgAlt}>
-                    <img src={image.imgUrl} alt={projectsData.title + " - " + image.imgAlt}/>
-                </SwiperSlide>
+            {projectsData.images?.map((media) => (
+            <SwiperSlide key={media.imgAlt} className="bg-white dark:bg-black">
+                {media.type === "nested" ? (
+                <Swiper slidesPerView={1} spaceBetween={0} className="nested-swiper">
+                    {media.nestedImages.map((nestedMedia, nestedIndex) => (
+                    <SwiperSlide key={nestedIndex}>
+                        {nestedMedia.type === "image" ? (
+                        <img src={imagePath + nestedMedia.imgUrl} alt={projectsData.title + " - " + nestedMedia.imgAlt} />
+                        ) : nestedMedia.type === "video" ? (
+                        <video autoPlay loop muted width="100%">
+                            <source src={imagePath + nestedMedia.imgUrl} type="video/mp4" />
+                            Tu navegador no soporta el tag de video.
+                        </video>
+                        ) : null}
+                    </SwiperSlide>
+                    ))}
+                </Swiper>
+                ) : (
+                <>
+                    {media.type === "image" ? (
+                    <img src={imagePath + media.imgUrl} alt={projectsData.title + " - " + media.imgAlt} />
+                    ) : media.type === "video" ? (
+                    <video autoPlay loop muted width="100%">
+                        <source src={imagePath + media.imgUrl} type="video/mp4" />
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    ) : null}
+                </>
+                )}
+            </SwiperSlide>
             ))}
         </Swiper>
         </>

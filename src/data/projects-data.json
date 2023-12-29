@@ -1,6 +1,54 @@
 [
     {
         "featured": true,
+        "id": "ginni",
+        "categories": "Visual identity/ Personal",
+        "title": "Ginni",
+        "year": 2023,
+        "text": "Ginni is a project where the vibrant fusion of flavors, music, and ambiance converge to create a unique experience. Ginni celebrates the art of gin crafting, offering a diverse menu of carefully curated drinks that tantalize the taste buds. From classic concoctions to innovative blends, is a haven for gin enthusiasts seeking an elevated drinking experience. The snack menu is expertly paired to complement the nuanced flavors of signature drinks.",
+        "textSecondary": "Video: Engin Akyurt. Photo: Osvaldo Romito.",
+        "links": [],
+        "images": [
+            { 
+                "type": "video",
+                "imgUrl":"img-01.mp4"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Image 3",
+                "imgUrl":"img-03.png"
+            },
+            {
+                "type": "nested",
+                "nestedImages": [
+                    {
+                        "type": "image",
+                        "imgUrl": "img-04.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "imgUrl": "img-05.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "video",
+                "imgUrl":"img-02.mp4"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Image 7",
+                "imgUrl":"img-07.png"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Image 6",
+                "imgUrl":"img-06.jpg"
+            }
+        ]
+    },
+    {
+        "featured": true,
         "id": "sufragio-femenino",
         "categories": "Book/ Personal",
         "title": "Sufragio Femenino",
@@ -8,31 +56,36 @@
         "text": "Sufragio Femenino is a tribute to Alicia Moreau, Sara Justo, Julieta Lanteri, Elvira Rawson and Cecilia Grierson; extraordinary women whose names and vital contributions to this fight were forever overshadowed by the events of 1947. This is also a homage to the unwavering determination of all argentinean women who for decades, fiercely battled against all odds to seize a fundamental right: the right to vote. They etched their names in history by reclaiming their autonomy in a society long dominated by machismo. This book portrays a part of this collective fight until the historic day when argentinean women with hearts afire, swarmed the polling stations.",
         "textSecondary": "210 x 297 mm. Hardcover book and case with embossed logo. Binded with purple cloth. Opalina paper.",
         "links": [],
-        "imageThumb":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_01.jpg",
         "images": [
             { 
+                "type": "image",
                 "imgAlt":"Image 1",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_01.jpg"
+                "imgUrl":"img-01.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 2",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_02.jpg"
+                "imgUrl":"img-02.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 3",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_03.jpg"
+                "imgUrl":"img-03.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 4",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_04.jpg"
+                "imgUrl":"img-04.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 5",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_05.jpg"
+                "imgUrl":"img-05.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 6",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/sufragio-femenino/sufragio-femenino_06.jpg"
+                "imgUrl":"img-06.jpg"
             }
         ]
     },
@@ -54,134 +107,159 @@
                 "linkUrl":"https://nudobycris.netlify.app/"
             }
         ],
-        "imageThumb":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/nudo/nudo_01.jpg",
         "images": [
             { 
+                "type": "image",
                 "imgAlt":"Image 1",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/nudo/nudo_01.jpg"
+                "imgUrl":"img-01.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 2",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/nudo/nudo_02.gif"
+                "imgUrl":"img-02.gif"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 3",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/nudo/nudo_03.jpg"
+                "imgUrl":"img-03.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 4",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/nudo/nudo_04.jpg"
+                "imgUrl":"img-04.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 5",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/nudo/nudo_05.jpg"
+                "imgUrl":"img-05.jpg"
             }
         ]
     },
     {
         "featured": true,
-        "id": "auguste-rodin",
+        "id": "rodin",
         "categories": "Book/ Academic",
         "title": "Auguste Rodin",
         "year": 2017,
         "text": "This experimental book is an academic project and is a redesign of the book 'Rodin. El hombre y su arte'. In English: 'The Man and His Art: With Leaves from His Notebook' by Judith Cladel (1917). For the materialization of this book, inspiration was directly taken from Rodin's work. When you observe Rodin's work — especially La Porte de l'Enfer — it seems to carry a soft veil of mist. This veil, used as an inspiration, is conceptually related to his late-diagnosed myopia; hence the decision to use tracing paper as the medium for some of the pages.",
         "textSecondary": "185 x 240 mm. 310 pages. Hardcover book and case with embossed logo. Binded with black cloth. Chambril and printed tracing paper.",
         "links": [],
-        "imageThumb":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_04.jpg",
         "images": [
             { 
+                "type": "image",
                 "imgAlt":"Image 0",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_04.jpg"
+                "imgUrl":"img-04.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 1",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_02.jpg"
+                "imgUrl":"img-02.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 2",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_03.jpg"
+                "imgUrl":"img-03.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 3",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_01.jpg"
+                "imgUrl":"img-01.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 4",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_05.jpg"
+                "imgUrl":"img-05.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 5",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_06.jpg"
+                "imgUrl":"img-06.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 6",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_07.jpg"
+                "imgUrl":"img-07.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 7",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_08.jpg"
+                "imgUrl":"img-08.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 8",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_09.jpg"
+                "imgUrl":"img-09.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 9",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_10.jpg"
+                "imgUrl":"img-10.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 10",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_11.jpg"
+                "imgUrl":"img-11.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 11",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_11.jpg"
+                "imgUrl":"img-11.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 12",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_12.jpg"
+                "imgUrl":"img-12.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 13",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_13.jpg"
+                "imgUrl":"img-13.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 14",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_14.jpg"
+                "imgUrl":"img-14.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 15",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_15.jpg"
+                "imgUrl":"img-15.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 16",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_16.jpg"
+                "imgUrl":"img-16.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 17",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_17.jpg"
+                "imgUrl":"img-17.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 18",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_18.jpg"
+                "imgUrl":"img-18.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 19",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_19.jpg"
+                "imgUrl":"img-19.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 20",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_20.jpg"
+                "imgUrl":"img-20.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 21",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/rodin/rodin-book_21.jpg"
+                "imgUrl":"img-21.jpg"
             }
         ]
     },
     {
         "featured": true,
-        "id": "el-alma-de-un-gigante",
+        "id": "elalmadeungigante",
         "categories": "Book/ Commissioned",
         "title": "El Alma de un gigante",
         "year": 2019,
@@ -197,139 +275,61 @@
                 "linkUrl":"https://marcelobrodsky.com/"
             }
         ],
-        "imageThumb":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_0.jpg",
         "images": [
             { 
-                "imgAlt":"Image 0",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_0.jpg"
-            },
-            { 
+                "type": "image",
                 "imgAlt":"Image 1",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_01.jpg"
+                "imgUrl":"img-01.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 2",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_02.jpg"
+                "imgUrl":"img-02.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 3",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_03.jpg"
+                "imgUrl":"img-03.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 4",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_04.jpg"
+                "imgUrl":"img-04.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 5",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_05.jpg"
+                "imgUrl":"img-05.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 6",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_06.jpg"
+                "imgUrl":"img-06.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 7",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_07.jpg"
+                "imgUrl":"img-07.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 8",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_08.jpg"
+                "imgUrl":"img-08.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 9",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_09.jpg"
+                "imgUrl":"img-09.jpg"
             },
             { 
+                "type": "image",
                 "imgAlt":"Image 10",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/el-alma-de-un-gigante/el-alma-de-un-gigante_010.jpg"
-            }
-        ]
-    },
-    {
-        "featured": false,
-        "id": "pokoj",
-        "categories": "Web dev/ Autonomous",
-        "title": "Pokój",
-        "year": 2022,
-        "text": "This project is a prototype made for the Saint George camp (Złaz Świętego Jerzego 2022). The topic developed during the camp was related to 'peace' and those personalities that historically contributed to it, due to the current context. The goal of the prototype was to create a brief information source so that adolescents could access it through a QR code and interact with it.",
-        "textSecondary": "",
-        "links": [ 
-            { 
-                "linkName":"GitHub",
-                "linkUrl":"https://github.com/ivanabraz/pokoj"
+                "imgUrl":"img-10.jpg"
             },
             { 
-                "linkName":"Live demo",
-                "linkUrl":"https://pokoj-pokoj.netlify.app/"
-            }
-        ],
-        "imageThumb":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_header.png",
-        "images": [
-            { 
-                "imgAlt":"Image0 ",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_01.gif"
-            },
-            { 
-                "imgAlt":"Image 1",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_02.gif"
-            },
-            { 
-                "imgAlt":"Image 2",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_03.gif"
-            },
-            { 
-                "imgAlt":"Image 3",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_04.gif"
-            },
-            { 
-                "imgAlt":"Image 4",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_05.gif"
-            },
-            { 
-                "imgAlt":"Image 5",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_06.gif"
-            },
-            { 
-                "imgAlt":"Image 6",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_07.jpg"
-            },
-            { 
-                "imgAlt":"Image 7",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_09.jpg"
-            },
-            { 
-                "imgAlt":"Image 8",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/pokoj/pokoj_08.jpg"
-            }
-        ]
-    },
-    {
-        "featured": false,
-        "id": "taiyaki",
-        "categories": "Web dev/ Academic",
-        "title": "Taiyaki",
-        "year": 2022,
-        "text": "For the final project of the ReactJs course in CODERHOUSE, I decided to materialize a personal project called Taiyaki. This concept store offers an unique gastronomic proposal, based on the iconic Japanese fish-shaped cake, adapting and carefully curating new flavours for people to enjoy.",
-        "textSecondary": "",
-        "links": [
-            { 
-                "linkName":"GitHub",
-                "linkUrl":"https://github.com/ivanabraz/taiyaki"
-            },
-            { 
-                "linkName":"Live demo",
-                "linkUrl":"https://taiyaki-taiyaki.netlify.app/"
-            }
-        ],
-        "imageThumb":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/taiyaki/taiyaki_01.png",
-        "images": [
-            {
-                "imgAlt":"Image 0",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/taiyaki/main/readme/home.png"
-            },
-            {
-                "imgAlt":"Image 1",
-                "imgUrl":"https://raw.githubusercontent.com/ivanabraz/portfolio/main/src/images/projects/taiyaki/taiyaki_01.png"
+                "type": "image",
+                "imgAlt":"Image 11",
+                "imgUrl":"img-11.jpg"
             }
         ]
     }

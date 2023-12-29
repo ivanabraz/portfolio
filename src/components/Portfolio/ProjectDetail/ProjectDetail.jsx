@@ -1,21 +1,24 @@
 import React from "react";
 import SwiperSlider from "../../SwiperSlider/SwiperSlider";
 import { ArrowUpRightIcon } from '@heroicons/react/20/solid'
+import { Link } from "react-router-dom";
 
 const ProjectDetail = (projectsData) => {
     return (
         <div className='w-full flex flex-col pt-10 pb-10 px-5 border-t border-neutral-500 bg-white dark:bg-black'>
-            <div className="w-full grid grid-cols-7 uppercase condensed leading-normal text-xl xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl">
-                <div className='col-span-3 xs:col-span-3 md:col-span-3 text-black dark:text-neutral-100'>
-                    {projectsData.title}
+            <Link to={`/project/${projectsData.id}`}>
+                <div className="w-full grid grid-cols-7 uppercase condensed leading-normal text-xl xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+                    <div className='col-span-3 xs:col-span-3 md:col-span-3 text-black dark:text-neutral-100'>
+                        {projectsData.title}
+                    </div>
+                    <div className='col-span-3 xs:col-span-3 md:col-span-3 text-black dark:text-neutral-500'>
+                        {projectsData.categories}
+                    </div>
+                    <div className='text-right text-black dark:text-neutral-500'>
+                        {projectsData.year}
+                    </div>
                 </div>
-                <div className='col-span-3 xs:col-span-3 md:col-span-3 text-black dark:text-neutral-500'>
-                    {projectsData.categories}
-                </div>
-                <div className='text-right text-black dark:text-neutral-500'>
-                    {projectsData.year}
-                </div>
-            </div>
+            </Link>
 
             <SwiperSlider {...projectsData} />
 
