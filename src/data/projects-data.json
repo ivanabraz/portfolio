@@ -15,7 +15,7 @@
             },
             {
                 "type": "image",
-                "imgAlt":"Image 3",
+                "imgAlt":"Website mobile version",
                 "imgUrl":"img-03.png"
             },
             {
@@ -23,10 +23,12 @@
                 "nestedImages": [
                     {
                         "type": "image",
+                        "imgAlt":"Cocktail glasses with Ginni's logo",
                         "imgUrl": "img-04.jpg"
                     },
                     {
                         "type": "image",
+                        "imgAlt":"Photo of the menu",
                         "imgUrl": "img-05.jpg"
                     }
                 ]
@@ -37,13 +39,18 @@
             },
             {
                 "type": "image",
-                "imgAlt":"Image 7",
+                "imgAlt":"Instagram stories",
                 "imgUrl":"img-07.png"
             },
             {
                 "type": "image",
-                "imgAlt":"Image 6",
+                "imgAlt":"Back and front t-shirt with Ginni's logo",
                 "imgUrl":"img-06.jpg"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Icecubes with Ginni's logo",
+                "imgUrl":"img-08.jpg"
             }
         ]
     },
