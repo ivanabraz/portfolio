@@ -17,7 +17,7 @@ const Project = ({ project }) => {
                 className="h-100 bg-white dark:bg-black"
             />
             ) : firstMedia && firstMedia.type === 'video' ? (
-            <video autoPlay loop muted playsInline className="h-100 bg-white dark:bg-black" width="100%">
+            <video autoPlay loop muted playInline className="h-100 bg-white dark:bg-black" width="100%">
                 <source src={imagePath} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>

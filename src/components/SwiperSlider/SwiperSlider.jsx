@@ -19,7 +19,7 @@ const SwiperSlider = (projectsData) => {
                         {nestedMedia.type === "image" ? (
                         <img src={imagePath + nestedMedia.imgUrl} alt={projectsData.title + " - " + nestedMedia.imgAlt} />
                         ) : nestedMedia.type === "video" ? (
-                        <video autoPlay loop muted playsInline width="100%">
+                        <video autoPlay loop muted playInline width="100%">
                             <source src={imagePath + nestedMedia.imgUrl} type="video/mp4" />
                             Tu navegador no soporta el tag de video.
                         </video>
@@ -32,7 +32,7 @@ const SwiperSlider = (projectsData) => {
                     {media.type === "image" ? (
                     <img src={imagePath + media.imgUrl} alt={projectsData.title + " - " + media.imgAlt} />
                     ) : media.type === "video" ? (
-                    <video autoPlay loop muted playsInline width="100%">
+                    <video autoPlay loop muted playInline width="100%">
                         <source src={imagePath + media.imgUrl} type="video/mp4" />
                         Tu navegador no soporta el tag de video.
                     </video>

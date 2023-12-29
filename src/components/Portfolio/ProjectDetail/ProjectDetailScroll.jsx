@@ -22,7 +22,7 @@ const ProjectDetail = (projectsData) => {
                 {Array.isArray(projectsData.images) && projectsData.images.length > 0 && (
                     <>
                     {projectsData.images[0].type === 'video' ? (
-                        <video width="100%" autoPlay loop muted playsInline>
+                        <video width="100%" autoPlay loop muted playInline>
                         <source src={imagePath + projectsData.images[0].imgUrl} type="video/mp4" />
                         Tu navegador no soporta el tag de video.
                         </video>
@@ -67,7 +67,7 @@ const ProjectDetail = (projectsData) => {
                                 {media.nestedImages.map((nestedMedia, nestedIndex) => (
                                     <div key={nestedIndex} className="relative aspect-video md:aspect-square overflow-hidden">
                                         {nestedMedia.type === 'video' ? (
-                                            <video className="md:object-cover md:w-full md:h-full" autoPlay loop muted playsInline>
+                                            <video className="md:object-cover md:w-full md:h-full" autoPlay loop muted playInline>
                                             <source src={imagePath + nestedMedia.imgUrl} type="video/mp4" />
                                                 Tu navegador no soporta el tag de video.
                                             </video>
@@ -80,7 +80,7 @@ const ProjectDetail = (projectsData) => {
                         ) : (
                             <div className="mb-5">
                                 {media.type === 'video' ? (
-                                    <video width="100%" autoPlay loop muted playsInline>
+                                    <video width="100%" autoPlay loop muted playInline>
                                     <source src={imagePath + media.imgUrl} type="video/mp4" />
                                         Tu navegador no soporta el tag de video.
                                     </video>
