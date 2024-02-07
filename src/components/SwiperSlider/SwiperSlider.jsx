@@ -6,7 +6,7 @@ import { Navigation } from "swiper";
 import { v4 as uuidv4 } from "uuid";
 
 const SwiperSlider = (projectsData) => {
-    const imagePath = `${process.env.PUBLIC_URL}/images/projects/${projectsData.id}/`;
+    const imagePath = `/images/projects/${projectsData.id}/`;
 
     return (
         <>

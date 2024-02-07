@@ -3,7 +3,7 @@ import { ArrowUpRightIcon } from '@heroicons/react/20/solid';
 import { v4 as uuidv4 } from 'uuid';
 
 const ProjectDetail = (projectsData) => {
-    const imagePath = `${process.env.PUBLIC_URL}/images/projects/${projectsData.id}/`;
+    const imagePath = `/images/projects/${projectsData.id}/`;
 
     return (
         <div className='w-full flex flex-col pt-10 pb-10 px-5 border-t border-neutral-500 bg-white dark:bg-black'>

@@ -4,7 +4,7 @@ const Project = ({ project }) => {
     const firstMedia = project.images && project.images.length > 0 ? project.images[0] : null;
 
     const imagePath = firstMedia
-        ? `${process.env.PUBLIC_URL}/images/projects/${project.id}/${firstMedia.imgUrl}`
+        ? `/images/projects/${project.id}/${firstMedia.imgUrl}`
         : null;
 
     return (

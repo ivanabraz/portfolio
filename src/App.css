@@ -1,10 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/tex-gyre-heros');
+
 /* Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Fonts  */
-@import url('https://fonts.cdnfonts.com/css/tex-gyre-heros');
 
 body{ 
   font-family: 'TeXGyreHeros', sans-serif;
