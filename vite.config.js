@@ -18,5 +18,8 @@ export default defineConfig({
     postcss: {
       plugins: [require('tailwindcss')]
     }
+  },
+  build: {
+    outDir: 'build'
   }
 });
