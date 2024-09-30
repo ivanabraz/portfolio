@@ -18,7 +18,7 @@ const SwiperSlider = (projectsData) => {
                                 {media.nestedImages.map((nestedMedia, nestedIndex) => (
                                     <SwiperSlide key={uuidv4()}>
                                         {nestedMedia.type === "image" ? (
-                                            <img src={imagePath + nestedMedia.imgUrl} alt={projectsData.title + " - " + nestedMedia.imgAlt} />
+                                            <img src={imagePath + nestedMedia.imgUrl} alt={projectsData.title + " - " + nestedMedia.imgAlt} loading="lazy"/>
                                         ) : nestedMedia.type === "video" ? (
                                             <video autoPlay loop muted playsInline width="100%" key={uuidv4()}>
                                                 <source src={imagePath + nestedMedia.imgUrl} type="video/mp4" />
@@ -31,7 +31,7 @@ const SwiperSlider = (projectsData) => {
                         ) : (
                             <>
                                 {media.type === "image" ? (
-                                    <img src={imagePath + media.imgUrl} alt={projectsData.title + " - " + media.imgAlt} />
+                                    <img src={imagePath + media.imgUrl} alt={projectsData.title + " - " + media.imgAlt} loading="lazy"/>
                                 ) : media.type === "video" ? (
                                     <video autoPlay loop muted playsInline width="100%" key={uuidv4()}>
                                         <source src={imagePath + media.imgUrl} type="video/mp4" />

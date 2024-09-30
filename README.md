@@ -1,9 +1,7 @@
-# Ivana Braz Portfolio
-
- ## Live Link: 🔗
-  [Website](https://ivanabraz.netlify.app)
-  <br>
-  <br>
+## Live Link: 🔗
+[Website](https://ivanabraz.netlify.app)
+<br>
+<br>
 
 <p align="center">
   <a href="https://github.com/ivanabraz">

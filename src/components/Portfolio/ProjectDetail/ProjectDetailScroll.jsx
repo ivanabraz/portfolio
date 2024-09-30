@@ -28,7 +28,7 @@ const ProjectDetail = (projectsData) => {
                         Tu navegador no soporta el tag de video.
                         </video>
                     ) : (
-                        <img src={imagePath + projectsData.images[0].imgUrl} alt={projectsData.imgAlt} />
+                        <img src={imagePath + projectsData.images[0].imgUrl} alt={projectsData.imgAlt} loading="lazy" />
                     )}
                     </>
                 )}
@@ -58,8 +58,8 @@ const ProjectDetail = (projectsData) => {
                 </div>
             </div>
 
-            <div className="my-[2.5rem]">
-                {Array.isArray(projectsData.images) && projectsData.images.slice(1).map((media, index) => (
+            <div className="my-[2.5rem] w-full md:w-4/5 mx-auto">
+            {Array.isArray(projectsData.images) && projectsData.images.slice(1).map((media, index) => (
                     <React.Fragment key={uuidv4()}>
                         {media.type === 'nested' ? (
                             <div className="w-full grid grid-cols-2 xs:grid-cols-1 md:grid-cols-2 gap-3 mb-5">
@@ -71,7 +71,7 @@ const ProjectDetail = (projectsData) => {
                                                 Tu navegador no soporta el tag de video.
                                             </video>
                                         ) : (
-                                            <img className="md:object-cover md:w-full md:h-full" src={imagePath + nestedMedia.imgUrl} alt={projectsData.imgAlt} />
+                                            <img className="md:object-cover md:w-full md:h-full" src={imagePath + nestedMedia.imgUrl} alt={projectsData.imgAlt} loading="lazy"/>
                                         )}
                                     </div>
                                 ))}
@@ -84,7 +84,7 @@ const ProjectDetail = (projectsData) => {
                                         Tu navegador no soporta el tag de video.
                                     </video>
                                 ) : (
-                                    <img src={imagePath + media.imgUrl} alt={projectsData.imgAlt} />
+                                    <img src={imagePath + media.imgUrl} alt={projectsData.imgAlt} loading="lazy"/>
                                 )}
                             </div>
                         )}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -17,21 +17,36 @@ import ProjectDetailContainer from './components/Portfolio/ProjectDetailContaine
 import Footer from './components/Footer/Footer';
 
 const App = () => {
+    useEffect(() => {
+        const handleContextMenu = (event) => {
+            event.preventDefault();
+        };
+
+        document.addEventListener('contextmenu', handleContextMenu);
+
+        return () => {
+            document.removeEventListener('contextmenu', handleContextMenu);
+        };
+    }, []);
 
     return (
         <NavBarProvider>
-            <BrowserRouter>
-                <NavBar/>
-                <Routes>
-                    <Route index element={ <Home /> }/>
-                    <Route path="projects" element={ <Projects /> }/>
-                    <Route path="about" element={ <About /> }/>
-                    <Route path="project/:id" element={ <ProjectDetailContainer/> }/>
-                    <Route path="*" element={ <NotFound /> }/>
-                    <Route path="notfound" element={ <NotFound /> }/>
-                </Routes>
-                <Footer/>
-            </BrowserRouter>
+            <div className="app-container">
+                <BrowserRouter>
+                    <NavBar />
+                    <div className="content">
+                        <Routes>
+                            <Route index element={ <Home /> } />
+                            <Route path="projects" element={ <Projects /> } />
+                            <Route path="about" element={ <About /> } />
+                            <Route path="project/:id" element={ <ProjectDetailContainer /> } />
+                            <Route path="*" element={ <NotFound /> } />
+                            <Route path="notfound" element={ <NotFound /> } />
+                        </Routes>
+                    </div>
+                    <Footer />
+                </BrowserRouter>
+            </div>
         </NavBarProvider>
     );
 }

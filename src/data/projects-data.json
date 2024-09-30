@@ -1,13 +1,81 @@
 [
     {
         "featured": true,
+        "id": "brindis",
+        "categories": "Brand identity",
+        "title": "Brindis",
+        "year": 2023,
+        "text": "Brindis is a wine window inspired by Italy's traditional \"buchette del vino.\" This project captures the essence of social connection and the joy of sharing exquisite wines. Designed as an inviting portal, it offers a curated selection that fosters communal experiences, merging vintage charm with modern design to create a space for indulging in wine and building connections.",
+        "textSecondary": "Concept design / Naming / Brand identity / Motion graphics",
+        "links": [],
+        "autoSlide": true,
+        "images": [
+            { 
+                "type": "image",
+                "imgUrl":"img-01.jpg"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Wine window",
+                "imgUrl":"img-02.jpg"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Wine window",
+                "imgUrl":"img-03.jpg"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Wine window",
+                "imgUrl":"img-04.jpg"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Wine window",
+                "imgUrl":"img-05.jpg"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Wine window",
+                "imgUrl":"img-06.jpg"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Wine window",
+                "imgUrl":"img-10.jpg"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Wine window",
+                "imgUrl":"img-08.jpg"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Wine window",
+                "imgUrl":"img-09.jpg"
+            },
+            {
+                "type": "video",
+                "imgAlt":"Wine window",
+                "imgUrl":"img-07.mp4"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Wine window",
+                "imgUrl":"img-11.jpg"
+            }
+        ]
+    },
+    {
+        "featured": true,
         "id": "ginni",
-        "categories": "Visual identity/ Personal",
+        "categories": "Brand identity",
         "title": "Ginni",
         "year": 2023,
-        "text": "Ginni is a project where the vibrant fusion of flavors, music, and ambiance converge to create a unique experience. Ginni celebrates the art of gin crafting, offering a diverse menu of carefully curated drinks that tantalize the taste buds. From classic concoctions to innovative blends, is a haven for gin enthusiasts seeking an elevated drinking experience. The snack menu is expertly paired to complement the nuanced flavors of signature drinks.",
+        "text": "Ginni is a project where the vibrant fusion of flavors, music and ambiance converge to create a unique experience. Ginni celebrates the art of gin crafting, offering a diverse menu of carefully curated drinks that tantalize the taste buds. From classic concoctions to innovative blends, is a haven for gin enthusiasts seeking an elevated drinking experience.",
         "textSecondary": "Video: Engin Akyurt. Photo: Osvaldo Romito.",
         "links": [],
+        "autoSlide": false,
         "images": [
             { 
                 "type": "video",
@@ -57,12 +125,13 @@
     {
         "featured": true,
         "id": "sufragio-femenino",
-        "categories": "Book/ Personal",
+        "categories": "Editorial",
         "title": "Sufragio Femenino",
         "year": 2023,
-        "text": "Sufragio Femenino is a tribute to Alicia Moreau, Sara Justo, Julieta Lanteri, Elvira Rawson and Cecilia Grierson; extraordinary women whose names and vital contributions to this fight were forever overshadowed by the events of 1947. This is also a homage to the unwavering determination of all argentinean women who for decades, fiercely battled against all odds to seize a fundamental right: the right to vote. They etched their names in history by reclaiming their autonomy in a society long dominated by machismo. This book portrays a part of this collective fight until the historic day when argentinean women with hearts afire, swarmed the polling stations.",
+        "text": "Sufragio Femenino is a tribute to Alicia Moreau, Sara Justo, Julieta Lanteri, Elvira Rawson and Cecilia Grierson; extraordinary women whose names and vital contributions to this fight were forever overshadowed. This is also a homage to the unwavering determination of all argentinean women who for decades, fiercely battled against all odds to seize a fundamental right: the right to vote. They etched their names in history by reclaiming their autonomy in a society long dominated by machismo. This book portrays a part of this collective fight until the historic day when argentinean women with hearts afire, swarmed the polling stations.",
         "textSecondary": "210 x 297 mm. Hardcover book and case with embossed logo. Binded with purple cloth. Opalina paper.",
         "links": [],
+        "autoSlide": false,
         "images": [
             { 
                 "type": "image",
@@ -99,8 +168,8 @@
     {
         "featured": true,
         "id": "nudo",
-        "categories": "Identity/ Commissioned",
-        "title": "NUDO by Cris",
+        "categories": "Brand identity",
+        "title": "Nudo",
         "year": 2023,
         "text": "NUDO is a small family bussiness based in Buenos Aires, Argentina. The brand is driven by passion for crafting, all their knittings are made with love and special attention to detail. For this project I was commissioned to design the brand concept, naming, and brand identity.",
         "textSecondary": "",
@@ -114,6 +183,7 @@
                 "linkUrl":"https://nudobycris.netlify.app/"
             }
         ],
+        "autoSlide": false,
         "images": [
             { 
                 "type": "image",
@@ -145,12 +215,13 @@
     {
         "featured": true,
         "id": "rodin",
-        "categories": "Book/ Academic",
+        "categories": "Editorial",
         "title": "Auguste Rodin",
         "year": 2017,
         "text": "This experimental book is an academic project and is a redesign of the book 'Rodin. El hombre y su arte'. In English: 'The Man and His Art: With Leaves from His Notebook' by Judith Cladel (1917). For the materialization of this book, inspiration was directly taken from Rodin's work. When you observe Rodin's work — especially La Porte de l'Enfer — it seems to carry a soft veil of mist. This veil, used as an inspiration, is conceptually related to his late-diagnosed myopia; hence the decision to use tracing paper as the medium for some of the pages.",
         "textSecondary": "185 x 240 mm. 310 pages. Hardcover book and case with embossed logo. Binded with black cloth. Chambril and printed tracing paper.",
         "links": [],
+        "autoSlide": false,
         "images": [
             { 
                 "type": "image",
@@ -267,7 +338,7 @@
     {
         "featured": true,
         "id": "elalmadeungigante",
-        "categories": "Book/ Commissioned",
+        "categories": "Editorial",
         "title": "El Alma de un gigante",
         "year": 2019,
         "text": "The book 'El Alma de un gigante' brings together historical photographs of the Teatro Colón, also adding images from the artist Marcelo Brodsky's own lens, who captured the magic of theatrical crafts in the workshops. This visual journey through theater and history is accompanied by the testimonies of those who make possible the artistic excellence that unfolds on stage. Marcelo Brodsky is a visual artist and photographer born in Buenos Aires, his work is part of important national and international collections around the world. For this project I participated in the design and editing of the book material, together with the editor and the artist.",
@@ -282,6 +353,7 @@
                 "linkUrl":"https://marcelobrodsky.com/"
             }
         ],
+        "autoSlide": true,
         "images": [
             { 
                 "type": "image",

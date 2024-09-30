@@ -21,7 +21,9 @@ const ProjectDetail = (projectsData) => {
                 </div>
             </Link>
 
-            <SwiperSlider {...projectsData} />
+            <Link to={`/project/${projectsData.id}`}>
+                <SwiperSlider {...projectsData} />
+            </Link>
 
             <div className="w-full flex justify-between grid grid-cols-10 gap-x-0 md:gap-x-10 lg:gap-x-30 gap-y-5 text-black dark:text-neutral-100 leading-normal text-sm xs:text-sm sm:text-sm md:text-md lg:text-xl">
                 <div className='col-span-10 xs:col-span-10 sm:col-span-10 md:col-span-6 lg:col-span-6'>

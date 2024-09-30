@@ -6,28 +6,20 @@ const about = {
     title:'About',
     text: [
         { name: "Ivana Agustina Braz (Buenos Aires, Argentina, 1992)"},
-        { name: "Buenos Aires based multidisciplinary senior designer & front-end dev apprentice. With a passion for crafting experiences through a wide scope of disciplines. From graphic design, motion graphics to UX/UI and web development. Aiming to add everlasting value and to challenge boundaries."},
-        { name: "She first studied photography at Universidad de Palermo and then went on to study graphic design. Currently specialising in UX / UI and also web programming."},
-    ],
-}
-const whatUpTo = {
-    title:"What she is up to",
-    list: [
-        { name: 'Working as a graphic designer in the communication bureau at Teatro Colón. '},
-        { name: 'Enrolled in UI / UX Design Specialization at California Institute of the Arts. '},
+        { name: "Buenos Aires based multidisciplinary senior designer & junior front-end dev. With a passion for crafting experiences through a wide scope of disciplines. From graphic design, motion graphics to UX/UI and web development. Aiming to add everlasting value and to challenge boundaries."},
+        { name: "First studied photography at Universidad de Palermo and then went on to study Graphic Design. Currently specialising in UX / UI and also web programming."},
     ],
 }
 
 const disciplines = {
     title:'Disciplines / Skills',
     list: [
-        { name: 'Concept development'},
-        { name: 'Visual identity'},
+        { name: 'Concept design'},
+        { name: 'Naming'},
+        { name: 'Brand identity'},
+        { name: 'UX/UI design'},
         { name: 'Motion graphics'},
-        { name: 'Photo retouching'},
-        { name: 'User experience'},
-        { name: 'User interface'},
-        { name: 'Web programming'},
+        { name: 'Web development'},
         { name: 'HTML, CSS'},
         { name: 'JavaScript, ReactJS'},
         { name: 'Bootstrap, Tailwind'},
@@ -37,17 +29,12 @@ const contact = {
     title:'Contact / Links',
     list: [
         {
-            name: 'Email',
-            external: 1, 
-            href: 'mailto:braz.ivana@gmail.com',
-        },
-        {
             name: 'Linkedin',
             external: 1, 
             href: 'linkedin.com/in/ivanabraz/',
         },
         {
-            name: 'Github',
+            name: 'GitHub',
             external: 1, 
             href: 'github.com/ivanabraz',
         },
@@ -63,9 +50,9 @@ const About = () => {
     return (
         <>
             <div className="pt-10 flex text-md text-black dark:text-neutral-100 bg-white dark:bg-black">
-                <div className='grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3'>
-                    <div className='px-5 leading-normal'>
-                        {/* About */}
+                <div className='grid grid-cols-4 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-4'>
+                    {/* About */}
+                    <div className='px-5 leading-normal mb-10 col-span-2 pr-14'>
                         <p className='pb-5 font-bold'>
                             {about.title}
                         </p>
@@ -74,20 +61,10 @@ const About = () => {
                                 {item.name}
                             </p>
                         ))}
-                        
-                        {/* What I'm up to */}
-                        <p className='font-bold leading-normal pb-5 mt-10 xs:mt-10 sm:mt-10 md:pt-0 '>
-                            {whatUpTo.title}
-                        </p>
-                        {whatUpTo.list.map((item) => (
-                            <p key={uuidv4()}>
-                                {item.name}
-                            </p>
-                        ))}
                     </div>
 
                     {/* Disciplines */}
-                    <div className='px-5 leading-normal mt-10 xs:mt-10 sm:mt-10 md:pt-0 '>
+                    <div className='px-5 leading-normal mb-10'>
                         <p className='pb-5 font-bold'>
                             {disciplines.title}
                         </p>
@@ -99,15 +76,16 @@ const About = () => {
                     </div>
 
                     {/* Contact */}
-                    <div className='px-5 leading-normal mt-10 xs:mt-10 sm:mt-10 md:pt-0 '>
+                    <div className='px-5 leading-normal mb-10'>
                         <p className='pb-5 font-bold'>
                             {contact.title}
                         </p>
                         {contact.list.map((item) => (
                             <a key={uuidv4()} href={"https://" + item.href} 
                             className="w-fit
-                            border-b border-transparent 
-                            hover:border-solid hover:border-b hover:border-neutral-100 
+                            border-solid border-b border-neutral-100
+                            hover:border-neutral-600 transition ease-in-out
+                            dark:border-solid dark:border-b dark:border-neutral-900
                             flex flex-col" 
                             target="_blank" rel="noopener noreferrer">
                                 {item.name}
@@ -118,7 +96,8 @@ const About = () => {
                         <a href={"https://drive.google.com/file/d/1A4_celGIW7vZVAkmJn7mX-mDEC0z-KHs/"} 
                             className="flex pt-10 w-fit font-bold 
                             border-b border-transparent 
-                            hover:border-solid hover:border-b hover:border-neutral-100" 
+                            hover:border-solid hover:border-b hover:border-neutral-100
+                            transition ease-in-out" 
                             target="_blank" rel="noopener noreferrer">
                             Download resume <ArrowDownTrayIcon className="h-4 self-center" />
                         </a>
