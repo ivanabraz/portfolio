@@ -28,7 +28,7 @@ const ProjectDetail = (projectsData) => {
                         Tu navegador no soporta el tag de video.
                         </video>
                     ) : (
-                        <img src={imagePath + projectsData.images[0].imgUrl} alt={projectsData.imgAlt} loading="lazy" />
+                        <img className="m-auto" src={imagePath + projectsData.images[0].imgUrl} alt={projectsData.imgAlt} loading="lazy" />
                     )}
                     </>
                 )}
@@ -71,7 +71,7 @@ const ProjectDetail = (projectsData) => {
                                                 Tu navegador no soporta el tag de video.
                                             </video>
                                         ) : (
-                                            <img className="md:object-cover md:w-full md:h-full" src={imagePath + nestedMedia.imgUrl} alt={projectsData.imgAlt} loading="lazy"/>
+                                            <img className="m-auto md:object-cover md:w-full md:h-full lg:h-full" src={imagePath + nestedMedia.imgUrl} alt={projectsData.imgAlt} loading="lazy"/>
                                         )}
                                     </div>
                                 ))}
@@ -84,7 +84,7 @@ const ProjectDetail = (projectsData) => {
                                         Tu navegador no soporta el tag de video.
                                     </video>
                                 ) : (
-                                    <img src={imagePath + media.imgUrl} alt={projectsData.imgAlt} loading="lazy"/>
+                                    <img className="m-auto" src={imagePath + media.imgUrl} alt={projectsData.imgAlt} loading="lazy"/>
                                 )}
                             </div>
                         )}
