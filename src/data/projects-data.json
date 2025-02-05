@@ -1,6 +1,49 @@
 [
     {
         "featured": true,
+        "id": "teatrocolon",
+        "categories": "Visual Identity",
+        "title": "Teatro Colón",
+        "year": 2024,
+        "text": "A visual proposal that redefines Teatro Colón’s communication through imagery. Focused on original photography and video production, it creates a cohesive visual identity adaptable to all formats. By prioritizing image-driven storytelling, this approach enhances audience engagement across posters, programs, and digital platforms, offering a seamless and immersive experience.",
+        "textSecondary": "Visual Identity / Art Direction / Image Curation / Visual Storytelling",
+        "links": [],
+        "autoSlide": true,
+        "images": [
+            { 
+                "type": "image",
+                "imgAlt":"Afiches",
+                "imgUrl":"img-01.jpg"
+            },
+            { 
+                "type": "image",
+                "imgAlt":"Afiches",
+                "imgUrl":"img-02.jpg"
+            },
+            {
+                "type": "video",
+                "imgAlt":"Redes",
+                "imgUrl":"img-03.mp4"
+            },
+            {
+                "type": "video",
+                "imgAlt":"Redes",
+                "imgUrl":"img-04.mp4"
+            },
+            {
+                "type": "video",
+                "imgAlt":"Youtube",
+                "imgUrl":"img-05.mp4"
+            },
+            {
+                "type": "video",
+                "imgAlt":"Web",
+                "imgUrl":"img-06.mp4"
+            }
+        ]
+    },
+    {
+        "featured": true,
         "id": "brindis",
         "categories": "Brand identity",
         "title": "Brindis",
