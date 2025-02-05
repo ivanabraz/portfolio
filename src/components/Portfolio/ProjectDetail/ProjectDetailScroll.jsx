@@ -2,7 +2,7 @@ import React from "react";
 import { ArrowUpRightIcon } from '@heroicons/react/20/solid';
 import { v4 as uuidv4 } from 'uuid';
 
-const ProjectDetail = (projectsData) => {
+const ProjectDetailScroll = (projectsData) => {
     const imagePath = `/images/projects/${projectsData.id}/`;
 
     return (
@@ -22,14 +22,26 @@ const ProjectDetail = (projectsData) => {
             <div className="my-[2.5rem]">
                 {Array.isArray(projectsData.images) && projectsData.images.length > 0 && (
                     <>
-                    {projectsData.images[0].type === 'video' ? (
-                        <video width="100%" autoPlay loop muted playsInline>
-                        <source src={imagePath + projectsData.images[0].imgUrl} type="video/mp4" />
-                        Tu navegador no soporta el tag de video.
-                        </video>
-                    ) : (
-                        <img className="m-auto" src={imagePath + projectsData.images[0].imgUrl} alt={projectsData.imgAlt} loading="lazy" />
-                    )}
+                        {projectsData.images[0].type === 'nested' ? (
+                            <div className="relative w-full aspect-[1920/990] overflow-hidden grid grid-cols-2">
+                                {projectsData.images[0].nestedImages.map((nestedMedia, nestedIndex) => (
+                                    <div key={uuidv4()} className="relative w-full h-full">
+                                        <img className="object-cover w-full h-full" src={imagePath + nestedMedia.imgUrl} alt={projectsData.imgAlt} loading="lazy" />
+                                    </div>
+                                ))}
+                            </div>
+                        ) : (
+                            <div className="mb-5">
+                                {projectsData.images[0].type === 'video' ? (
+                                    <video width="100%" autoPlay loop muted playsInline>
+                                        <source src={imagePath + projectsData.images[0].imgUrl} type="video/mp4" />
+                                        Tu navegador no soporta el tag de video.
+                                    </video>
+                                ) : (
+                                    <img className="m-auto" src={imagePath + projectsData.images[0].imgUrl} alt={projectsData.imgAlt} loading="lazy" />
+                                )}
+                            </div>
+                        )}
                     </>
                 )}
             </div>
@@ -95,4 +107,4 @@ const ProjectDetail = (projectsData) => {
     );
 }
 
-export default ProjectDetail;
+export default ProjectDetailScroll;

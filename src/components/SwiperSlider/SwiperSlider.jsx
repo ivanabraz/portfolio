@@ -11,35 +11,20 @@ const SwiperSlider = (projectsData) => {
     return (
         <>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper my-10">
-                {projectsData.images?.map((media, index) => (
+                {projectsData.images?.flatMap((media) => 
+                    media.type === "nested"
+                        ? media.nestedImages.map((nestedMedia) => nestedMedia)
+                        : [media]
+                ).map((media) => (
                     <SwiperSlide key={uuidv4()} className="bg-white dark:bg-black">
-                        {media.type === "nested" ? (
-                            <Swiper slidesPerView={1} spaceBetween={0} className="nested-swiper">
-                                {media.nestedImages.map((nestedMedia, nestedIndex) => (
-                                    <SwiperSlide key={uuidv4()}>
-                                        {nestedMedia.type === "image" ? (
-                                            <img src={imagePath + nestedMedia.imgUrl} alt={projectsData.title + " - " + nestedMedia.imgAlt} loading="lazy"/>
-                                        ) : nestedMedia.type === "video" ? (
-                                            <video autoPlay loop muted playsInline width="100%" key={uuidv4()}>
-                                                <source src={imagePath + nestedMedia.imgUrl} type="video/mp4" />
-                                                Tu navegador no soporta el tag de video.
-                                            </video>
-                                        ) : null}
-                                    </SwiperSlide>
-                                ))}
-                            </Swiper>
-                        ) : (
-                            <>
-                                {media.type === "image" ? (
-                                    <img src={imagePath + media.imgUrl} alt={projectsData.title + " - " + media.imgAlt} loading="lazy"/>
-                                ) : media.type === "video" ? (
-                                    <video autoPlay loop muted playsInline width="100%" key={uuidv4()}>
-                                        <source src={imagePath + media.imgUrl} type="video/mp4" />
-                                        Tu navegador no soporta el tag de video.
-                                    </video>
-                                ) : null}
-                            </>
-                        )}
+                        {media.type === "image" ? (
+                            <img src={imagePath + media.imgUrl} alt={projectsData.title + " - " + media.imgAlt} loading="lazy"/>
+                        ) : media.type === "video" ? (
+                            <video autoPlay loop muted playsInline width="100%" key={uuidv4()}>
+                                <source src={imagePath + media.imgUrl} type="video/mp4" />
+                                Tu navegador no soporta el tag de video.
+                            </video>
+                        ) : null}
                     </SwiperSlide>
                 ))}
             </Swiper>

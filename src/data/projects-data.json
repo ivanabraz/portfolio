@@ -10,30 +10,40 @@
         "links": [],
         "autoSlide": false,
         "images": [
-            { 
-                "type": "image",
-                "imgAlt":"Afiches",
-                "imgUrl":"img-01.jpg"
+            {
+                "type": "nested",
+                "nestedImages": [
+                    {
+                        "type": "image",
+                        "imgAlt":"Banner",
+                        "imgUrl": "img-01.jpg"
+                    },
+                    {
+                        "type": "image",
+                        "imgAlt":"Banner",
+                        "imgUrl": "img-02.jpg"
+                    }
+                ]
             },
-            { 
+            {
                 "type": "image",
-                "imgAlt":"Afiches",
-                "imgUrl":"img-02.jpg"
+                "imgAlt":"Banner",
+                "imgUrl": "img-03.jpg"
             },
             {
                 "type": "video",
-                "imgAlt":"Redes",
+                "imgAlt":"Social media",
                 "imgUrl":"img-03.mp4"
-            },
-            {
-                "type": "video",
-                "imgAlt":"Redes",
-                "imgUrl":"img-04.mp4"
             },
             {
                 "type": "video",
                 "imgAlt":"Youtube",
                 "imgUrl":"img-05.mp4"
+            },
+            {
+                "type": "video",
+                "imgAlt":"Social media",
+                "imgUrl":"img-04.mp4"
             },
             {
                 "type": "video",
