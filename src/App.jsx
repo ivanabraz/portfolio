@@ -31,7 +31,7 @@ const App = () => {
 
     return (
         <NavBarProvider>
-            <div className="app-container w-full max-w-screen-3xl mx-auto">
+            <div className="max-w-screen-3xl mx-auto">
                 <BrowserRouter>
                     <NavBar />
                     <div className="content">

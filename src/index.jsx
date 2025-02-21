@@ -10,7 +10,7 @@ import { ThemeProvider } from './context/ThemeContext';
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>
-      <div className='w-screen h-screen bg-white dark:bg-black'>
+      <div className='bg-white dark:bg-black'>
           <App />
       </div>
     </ThemeProvider>

@@ -10,7 +10,7 @@ module.exports = {
         },
         extend: {
             maxWidth: {
-                'screen-3xl': '1920px', // Ajusta este valor si necesitas otro tamaño
+                'screen-3xl': '1920px',
             },
             fontFamily: {
                 'sans': ['TeXGyreHeros'],
