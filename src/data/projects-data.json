@@ -34,9 +34,19 @@
                 "imgUrl": "img-01.jpg"
             },
             {
+                "type": "image",
+                "imgAlt":"Post",
+                "imgUrl": "img-06.jpg"
+            },
+            {
                 "type": "video",
-                "imgAlt":"Vinyls",
+                "imgAlt":"Web",
                 "imgUrl": "img-05.mp4"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Stories",
+                "imgUrl": "img-07.jpg"
             },
             {
                 "type": "image",
@@ -47,6 +57,11 @@
                 "type": "video",
                 "imgAlt":"Vinyls",
                 "imgUrl": "img-02.mp4"
+            },
+            {
+                "type": "image",
+                "imgAlt":"CD",
+                "imgUrl": "img-08.jpg"
             },
             {
                 "type": "video",
@@ -90,6 +105,11 @@
                 "type": "video",
                 "imgAlt":"Social media",
                 "imgUrl":"img-03.mp4"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Illustration",
+                "imgUrl": "img-07.jpg"
             },
             {
                 "type": "video",
