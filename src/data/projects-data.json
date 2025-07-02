@@ -1,4 +1,46 @@
 [
+        {
+        "featured": true,
+        "id": "laureles",
+        "categories": "Web design",
+        "title": "Laureles",
+        "year": [2025],
+        "text": "Laureles Audiovisual documents the rich bonds between animals and humans through a multispecies perspective. Blending personal portraiture with commercial and social projects, Laura works with families, pet-related brands, and shelters, creating campaigns that are both warm and intentional. For this project, I designed and developed a portfolio website that centers her photography as the primary storytelling tool. Built with ReactJS and Tailwind, the layout embraces simplicity and visual clarity, allowing her work to resonate through calm, spacious design and intuitive navigation.",
+        "textSecondary": "Web Design & Development",
+        "links": [
+            { 
+                "linkName":"Website",
+                "linkUrl":"https://laureles.netlify.app/"
+            },
+            { 
+                "linkName":"GitHub",
+                "linkUrl":"https://github.com/ivanabraz/laureles"
+            }
+        ],
+        "autoSlide": false,
+        "images": [
+            {
+                "type": "image",
+                "imgAlt":"Web",
+                "imgUrl": "img-01.jpg"
+            },
+            {
+                "type": "video",
+                "imgAlt":"Home section",
+                "imgUrl": "img-02.mp4"
+            },
+            {
+                "type": "image",
+                "imgAlt":"Image modal",
+                "imgUrl": "img-04.jpg"
+            },
+            {
+                "type": "video",
+                "imgAlt":"Portfolio section",
+                "imgUrl": "img-03.mp4"
+            }
+        ]
+    },
     {
         "featured": true,
         "id": "cuero",
@@ -26,7 +68,7 @@
                 "linkUrl":"https://github.com/ivanabraz/cuero"
             }
         ],
-        "autoSlide": false,
+        "autoSlide": true,
         "images": [
             {
                 "type": "image",
