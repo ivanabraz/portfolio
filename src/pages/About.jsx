@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDownTrayIcon } from '@heroicons/react/20/solid';
+import { ArrowDownTrayIcon, ArrowUpRightIcon } from '@heroicons/react/20/solid';
 
 const about = {
 title: 'About',
@@ -16,7 +16,7 @@ text: [
 };
 
 const disciplines = {
-title: 'Disciplines / Skills',
+title: 'Skills',
 list: [
     { name: 'Concept design' },
     { name: 'Naming' },
@@ -25,27 +25,28 @@ list: [
     { name: 'Web development' },
     { name: 'HTML, CSS' },
     { name: 'JavaScript, ReactJS' },
-    { name: 'Bootstrap, Tailwind' },
+    { name: 'Tailwind' },
 ],
 };
 
 const contact = {
-title: 'Contact / Links',
+title: 'Links',
 list: [
-    { name: 'LinkedIn', external: 1, href: 'https://linkedin.com/in/ivanabraz/' },
-    { name: 'GitHub', external: 1, href: 'https://github.com/ivanabraz' },
-    { name: 'Behance', external: 1, href: 'https://behance.net/ivanabraz' },
-    { name: 'P05', external: 1, href: 'https://instagram.com/piso.05' },
+    { name: 'LinkedIn', href: 'https://linkedin.com/in/ivanabraz/' },
+    { name: 'GitHub', href: 'https://github.com/ivanabraz' },
+    { name: 'Behance', href: 'https://behance.net/ivanabraz' },
+    { name: 'P05', href: 'https://instagram.com/piso.05' },
 ],
 };
 
 const About = () => {
 return (
-    <div className="pt-10 flex">
-    <div className="grid grid-cols-1 md:grid-cols-4 w-full gap-y-10">
+    <div className="w-full flex flex-col pt-10 pb-10 px-2 sm:px-5 border-t border-neutral-500 bg-white dark:bg-black">
+    <div className="grid grid-cols-1 md:grid-cols-5 w-full gap-y-10 text-black dark:text-neutral-100 leading-normal text-sm xs:text-sm sm:text-sm md:text-md lg:text-xl">
+        
         {/* About */}
-        <section className="px-5 leading-normal md:col-span-2 md:pr-14">
-        <p className="pb-5 font-bold">{about.title}</p>
+        <section className="px-5 md:col-span-2 md:pr-14">
+        <p className="pb-5 text-neutral-500">{about.title}</p>
         {about.text.map((item) => (
             <p key={item.name} className="pb-2">
             {item.name}
@@ -54,16 +55,18 @@ return (
         </section>
 
         {/* Disciplines */}
-        <section className="px-5 leading-normal">
-        <p className="pb-5 font-bold">{disciplines.title}</p>
+        <section className="px-5">
+        <p className="pb-5 text-neutral-500">{disciplines.title}</p>
         {disciplines.list.map((d) => (
-            <p key={d.name}>{d.name}</p>
+            <p key={d.name} className="text-black dark:text-white">
+            {d.name}
+            </p>
         ))}
         </section>
 
         {/* Contact */}
-        <section className="px-5 leading-normal">
-        <p className="pb-5 font-bold">{contact.title}</p>
+        <section className="px-5">
+        <p className="pb-5 text-neutral-500">{contact.title}</p>
 
         <div className="flex flex-col gap-1">
             {contact.list.map((item) => (
@@ -72,14 +75,15 @@ return (
                 href={item.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-fit border-b border-transparent
-                        hover:border-neutral-800 dark:hover:border-neutral-200
+                className="flex flex-row items-center border-b border-transparent hover:border-current w-fit mr-3
+                        text-neutral-black dark:text-white
                         transition-colors duration-700
                         focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2
                         focus-visible:ring-neutral-800 dark:focus-visible:ring-neutral-200
                         focus-visible:ring-offset-white dark:focus-visible:ring-offset-black"
             >
                 {item.name}
+                <ArrowUpRightIcon className="h-4 xs:h-4 sm:h-4 md:h-5 lg:h-6 w-4 xs:w-4 sm:w-4 md:w-5 lg:w-6 self-end ml-1" />
             </a>
             ))}
         </div>
@@ -89,14 +93,14 @@ return (
             href="https://drive.google.com/file/d/1A4_celGIW7vZVAkmJn7mX-mDEC0z-KHs/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1 pt-10 w-fit font-bold border-b border-transparent
-                    hover:border-neutral-800 dark:hover:border-neutral-200
+            className="flex items-center gap-1 pt-10 w-fit border-b border-transparent hover:border-current
+                    text-neutral-600 dark:text-neutral-500
                     transition-colors duration-700
                     focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2
                     focus-visible:ring-neutral-800 dark:focus-visible:ring-neutral-200
                     focus-visible:ring-offset-white dark:focus-visible:ring-offset-black"
         >
-            Download resume <ArrowDownTrayIcon className="h-4 self-center" />
+            Download resume <ArrowDownTrayIcon className="h-4 xs:h-4 sm:h-4 md:h-5 lg:h-6 w-4 xs:w-4 sm:w-4 md:w-5 lg:w-6 self-end ml-1" />
         </a>
         </section>
     </div>
