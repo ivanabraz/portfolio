@@ -17,38 +17,39 @@ import ProjectDetailContainer from './components/Portfolio/ProjectDetailContaine
 import Footer from './components/Footer/Footer';
 
 const App = () => {
-    useEffect(() => {
-        const handleContextMenu = (event) => {
-            event.preventDefault();
-        };
+useEffect(() => {
+    const handleContextMenu = (event) => event.preventDefault();
+    document.addEventListener('contextmenu', handleContextMenu);
+    return () => document.removeEventListener('contextmenu', handleContextMenu);
+}, []);
 
-        document.addEventListener('contextmenu', handleContextMenu);
+return (
+    <NavBarProvider>
+    {/* ROOT LAYOUT: ocupa viewport y maneja light/dark */}
+    <div className="min-h-svh flex flex-col bg-white text-black dark:bg-black dark:text-neutral-100">
+        <BrowserRouter>
+        <NavBar />
 
-        return () => {
-            document.removeEventListener('contextmenu', handleContextMenu);
-        };
-    }, []);
-
-    return (
-        <NavBarProvider>
+        {/* MAIN empuja el footer hacia abajo */}
+        <main className="flex-1">
+            {/* Contenido centrado y con ancho máximo */}
             <div className="max-w-screen-3xl mx-auto">
-                <BrowserRouter>
-                    <NavBar />
-                    <div className="content">
-                        <Routes>
-                            <Route index element={ <Home /> } />
-                            <Route path="projects" element={ <Projects /> } />
-                            <Route path="about" element={ <About /> } />
-                            <Route path="project/:id" element={ <ProjectDetailContainer /> } />
-                            <Route path="*" element={ <NotFound /> } />
-                            <Route path="notfound" element={ <NotFound /> } />
-                        </Routes>
-                    </div>
-                    <Footer />
-                </BrowserRouter>
+            <Routes>
+                <Route index element={<Home />} />
+                <Route path="projects" element={<Projects />} />
+                <Route path="about" element={<About />} />
+                <Route path="project/:id" element={<ProjectDetailContainer />} />
+                <Route path="*" element={<NotFound />} />
+                <Route path="notfound" element={<NotFound />} />
+            </Routes>
             </div>
-        </NavBarProvider>
-    );
-}
+        </main>
+
+        <Footer />
+        </BrowserRouter>
+    </div>
+    </NavBarProvider>
+);
+};
 
 export default App;

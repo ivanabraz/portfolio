@@ -8,8 +8,6 @@ const navigation = {
         { name: 'Ivana Braz', href: '/', icon:'', target:'_self' },
         { name: 'Projects', href: '/projects', icon:'', target:'_self' },
         { name: 'About', href: '/about', icon:'', target:'_self' },
-        // { name: 'Linkedin', external: 1, href: 'linkedin.com/in/ivanabraz/'},
-        // { name: 'Github', external: 1, href: 'github.com/ivanabraz'},
     ],
 }
 
