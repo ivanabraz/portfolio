@@ -6,7 +6,7 @@ title: 'About',
 text: [
     {
     name:
-        "Visual designer & front-end dev based in Buenos Aires. With a passion for crafting experiences through a wide scope of disciplines. From graphic design, motion graphics to UX/UI and web development. Aiming to add everlasting value and to challenge boundaries.",
+        "Gtaphic designer & front-end dev based in Buenos Aires. With a passion for crafting experiences through a wide scope of disciplines. From graphic design, motion graphics to UX/UI and web development. Aiming to add everlasting value and to challenge boundaries.",
     },
     {
     name:
